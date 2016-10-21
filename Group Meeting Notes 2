@@ -1,36 +1,61 @@
-CIS 550 Proj 
-Group Meeting Notes 2
+Next meeting: Oct 28th: consolidate all datasets; design relational schema; refine NoSQl description
+Oct 30th: finalize milestone report
 
-1. Milestone2 requirments 
+CIS 550 Proj
+Group Meeting Notes 2
+ 
+1. Milestone2 requirements
 a. detailed proposal:
 check ● Motivation for the idea
-why prediction? time series data; many factors; machine learing application 
+why prediction? time series data; many factors; machine learing application
 why do prediction on athletes' performance? the athletes' performance is related with a variety of other entities (such as the country, the year, other competitions) which provides diverse schema we can choose from.
-
+ 
 check ● Features that will definitely be implemented in the application
 1. Show general statistics of the Olympic games with respect to national ranking, best players, composition of medals as well as the changes between different years. (d3.js interactive charts)
-2. Build models to predict the number of medals, the distribution of medals, winner and performance of certain nationality/gender/athlete. 
-
+2. Build models to predict the number of medals, the distribution of medals, winner and performance of certain nationality/gender/athlete.
+ 
 check ● Features that might implemented in the application, given enough time
 1. show the influence of historical events/macroeconomics/technology development on the Olympics.
 2. show the influence of geographical/political/financial features on the performance of a country.
-3. show the social profile of a certain athlete (social networks, world ranking, news etc.). 
-
+3. show the social profile of a certain athlete (social networks, world ranking, news etc.).
+ 
 check ● Technology and tools to be used
-1. Node.js, also some modules in Node.js like Express. 
+1. Node.js, also some modules in Node.js like Express.
 2. D3.js
-3. AngularJS 
+3. AngularJS
 4. HTML/CSS/jQuery
 5. Facebook, Twitter, Google API
 6. AWS
 7. Relational Databases Service (SQL)
 8. DynamoDB(NoSQL)
-
-● Description of the complimentary sources you intend to use for data, and how you intend to ingest the data into your database
-
+ 
+● Description of the complementary sources you intend to use for data, and how you intend to ingest the data into your database
+what data do we need?
+1. Olympics records after 2008
+2. national GDP, ... , other macroeconomics features
+3. other national competition records, athletes' ranking (sprints, swimming, soccer )
+4. Athletes’ profile (wiki, twitter topics ⇒ NoSQL)
 ● Member responsibility for project components
-
-
+ 
+ 
 b. relational schema
+entity:
+olympics (city, year, sport, discipline, gender, nationality, event, medal)
+country (year, GDP, population, unemployment rates, national income, price indices…)
+athlete(sex, name, nationality)
+ 
+c. NoSQL description
+athlete{
+DOB:
+Name:{first: middle: last: nick:}
+Nationality:{current; past}
+Sex:
+Medals{[Date; competition; discipline;]}
+Rank{[year; 
 
-c. NoSQL description 
+ 
+check● Datasets
+https://www.olympic.org/  olympics statistics 
+http://data.worldbank.org/ world GDP etc.
+https://knoema.com/OLYMPCGAMES2016/olympic-games-country-wise-medals-and-ranking-table-1896-2016 olympics statistics 
+
