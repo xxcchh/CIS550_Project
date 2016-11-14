@@ -1,0 +1,49 @@
+CREATE TABLE Country(
+code CHAR(3),
+name VARCHAR(50),
+GDP FLOAT,
+population FLOAT,
+income FLOAT,
+CPI FLOAT,
+pred_rank INTEGER,
+pred_gold INTEGER,
+pred_silver INTEGER,
+pred_bronze INTEGER,
+PRIMARY KEY (code)
+);
+
+CREATE TABLE Olympics(
+year INTEGER,
+location VARCHAR(50),
+PRIMARY KEY (year)
+);
+
+CREATE TABLE PerformanceOfCountries(
+code CHAR(3),
+year INTEGER,
+rank INTEGER,
+num_of_gold INTEGER,
+num_of_silver INTEGER,
+num_of_bronze INTEGER,
+PRIMARY KEY (code, year),
+FOREIGN KEY (code) REFERENCES Country,
+FOREIGN KEY (year) REFERENCES Olympics
+);
+
+CREATE TABLE hasDiscipline(
+year INTEGER,
+dname VARCHAR(50),
+PRIMARY KEY (year, dname),
+FOREIGN KEY (year) REFERENCES Olympics
+);
+
+CREATE TABLE hasEvents(
+year INTEGER,
+dname VARCHAR(50),
+eid INTEGER,
+ename VARCHAR(50),
+event_gender VARCHAR(1),
+record FLOAT,
+PRIMARY KEY (year, dname, eid),
+FOREIGN KEY (year) REFERENCES Olympics,
+FOREIGN KEY (dname) REFERENCES hasDiscipline);
