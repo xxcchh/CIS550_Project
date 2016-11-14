@@ -1,0 +1,498 @@
+Country,Country Name,Country RegionId,Country NOC Code,Indicator,Indicator Name,Indicator Unit,Game,Game Name,Scale,Units,2012,2016
+WLD,World,WLD,WLD,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,961.00,974.00
+WLD,World,WLD,WLD,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,300.00,307.00
+WLD,World,WLD,WLD,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,305.00,307.00
+WLD,World,WLD,WLD,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,356.00,360.00
+AFG,Afghanistan,AF,AFG,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,79.00,
+AFG,Afghanistan,AF,AFG,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+AFG,Afghanistan,AF,AFG,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+AFG,Afghanistan,AF,AFG,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+AFG,Afghanistan,AF,AFG,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+ALG,Algeria,DZ,ALG,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,50.00,62.00
+ALG,Algeria,DZ,ALG,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,2.00
+ALG,Algeria,DZ,ALG,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+ALG,Algeria,DZ,ALG,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,2.00
+ALG,Algeria,DZ,ALG,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+ARG,Argentina,AR,ARG,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,43.00,27.00
+ARG,Argentina,AR,ARG,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,4.00,4.00
+ARG,Argentina,AR,ARG,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,3.00
+ARG,Argentina,AR,ARG,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,1.00
+ARG,Argentina,AR,ARG,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,2.00,0.00
+ARM,Armenia,AM,ARM,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,61.00,42.00
+ARM,Armenia,AM,ARM,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,3.00,4.00
+ARM,Armenia,AM,ARM,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,1.00
+ARM,Armenia,AM,ARM,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,3.00
+ARM,Armenia,AM,ARM,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,2.00,0.00
+AUS,Australia,AU,AUS,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,8.00,10.00
+AUS,Australia,AU,AUS,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,37.00,29.00
+AUS,Australia,AU,AUS,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,8.00,8.00
+AUS,Australia,AU,AUS,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,17.00,11.00
+AUS,Australia,AU,AUS,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,12.00,10.00
+AUT,Austria,AT,AUT,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,,78.00
+AUT,Austria,AT,AUT,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+AUT,Austria,AT,AUT,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+AUT,Austria,AT,AUT,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+AUT,Austria,AT,AUT,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+AZE,Azerbaijan,AZ,AZE,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,30.00,39.00
+AZE,Azerbaijan,AZ,AZE,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,10.00,18.00
+AZE,Azerbaijan,AZ,AZE,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,2.00,1.00
+AZE,Azerbaijan,AZ,AZE,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,2.00,7.00
+AZE,Azerbaijan,AZ,AZE,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,6.00,10.00
+BAH,Bahamas,BS,BAH,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,50.00,51.00
+BAH,Bahamas,BS,BAH,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,2.00
+BAH,Bahamas,BS,BAH,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,1.00
+BAH,Bahamas,BS,BAH,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+BAH,Bahamas,BS,BAH,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,0.00,1.00
+BRN,Bahrain,BH,BRN,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,79.00,48.00
+BRN,Bahrain,BH,BRN,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,2.00
+BRN,Bahrain,BH,BRN,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,1.00
+BRN,Bahrain,BH,BRN,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,1.00
+BRN,Bahrain,BH,BRN,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+BLR,Belarus,BY,BLR,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,26.00,40.00
+BLR,Belarus,BY,BLR,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,12.00,9.00
+BLR,Belarus,BY,BLR,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,2.00,1.00
+BLR,Belarus,BY,BLR,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,5.00,4.00
+BLR,Belarus,BY,BLR,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,5.00,4.00
+BEL,Belgium,BE,BEL,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,61.00,35.00
+BEL,Belgium,BE,BEL,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,3.00,6.00
+BEL,Belgium,BE,BEL,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,2.00
+BEL,Belgium,BE,BEL,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,2.00
+BEL,Belgium,BE,BEL,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,2.00,2.00
+BOT,Botswana,BW,BOT,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,69.00,
+BOT,Botswana,BW,BOT,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+BOT,Botswana,BW,BOT,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+BOT,Botswana,BW,BOT,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+BOT,Botswana,BW,BOT,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+BRA,Brazil,BR,BRA,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,22.00,13.00
+BRA,Brazil,BR,BRA,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,17.00,19.00
+BRA,Brazil,BR,BRA,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,3.00,7.00
+BRA,Brazil,BR,BRA,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,5.00,6.00
+BRA,Brazil,BR,BRA,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,9.00,6.00
+BUL,Bulgaria,BG,BUL,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,63.00,65.00
+BUL,Bulgaria,BG,BUL,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,2.00,3.00
+BUL,Bulgaria,BG,BUL,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+BUL,Bulgaria,BG,BUL,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,1.00
+BUL,Bulgaria,BG,BUL,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,2.00
+BDI,Burundi,BI,BDI,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,,69.00
+BDI,Burundi,BI,BDI,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+BDI,Burundi,BI,BDI,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+BDI,Burundi,BI,BDI,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+BDI,Burundi,BI,BDI,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+CAN,Canada,CA,CAN,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,36.00,20.00
+CAN,Canada,CA,CAN,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,18.00,22.00
+CAN,Canada,CA,CAN,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,4.00
+CAN,Canada,CA,CAN,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,5.00,3.00
+CAN,Canada,CA,CAN,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,12.00,15.00
+CHN,China,CN,CHN,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,2.00,3.00
+CHN,China,CN,CHN,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,88.00,70.00
+CHN,China,CN,CHN,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,38.00,26.00
+CHN,China,CN,CHN,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,29.00,18.00
+CHN,China,CN,CHN,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,21.00,26.00
+TPE,Chinese Taipei,-,TPE,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,63.00,50.00
+TPE,Chinese Taipei,-,TPE,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,2.00,3.00
+TPE,Chinese Taipei,-,TPE,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,1.00
+TPE,Chinese Taipei,-,TPE,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+TPE,Chinese Taipei,-,TPE,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,2.00
+COL,Colombia,CO,COL,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,38.00,23.00
+COL,Colombia,CO,COL,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,8.00,8.00
+COL,Colombia,CO,COL,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,3.00
+COL,Colombia,CO,COL,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,3.00,2.00
+COL,Colombia,CO,COL,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,4.00,3.00
+CRO,Croatia,HR,CRO,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,25.00,17.00
+CRO,Croatia,HR,CRO,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,6.00,10.00
+CRO,Croatia,HR,CRO,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,3.00,5.00
+CRO,Croatia,HR,CRO,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,3.00
+CRO,Croatia,HR,CRO,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,2.00,2.00
+CUB,Cuba,CU,CUB,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,16.00,18.00
+CUB,Cuba,CU,CUB,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,15.00,11.00
+CUB,Cuba,CU,CUB,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,5.00,5.00
+CUB,Cuba,CU,CUB,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,3.00,2.00
+CUB,Cuba,CU,CUB,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,7.00,4.00
+CYP,Cyprus,CY,CYP,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,69.00,
+CYP,Cyprus,CY,CYP,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+CYP,Cyprus,CY,CYP,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+CYP,Cyprus,CY,CYP,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+CYP,Cyprus,CY,CYP,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+CZE,Czech Republic,CZ,CZE,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,19.00,43.00
+CZE,Czech Republic,CZ,CZE,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,11.00,10.00
+CZE,Czech Republic,CZ,CZE,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,4.00,1.00
+CZE,Czech Republic,CZ,CZE,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,3.00,2.00
+CZE,Czech Republic,CZ,CZE,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,4.00,7.00
+DEN,Denmark,DK,DEN,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,29.00,28.00
+DEN,Denmark,DK,DEN,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,9.00,15.00
+DEN,Denmark,DK,DEN,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,2.00,2.00
+DEN,Denmark,DK,DEN,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,4.00,6.00
+DEN,Denmark,DK,DEN,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,3.00,7.00
+DOM,Dominican Republic,DO,DOM,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,46.00,78.00
+DOM,Dominican Republic,DO,DOM,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,2.00,1.00
+DOM,Dominican Republic,DO,DOM,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+DOM,Dominican Republic,DO,DOM,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+DOM,Dominican Republic,DO,DOM,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,0.00,1.00
+EGY,Egypt,EG,EGY,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,59.00,75.00
+EGY,Egypt,EG,EGY,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,2.00,3.00
+EGY,Egypt,EG,EGY,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+EGY,Egypt,EG,EGY,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,2.00,0.00
+EGY,Egypt,EG,EGY,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,0.00,3.00
+EST,Estonia,EE,EST,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,63.00,78.00
+EST,Estonia,EE,EST,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,2.00,1.00
+EST,Estonia,EE,EST,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+EST,Estonia,EE,EST,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+EST,Estonia,EE,EST,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,1.00
+ETH,Ethiopia,ET,ETH,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,24.00,44.00
+ETH,Ethiopia,ET,ETH,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,7.00,8.00
+ETH,Ethiopia,ET,ETH,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,3.00,1.00
+ETH,Ethiopia,ET,ETH,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,2.00
+ETH,Ethiopia,ET,ETH,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,3.00,5.00
+FIN,Finland,FI,FIN,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,58.00,78.00
+FIN,Finland,FI,FIN,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,3.00,1.00
+FIN,Finland,FI,FIN,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+FIN,Finland,FI,FIN,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,2.00,0.00
+FIN,Finland,FI,FIN,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,1.00
+FRA,France,FR,FRA,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,7.00,7.00
+FRA,France,FR,FRA,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,34.00,42.00
+FRA,France,FR,FRA,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,11.00,10.00
+FRA,France,FR,FRA,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,11.00,18.00
+FRA,France,FR,FRA,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,12.00,14.00
+FIJ,Fijji,FJ,FIJ,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,,54.00
+FIJ,Fijji,FJ,FIJ,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+FIJ,Fijji,FJ,FIJ,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+FIJ,Fijji,FJ,FIJ,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+FIJ,Fijji,FJ,FIJ,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+GAB,Gabon,GA,GAB,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,69.00,
+GAB,Gabon,GA,GAB,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+GAB,Gabon,GA,GAB,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+GAB,Gabon,GA,GAB,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+GAB,Gabon,GA,GAB,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+GEO,Georgia,GE,GEO,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,39.00,38.00
+GEO,Georgia,GE,GEO,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,7.00,7.00
+GEO,Georgia,GE,GEO,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,2.00
+GEO,Georgia,GE,GEO,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,3.00,1.00
+GEO,Georgia,GE,GEO,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,3.00,4.00
+GER,Germany,DE,GER,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,6.00,5.00
+GER,Germany,DE,GER,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,44.00,42.00
+GER,Germany,DE,GER,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,11.00,17.00
+GER,Germany,DE,GER,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,19.00,10.00
+GER,Germany,DE,GER,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,14.00,15.00
+GBR,Great Britain,GB,GBR,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,3.00,2.00
+GBR,Great Britain,GB,GBR,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,65.00,67.00
+GBR,Great Britain,GB,GBR,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,29.00,27.00
+GBR,Great Britain,GB,GBR,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,17.00,23.00
+GBR,Great Britain,GB,GBR,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,19.00,17.00
+GRE,Greece,GR,GRE,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,75.00,26.00
+GRE,Greece,GR,GRE,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,2.00,6.00
+GRE,Greece,GR,GRE,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,3.00
+GRE,Greece,GR,GRE,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,1.00
+GRE,Greece,GR,GRE,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,2.00,2.00
+GRN,Grenada,GD,GRN,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,50.00,69.00
+GRN,Grenada,GD,GRN,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,1.00
+GRN,Grenada,GD,GRN,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+GRN,Grenada,GD,GRN,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,1.00
+GRN,Grenada,GD,GRN,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+GUA,Guatemala,GT,GUA,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,69.00,
+GUA,Guatemala,GT,GUA,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+GUA,Guatemala,GT,GUA,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+GUA,Guatemala,GT,GUA,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+GUA,Guatemala,GT,GUA,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+HKG,Hong Kong,HK,HKG,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,79.00,
+HKG,Hong Kong,HK,HKG,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+HKG,Hong Kong,HK,HKG,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+HKG,Hong Kong,HK,HKG,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+HKG,Hong Kong,HK,HKG,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+HUN,Hungary,HU,HUN,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,10.00,12.00
+HUN,Hungary,HU,HUN,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,18.00,15.00
+HUN,Hungary,HU,HUN,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,8.00,8.00
+HUN,Hungary,HU,HUN,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,4.00,3.00
+HUN,Hungary,HU,HUN,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,6.00,4.00
+IOP,Independent Olympic Participants,-,IOP,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,,51.00
+IOP,Independent Olympic Participants,-,IOP,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,,2.00
+IOP,Independent Olympic Participants,-,IOP,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+IOP,Independent Olympic Participants,-,IOP,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+IOP,Independent Olympic Participants,-,IOP,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+IND,India,IN,IND,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,55.00,67.00
+IND,India,IN,IND,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,6.00,2.00
+IND,India,IN,IND,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+IND,India,IN,IND,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,2.00,1.00
+IND,India,IN,IND,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,4.00,1.00
+INA,Indonesia,ID,INA,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,63.00,46.00
+INA,Indonesia,ID,INA,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,2.00,3.00
+INA,Indonesia,ID,INA,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,1.00
+INA,Indonesia,ID,INA,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,2.00
+INA,Indonesia,ID,INA,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+IRI,Iran,IR,IRI,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,17.00,25.00
+IRI,Iran,IR,IRI,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,12.00,8.00
+IRI,Iran,IR,IRI,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,4.00,3.00
+IRI,Iran,IR,IRI,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,5.00,1.00
+IRI,Iran,IR,IRI,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,3.00,4.00
+IRL,Ireland,IE,IRL,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,42.00,62.00
+IRL,Ireland,IE,IRL,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,6.00,2.00
+IRL,Ireland,IE,IRL,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+IRL,Ireland,IE,IRL,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,2.00
+IRL,Ireland,IE,IRL,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,4.00,0.00
+ISR,Israel,IL,ISR,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,,77.00
+ISR,Israel,IL,ISR,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,,2.00
+ISR,Israel,IL,ISR,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+ISR,Israel,IL,ISR,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+ISR,Israel,IL,ISR,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,,2.00
+ITA,Italy,IT,ITA,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,9.00,9.00
+ITA,Italy,IT,ITA,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,28.00,28.00
+ITA,Italy,IT,ITA,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,8.00,8.00
+ITA,Italy,IT,ITA,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,9.00,12.00
+ITA,Italy,IT,ITA,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,11.00,8.00
+CIV,Ivory Coast,CI,CIV,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,,51.00
+CIV,Ivory Coast,CI,CIV,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,,2.00
+CIV,Ivory Coast,CI,CIV,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+CIV,Ivory Coast,CI,CIV,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+CIV,Ivory Coast,CI,CIV,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+JAM,Jamaica,JM,JAM,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,18.00,16.00
+JAM,Jamaica,JM,JAM,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,12.00,11.00
+JAM,Jamaica,JM,JAM,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,4.00,6.00
+JAM,Jamaica,JM,JAM,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,4.00,3.00
+JAM,Jamaica,JM,JAM,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,4.00,2.00
+JPN,Japan,JP,JPN,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,11.00,6.00
+JPN,Japan,JP,JPN,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,38.00,41.00
+JPN,Japan,JP,JPN,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,7.00,12.00
+JPN,Japan,JP,JPN,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,14.00,8.00
+JPN,Japan,JP,JPN,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,17.00,21.00
+JOR,Jordan,JO,JOR,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,,54.00
+JOR,Jordan,JO,JOR,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+JOR,Jordan,JO,JOR,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+JOR,Jordan,JO,JOR,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+JOR,Jordan,JO,JOR,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+KAZ,Kazakhstan,KZ,KAZ,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,12.00,22.00
+KAZ,Kazakhstan,KZ,KAZ,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,13.00,17.00
+KAZ,Kazakhstan,KZ,KAZ,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,7.00,3.00
+KAZ,Kazakhstan,KZ,KAZ,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,5.00
+KAZ,Kazakhstan,KZ,KAZ,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,5.00,9.00
+KEN,Kenya,KE,KEN,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,28.00,15.00
+KEN,Kenya,KE,KEN,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,11.00,13.00
+KEN,Kenya,KE,KEN,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,2.00,6.00
+KEN,Kenya,KE,KEN,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,4.00,6.00
+KEN,Kenya,KE,KEN,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,5.00,1.00
+KOS,Kosovo,RS-KM-KO,KOS,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,,54.00
+KOS,Kosovo,RS-KM-KO,KOS,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+KOS,Kosovo,RS-KM-KO,KOS,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+KOS,Kosovo,RS-KM-KO,KOS,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+KOS,Kosovo,RS-KM-KO,KOS,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+KUW,Kuwait,KW,KUW,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,79.00,
+KUW,Kuwait,KW,KUW,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+KUW,Kuwait,KW,KUW,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+KUW,Kuwait,KW,KUW,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+KUW,Kuwait,KW,KUW,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+LAT,Latvia,LV,LAT,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,49.00,
+LAT,Latvia,LV,LAT,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,2.00,
+LAT,Latvia,LV,LAT,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+LAT,Latvia,LV,LAT,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+LAT,Latvia,LV,LAT,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+LTU,Lithuania,LT,LTU,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,33.00,64.00
+LTU,Lithuania,LT,LTU,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,5.00,4.00
+LTU,Lithuania,LT,LTU,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,2.00,0.00
+LTU,Lithuania,LT,LTU,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,1.00
+LTU,Lithuania,LT,LTU,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,2.00,3.00
+MAS,Malaysia,MY,MAS,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,63.00,60.00
+MAS,Malaysia,MY,MAS,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,2.00,5.00
+MAS,Malaysia,MY,MAS,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+MAS,Malaysia,MY,MAS,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,4.00
+MAS,Malaysia,MY,MAS,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,1.00
+MEX,Mexico,MX,MEX,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,39.00,61.00
+MEX,Mexico,MX,MEX,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,7.00,5.00
+MEX,Mexico,MX,MEX,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+MEX,Mexico,MX,MEX,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,3.00,3.00
+MEX,Mexico,MX,MEX,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,3.00,2.00
+MDA,Moldova,MD,MDA,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,75.00,78.00
+MDA,Moldova,MD,MDA,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,2.00,1.00
+MDA,Moldova,MD,MDA,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+MDA,Moldova,MD,MDA,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+MDA,Moldova,MD,MDA,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,2.00,1.00
+MGL,Mongolia,MN,MGL,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,56.00,67.00
+MGL,Mongolia,MN,MGL,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,5.00,2.00
+MGL,Mongolia,MN,MGL,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+MGL,Mongolia,MN,MGL,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,2.00,1.00
+MGL,Mongolia,MN,MGL,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,3.00,1.00
+MNE,Montenegro,ME,MNE,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,69.00,
+MNE,Montenegro,ME,MNE,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+MNE,Montenegro,ME,MNE,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+MNE,Montenegro,ME,MNE,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+MNE,Montenegro,ME,MNE,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+MAR,Morocco,MA,MAR,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,79.00,78.00
+MAR,Morocco,MA,MAR,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,1.00
+MAR,Morocco,MA,MAR,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+MAR,Morocco,MA,MAR,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+MAR,Morocco,MA,MAR,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,1.00
+NED,Netherlands,NL,NED,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,13.00,11.00
+NED,Netherlands,NL,NED,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,20.00,19.00
+NED,Netherlands,NL,NED,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,6.00,8.00
+NED,Netherlands,NL,NED,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,6.00,7.00
+NED,Netherlands,NL,NED,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,8.00,4.00
+NZL,New Zealand,NZ,NZL,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,15.00,19.00
+NZL,New Zealand,NZ,NZL,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,13.00,18.00
+NZL,New Zealand,NZ,NZL,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,6.00,4.00
+NZL,New Zealand,NZ,NZL,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,2.00,9.00
+NZL,New Zealand,NZ,NZL,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,5.00,5.00
+NIG,Niger,NE,NIG,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,,69.00
+NIG,Niger,NE,NIG,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+NIG,Niger,NE,NIG,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+NIG,Niger,NE,NIG,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+NIG,Niger,NE,NIG,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+NGR,Nigeria,NG,NGR,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,,78.00
+NGR,Nigeria,NG,NGR,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+NGR,Nigeria,NG,NGR,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+NGR,Nigeria,NG,NGR,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+NGR,Nigeria,NG,NGR,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+PRK,North Korea,KP,PRK,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,20.00,34.00
+PRK,North Korea,KP,PRK,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,6.00,7.00
+PRK,North Korea,KP,PRK,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,4.00,2.00
+PRK,North Korea,KP,PRK,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,3.00
+PRK,North Korea,KP,PRK,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,2.00,2.00
+NOR,Norway,NO,NOR,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,34.00,74.00
+NOR,Norway,NO,NOR,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,4.00,4.00
+NOR,Norway,NO,NOR,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,2.00,0.00
+NOR,Norway,NO,NOR,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+NOR,Norway,NO,NOR,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,4.00
+PHI,Philippines,PH,PHI,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,,69.00
+PHI,Philippines,PH,PHI,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+PHI,Philippines,PH,PHI,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+PHI,Philippines,PH,PHI,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+PHI,Philippines,PH,PHI,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+POL,Poland,PL,POL,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,30.00,33.00
+POL,Poland,PL,POL,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,10.00,11.00
+POL,Poland,PL,POL,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,2.00,2.00
+POL,Poland,PL,POL,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,2.00,3.00
+POL,Poland,PL,POL,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,6.00,6.00
+POR,Portugal,PT,POR,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,69.00,78.00
+POR,Portugal,PT,POR,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,1.00
+POR,Portugal,PT,POR,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+POR,Portugal,PT,POR,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+POR,Portugal,PT,POR,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,0.00,1.00
+PUR,Puerto Rico,PR,PUR,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,63.00,54.00
+PUR,Puerto Rico,PR,PUR,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,2.00,1.00
+PUR,Puerto Rico,PR,PUR,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,1.00
+PUR,Puerto Rico,PR,PUR,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+PUR,Puerto Rico,PR,PUR,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+QAT,Qatar,QA,QAT,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,75.00,69.00
+QAT,Qatar,QA,QAT,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,2.00,1.00
+QAT,Qatar,QA,QAT,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+QAT,Qatar,QA,QAT,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,1.00
+QAT,Qatar,QA,QAT,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,2.00,0.00
+ROU,Romania,RO,ROU,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,27.00,47.00
+ROU,Romania,RO,ROU,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,9.00,5.00
+ROU,Romania,RO,ROU,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,2.00,1.00
+ROU,Romania,RO,ROU,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,5.00,1.00
+ROU,Romania,RO,ROU,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,2.00,3.00
+RUS,Russia,RU,RUS,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,4.00,4.00
+RUS,Russia,RU,RUS,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,79.00,56.00
+RUS,Russia,RU,RUS,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,22.00,19.00
+RUS,Russia,RU,RUS,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,25.00,18.00
+RUS,Russia,RU,RUS,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,32.00,19.00
+KSA,Saudi Arabia,SA,KSA,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,79.00,
+KSA,Saudi Arabia,SA,KSA,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+KSA,Saudi Arabia,SA,KSA,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+KSA,Saudi Arabia,SA,KSA,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+KSA,Saudi Arabia,SA,KSA,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+SRB,Serbia,RS,SRB,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,43.00,32.00
+SRB,Serbia,RS,SRB,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,4.00,8.00
+SRB,Serbia,RS,SRB,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,2.00
+SRB,Serbia,RS,SRB,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,4.00
+SRB,Serbia,RS,SRB,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,2.00,2.00
+SIN,Singapore,SG,SIN,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,75.00,54.00
+SIN,Singapore,SG,SIN,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,2.00,1.00
+SIN,Singapore,SG,SIN,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,1.00
+SIN,Singapore,SG,SIN,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+SIN,Singapore,SG,SIN,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,2.00,0.00
+SVK,Slovakia,SK,SVK,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,60.00,37.00
+SVK,Slovakia,SK,SVK,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,4.00,4.00
+SVK,Slovakia,SK,SVK,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,2.00
+SVK,Slovakia,SK,SVK,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,2.00
+SVK,Slovakia,SK,SVK,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,3.00,0.00
+SLO,Slovenia,SI,SLO,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,43.00,45.00
+SLO,Slovenia,SI,SLO,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,4.00,4.00
+SLO,Slovenia,SI,SLO,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,1.00
+SLO,Slovenia,SI,SLO,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,1.00,2.00
+SLO,Slovenia,SI,SLO,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,2.00,1.00
+RSA,South Africa,ZA,RSA,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,23.00,30.00
+RSA,South Africa,ZA,RSA,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,6.00,10.00
+RSA,South Africa,ZA,RSA,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,3.00,2.00
+RSA,South Africa,ZA,RSA,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,2.00,6.00
+RSA,South Africa,ZA,RSA,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,2.00
+KOR,South Korea,KR,KOR,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,5.00,8.00
+KOR,South Korea,KR,KOR,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,28.00,21.00
+KOR,South Korea,KR,KOR,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,13.00,9.00
+KOR,South Korea,KR,KOR,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,8.00,3.00
+KOR,South Korea,KR,KOR,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,7.00,9.00
+ESP,Spain,ES,ESP,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,21.00,14.00
+ESP,Spain,ES,ESP,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,17.00,17.00
+ESP,Spain,ES,ESP,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,3.00,7.00
+ESP,Spain,ES,ESP,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,10.00,4.00
+ESP,Spain,ES,ESP,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,4.00,6.00
+SWE,Sweden,SE,SWE,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,37.00,29.00
+SWE,Sweden,SE,SWE,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,8.00,11.00
+SWE,Sweden,SE,SWE,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,2.00
+SWE,Sweden,SE,SWE,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,4.00,6.00
+SWE,Sweden,SE,SWE,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,3.00,3.00
+SUI,Switzerland,CH,SUI,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,32.00,24.00
+SUI,Switzerland,CH,SUI,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,4.00,7.00
+SUI,Switzerland,CH,SUI,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,2.00,3.00
+SUI,Switzerland,CH,SUI,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,2.00,2.00
+SUI,Switzerland,CH,SUI,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,0.00,2.00
+TJK,Tajikistan,TJ,TJK,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,79.00,54.00
+TJK,Tajikistan,TJ,TJK,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,1.00
+TJK,Tajikistan,TJ,TJK,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,1.00
+TJK,Tajikistan,TJ,TJK,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+TJK,Tajikistan,TJ,TJK,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+THA,Thailand,TH,THA,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,57.00,35.00
+THA,Thailand,TH,THA,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,4.00,6.00
+THA,Thailand,TH,THA,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,0.00,2.00
+THA,Thailand,TH,THA,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,2.00,2.00
+THA,Thailand,TH,THA,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,2.00,2.00
+TRI,Trinidad and Tobago,TT,TRI,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,47.00,78.00
+TRI,Trinidad and Tobago,TT,TRI,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,4.00,1.00
+TRI,Trinidad and Tobago,TT,TRI,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+TRI,Trinidad and Tobago,TT,TRI,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+TRI,Trinidad and Tobago,TT,TRI,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,3.00,1.00
+TUN,Tunisia,TN,TUN,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,35.00,75.00
+TUN,Tunisia,TN,TUN,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,3.00,3.00
+TUN,Tunisia,TN,TUN,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,2.00,0.00
+TUN,Tunisia,TN,TUN,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,0.00
+TUN,Tunisia,TN,TUN,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,3.00
+TUR,Turkey,TR,TUR,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,41.00,41.00
+TUR,Turkey,TR,TUR,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,4.00,8.00
+TUR,Turkey,TR,TUR,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,1.00
+TUR,Turkey,TR,TUR,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,2.00,3.00
+TUR,Turkey,TR,TUR,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,1.00,4.00
+UGA,Uganda,UG,UGA,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,50.00,
+UGA,Uganda,UG,UGA,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+UGA,Uganda,UG,UGA,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,
+UGA,Uganda,UG,UGA,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+UGA,Uganda,UG,UGA,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,0.00,
+UKR,Ukraine,UA,UKR,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,14.00,31.00
+UKR,Ukraine,UA,UKR,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,18.00,11.00
+UKR,Ukraine,UA,UKR,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,6.00,2.00
+UKR,Ukraine,UA,UKR,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,4.00,5.00
+UKR,Ukraine,UA,UKR,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,8.00,4.00
+UAE,United Arab Emirates,AE,UAE,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,,78.00
+UAE,United Arab Emirates,AE,UAE,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+UAE,United Arab Emirates,AE,UAE,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+UAE,United Arab Emirates,AE,UAE,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+UAE,United Arab Emirates,AE,UAE,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+USA,United States,US,USA,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,1.00,1.00
+USA,United States,US,USA,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,103.00,121.00
+USA,United States,US,USA,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,46.00,46.00
+USA,United States,US,USA,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,28.00,37.00
+USA,United States,US,USA,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,29.00,38.00
+UZB,Uzbekistan,UZ,UZB,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,48.00,21.00
+UZB,Uzbekistan,UZ,UZB,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,3.00,13.00
+UZB,Uzbekistan,UZ,UZB,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,4.00
+UZB,Uzbekistan,UZ,UZB,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,2.00
+UZB,Uzbekistan,UZ,UZB,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,2.00,7.00
+VEN,Venezuela,VE,VEN,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,50.00,65.00
+VEN,Venezuela,VE,VEN,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,1.00,3.00
+VEN,Venezuela,VE,VEN,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,1.00,0.00
+VEN,Venezuela,VE,VEN,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,0.00,1.00
+VEN,Venezuela,VE,VEN,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,0.00,2.00
+VIE,Vietnam,VN,VIE,KN.B1,Olympic Ranking,1 = highest rank,KN.G1,Summer Olympic Games,units,1 = highest rank,,48.00
+VIE,Vietnam,VN,VIE,KN.B3,Total,medals,KN.G1,Summer Olympic Games,units,medals,,2.00
+VIE,Vietnam,VN,VIE,KN.B4,Gold,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+VIE,Vietnam,VN,VIE,KN.B5,Silver,medals,KN.G1,Summer Olympic Games,units,medals,,1.00
+VIE,Vietnam,VN,VIE,KN.B6,Bronze,medals,KN.G1,Summer Olympic Games,units,medals,,0.00
+,,,,,,,,,,,,
+Source:,Wikipedia,,,,,,,,,,,
+Download URL:,http://knoema.com/OLYMPCGAMES2016/olympic-games-country-wise-medals-and-ranking-table-1896-2016,,,,,,,,,,,
