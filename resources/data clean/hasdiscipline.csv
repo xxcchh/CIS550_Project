@@ -1,0 +1,683 @@
+year,dname
+1896,Swimming
+1896,Athletics
+1896,Cycling Road
+1896,Cycling Track
+1896,Fencing
+1896,Artistic G.
+1896,Shooting
+1896,Tennis
+1896,Weightlifting
+1896,Wrestling Gre-R
+1900,Swimming
+1900,Water polo
+1900,Archery
+1900,Athletics
+1900,Basque Pelota
+1900,Cricket
+1900,Croquet
+1900,Cycling Track
+1900,Jumping
+1900,Fencing
+1900,Football
+1900,Golf
+1900,Artistic G.
+1900,Polo
+1900,Rowing
+1900,Rugby
+1900,Sailing
+1900,Shooting
+1900,Tennis
+1900,Tug of War
+1904,Diving
+1904,Swimming
+1904,Archery
+1904,Athletics
+1904,Boxing
+1904,Cycling Track
+1904,Fencing
+1904,Football
+1904,Golf
+1904,Artistic G.
+1904,Lacrosse
+1904,Roque
+1904,Rowing
+1904,Tennis
+1904,Tug of War
+1904,Weightlifting
+1904,Wrestling Free.
+1908,Diving
+1908,Swimming
+1908,Water polo
+1908,Archery
+1908,Athletics
+1908,Boxing
+1908,Cycling Track
+1908,Fencing
+1908,Football
+1908,Artistic G.
+1908,Hockey
+1908,Jeu de Paume
+1908,Lacrosse
+1908,Polo
+1908,Rackets
+1908,Rowing
+1908,Rugby
+1908,Sailing
+1908,Shooting
+1908,Figure skating
+1908,Tennis
+1908,Tug of War
+1908,Water Motorspor
+1908,Wrestling Free.
+1908,Wrestling Gre-R
+1912,Diving
+1912,Swimming
+1912,Water polo
+1912,Athletics
+1912,Cycling Road
+1912,Dressage
+1912,Eventing
+1912,Jumping
+1912,Fencing
+1912,Football
+1912,Artistic G.
+1912,Modern Pentath.
+1912,Rowing
+1912,Sailing
+1912,Shooting
+1912,Tennis
+1912,Tug of War
+1912,Wrestling Gre-R
+1920,Diving
+1920,Swimming
+1920,Water polo
+1920,Archery
+1920,Athletics
+1920,Boxing
+1920,Cycling Road
+1920,Cycling Track
+1920,Dressage
+1920,Eventing
+1920,Jumping
+1920,Vaulting
+1920,Fencing
+1920,Football
+1920,Artistic G.
+1920,Hockey
+1920,Ice Hockey
+1920,Modern Pentath.
+1920,Polo
+1920,Rowing
+1920,Rugby
+1920,Sailing
+1920,Shooting
+1920,Figure skating
+1920,Tennis
+1920,Tug of War
+1920,Weightlifting
+1920,Wrestling Free.
+1920,Wrestling Gre-R
+1924,Diving
+1924,Swimming
+1924,Water polo
+1924,Athletics
+1924,Boxing
+1924,Cycling Road
+1924,Cycling Track
+1924,Dressage
+1924,Eventing
+1924,Jumping
+1924,Fencing
+1924,Football
+1924,Artistic G.
+1924,Modern Pentath.
+1924,Polo
+1924,Rowing
+1924,Rugby
+1924,Sailing
+1924,Shooting
+1924,Tennis
+1924,Weightlifting
+1924,Wrestling Free.
+1924,Wrestling Gre-R
+1928,Diving
+1928,Swimming
+1928,Water polo
+1928,Athletics
+1928,Boxing
+1928,Cycling Road
+1928,Cycling Track
+1928,Dressage
+1928,Eventing
+1928,Jumping
+1928,Fencing
+1928,Football
+1928,Artistic G.
+1928,Hockey
+1928,Modern Pentath.
+1928,Rowing
+1928,Sailing
+1928,Weightlifting
+1928,Wrestling Free.
+1928,Wrestling Gre-R
+1932,Diving
+1932,Swimming
+1932,Water polo
+1932,Athletics
+1932,Boxing
+1932,Cycling Road
+1932,Cycling Track
+1932,Dressage
+1932,Eventing
+1932,Jumping
+1932,Fencing
+1932,Artistic G.
+1932,Hockey
+1932,Modern Pentath.
+1932,Rowing
+1932,Sailing
+1932,Shooting
+1932,Weightlifting
+1932,Wrestling Free.
+1932,Wrestling Gre-R
+1936,Diving
+1936,Swimming
+1936,Water polo
+1936,Athletics
+1936,Basketball
+1936,Boxing
+1936,Canoe / Kayak F
+1936,Cycling Road
+1936,Cycling Track
+1936,Dressage
+1936,Eventing
+1936,Jumping
+1936,Fencing
+1936,Football
+1936,Artistic G.
+1936,Handball
+1936,Hockey
+1936,Modern Pentath.
+1936,Polo
+1936,Rowing
+1936,Sailing
+1936,Shooting
+1936,Weightlifting
+1936,Wrestling Free.
+1936,Wrestling Gre-R
+1948,Diving
+1948,Swimming
+1948,Water polo
+1948,Athletics
+1948,Basketball
+1948,Boxing
+1948,Canoe / Kayak F
+1948,Cycling Road
+1948,Cycling Track
+1948,Dressage
+1948,Eventing
+1948,Jumping
+1948,Fencing
+1948,Football
+1948,Artistic G.
+1948,Hockey
+1948,Modern Pentath.
+1948,Rowing
+1948,Sailing
+1948,Shooting
+1948,Weightlifting
+1948,Wrestling Free.
+1948,Wrestling Gre-R
+1952,Diving
+1952,Swimming
+1952,Water polo
+1952,Athletics
+1952,Basketball
+1952,Boxing
+1952,Canoe / Kayak F
+1952,Cycling Road
+1952,Cycling Track
+1952,Dressage
+1952,Eventing
+1952,Jumping
+1952,Fencing
+1952,Football
+1952,Artistic G.
+1952,Hockey
+1952,Modern Pentath.
+1952,Rowing
+1952,Sailing
+1952,Shooting
+1952,Weightlifting
+1952,Wrestling Free.
+1952,Wrestling Gre-R
+1956,Diving
+1956,Swimming
+1956,Water polo
+1956,Athletics
+1956,Basketball
+1956,Boxing
+1956,Canoe / Kayak F
+1956,Cycling Road
+1956,Cycling Track
+1956,Dressage
+1956,Eventing
+1956,Jumping
+1956,Fencing
+1956,Football
+1956,Artistic G.
+1956,Hockey
+1956,Modern Pentath.
+1956,Rowing
+1956,Sailing
+1956,Shooting
+1956,Weightlifting
+1956,Wrestling Free.
+1956,Wrestling Gre-R
+1960,Diving
+1960,Swimming
+1960,Water polo
+1960,Athletics
+1960,Basketball
+1960,Boxing
+1960,Canoe / Kayak F
+1960,Cycling Road
+1960,Cycling Track
+1960,Dressage
+1960,Eventing
+1960,Jumping
+1960,Fencing
+1960,Football
+1960,Artistic G.
+1960,Hockey
+1960,Modern Pentath.
+1960,Rowing
+1960,Sailing
+1960,Shooting
+1960,Weightlifting
+1960,Wrestling Free.
+1960,Wrestling Gre-R
+1964,Diving
+1964,Swimming
+1964,Water polo
+1964,Athletics
+1964,Basketball
+1964,Boxing
+1964,Canoe / Kayak F
+1964,Cycling Road
+1964,Cycling Track
+1964,Dressage
+1964,Eventing
+1964,Jumping
+1964,Fencing
+1964,Football
+1964,Artistic G.
+1964,Hockey
+1964,Judo
+1964,Modern Pentath.
+1964,Rowing
+1964,Sailing
+1964,Shooting
+1964,Volleyball
+1964,Weightlifting
+1964,Wrestling Free.
+1964,Wrestling Gre-R
+1968,Diving
+1968,Swimming
+1968,Water polo
+1968,Athletics
+1968,Basketball
+1968,Boxing
+1968,Canoe / Kayak F
+1968,Cycling Road
+1968,Cycling Track
+1968,Dressage
+1968,Eventing
+1968,Jumping
+1968,Fencing
+1968,Football
+1968,Artistic G.
+1968,Hockey
+1968,Modern Pentath.
+1968,Rowing
+1968,Sailing
+1968,Shooting
+1968,Volleyball
+1968,Weightlifting
+1968,Wrestling Free.
+1968,Wrestling Gre-R
+1972,Diving
+1972,Swimming
+1972,Water polo
+1972,Archery
+1972,Athletics
+1972,Basketball
+1972,Boxing
+1972,Canoe / Kayak F
+1972,Canoe / Kayak S
+1972,Cycling Road
+1972,Cycling Track
+1972,Dressage
+1972,Eventing
+1972,Jumping
+1972,Fencing
+1972,Football
+1972,Artistic G.
+1972,Handball
+1972,Hockey
+1972,Judo
+1972,Modern Pentath.
+1972,Rowing
+1972,Sailing
+1972,Shooting
+1972,Volleyball
+1972,Weightlifting
+1972,Wrestling Free.
+1972,Wrestling Gre-R
+1976,Diving
+1976,Swimming
+1976,Water polo
+1976,Archery
+1976,Athletics
+1976,Basketball
+1976,Boxing
+1976,Canoe / Kayak F
+1976,Cycling Road
+1976,Cycling Track
+1976,Dressage
+1976,Eventing
+1976,Jumping
+1976,Fencing
+1976,Football
+1976,Artistic G.
+1976,Handball
+1976,Hockey
+1976,Judo
+1976,Modern Pentath.
+1976,Rowing
+1976,Sailing
+1976,Shooting
+1976,Volleyball
+1976,Weightlifting
+1976,Wrestling Free.
+1976,Wrestling Gre-R
+1980,Diving
+1980,Swimming
+1980,Water polo
+1980,Archery
+1980,Athletics
+1980,Basketball
+1980,Boxing
+1980,Canoe / Kayak F
+1980,Cycling Road
+1980,Cycling Track
+1980,Dressage
+1980,Eventing
+1980,Jumping
+1980,Fencing
+1980,Football
+1980,Artistic G.
+1980,Handball
+1980,Hockey
+1980,Judo
+1980,Modern Pentath.
+1980,Rowing
+1980,Sailing
+1980,Shooting
+1980,Volleyball
+1980,Weightlifting
+1980,Wrestling Free.
+1980,Wrestling Gre-R
+1984,Diving
+1984,Swimming
+1984,Synchronized S.
+1984,Water polo
+1984,Archery
+1984,Athletics
+1984,Basketball
+1984,Boxing
+1984,Canoe / Kayak F
+1984,Cycling Road
+1984,Cycling Track
+1984,Dressage
+1984,Eventing
+1984,Jumping
+1984,Fencing
+1984,Football
+1984,Artistic G.
+1984,Rhythmic G.
+1984,Handball
+1984,Hockey
+1984,Judo
+1984,Modern Pentath.
+1984,Rowing
+1984,Sailing
+1984,Shooting
+1984,Volleyball
+1984,Weightlifting
+1984,Wrestling Free.
+1984,Wrestling Gre-R
+1988,Diving
+1988,Swimming
+1988,Synchronized S.
+1988,Water polo
+1988,Archery
+1988,Athletics
+1988,Basketball
+1988,Boxing
+1988,Canoe / Kayak F
+1988,Cycling Road
+1988,Cycling Track
+1988,Dressage
+1988,Eventing
+1988,Jumping
+1988,Fencing
+1988,Football
+1988,Artistic G.
+1988,Rhythmic G.
+1988,Handball
+1988,Hockey
+1988,Judo
+1988,Modern Pentath.
+1988,Rowing
+1988,Sailing
+1988,Shooting
+1988,Table Tennis
+1988,Tennis
+1988,Volleyball
+1988,Weightlifting
+1988,Wrestling Free.
+1988,Wrestling Gre-R
+1992,Diving
+1992,Swimming
+1992,Synchronized S.
+1992,Water polo
+1992,Archery
+1992,Athletics
+1992,Badminton
+1992,Baseball
+1992,Basketball
+1992,Boxing
+1992,Canoe / Kayak F
+1992,Canoe / Kayak S
+1992,Cycling Road
+1992,Cycling Track
+1992,Dressage
+1992,Eventing
+1992,Jumping
+1992,Fencing
+1992,Football
+1992,Artistic G.
+1992,Rhythmic G.
+1992,Handball
+1992,Hockey
+1992,Judo
+1992,Modern Pentath.
+1992,Rowing
+1992,Sailing
+1992,Shooting
+1992,Table Tennis
+1992,Tennis
+1992,Volleyball
+1992,Weightlifting
+1992,Wrestling Free.
+1992,Wrestling Gre-R
+1996,Diving
+1996,Swimming
+1996,Synchronized S.
+1996,Water polo
+1996,Archery
+1996,Athletics
+1996,Badminton
+1996,Baseball
+1996,Basketball
+1996,Boxing
+1996,Canoe / Kayak F
+1996,Canoe / Kayak S
+1996,Cycling Road
+1996,Cycling Track
+1996,Mountain Bike
+1996,Dressage
+1996,Eventing
+1996,Jumping
+1996,Fencing
+1996,Football
+1996,Artistic G.
+1996,Rhythmic G.
+1996,Handball
+1996,Hockey
+1996,Judo
+1996,Modern Pentath.
+1996,Rowing
+1996,Sailing
+1996,Shooting
+1996,Softball
+1996,Table Tennis
+1996,Tennis
+1996,Beach volley.
+1996,Volleyball
+1996,Weightlifting
+1996,Wrestling Free.
+1996,Wrestling Gre-R
+2000,Diving
+2000,Swimming
+2000,Synchronized S.
+2000,Water polo
+2000,Archery
+2000,Athletics
+2000,Badminton
+2000,Baseball
+2000,Basketball
+2000,Boxing
+2000,Canoe / Kayak F
+2000,Canoe / Kayak S
+2000,Cycling Road
+2000,Cycling Track
+2000,Mountain Bike
+2000,Dressage
+2000,Eventing
+2000,Jumping
+2000,Fencing
+2000,Football
+2000,Artistic G.
+2000,Rhythmic G.
+2000,Trampoline
+2000,Handball
+2000,Hockey
+2000,Judo
+2000,Modern Pentath.
+2000,Rowing
+2000,Sailing
+2000,Shooting
+2000,Softball
+2000,Table Tennis
+2000,Taekwondo
+2000,Tennis
+2000,Triathlon
+2000,Beach volley.
+2000,Volleyball
+2000,Weightlifting
+2000,Wrestling Free.
+2000,Wrestling Gre-R
+2004,Diving
+2004,Swimming
+2004,Synchronized S.
+2004,Water polo
+2004,Archery
+2004,Athletics
+2004,Badminton
+2004,Baseball
+2004,Basketball
+2004,Boxing
+2004,Canoe / Kayak F
+2004,Canoe / Kayak S
+2004,Cycling Road
+2004,Cycling Track
+2004,Mountain Bike
+2004,Dressage
+2004,Eventing
+2004,Jumping
+2004,Fencing
+2004,Football
+2004,Artistic G.
+2004,Rhythmic G.
+2004,Trampoline
+2004,Handball
+2004,Hockey
+2004,Judo
+2004,Modern Pentath.
+2004,Rowing
+2004,Sailing
+2004,Shooting
+2004,Softball
+2004,Table Tennis
+2004,Taekwondo
+2004,Tennis
+2004,Triathlon
+2004,Beach volley.
+2004,Volleyball
+2004,Weightlifting
+2004,Wrestling Free.
+2004,Wrestling Gre-R
+2008,Diving
+2008,Swimming
+2008,Synchronized S.
+2008,Water polo
+2008,Archery
+2008,Athletics
+2008,Badminton
+2008,Baseball
+2008,Basketball
+2008,Boxing
+2008,Canoe / Kayak F
+2008,Canoe / Kayak S
+2008,BMX
+2008,Cycling Road
+2008,Cycling Track
+2008,Mountain Bike
+2008,Dressage
+2008,Eventing
+2008,Jumping
+2008,Fencing
+2008,Football
+2008,Artistic G.
+2008,Rhythmic G.
+2008,Trampoline
+2008,Handball
+2008,Hockey
+2008,Judo
+2008,Modern Pentath.
+2008,Rowing
+2008,Sailing
+2008,Shooting
+2008,Softball
+2008,Table Tennis
+2008,Taekwondo
+2008,Tennis
+2008,Triathlon
+2008,Beach volley.
+2008,Volleyball
+2008,Weightlifting
+2008,Wrestling Free.
+2008,Wrestling Gre-R
