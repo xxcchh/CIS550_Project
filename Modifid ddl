@@ -65,24 +65,23 @@ CREATE TABLE ATHLETES(
 	PRIMARY KEY (aid)
 );
 
--- something wrong with the creation that foreign keys are not added yet 
 CREATE TABLE PERFORMANCEOFATHLETES(
-	year VARCHAR2(4),
-	aid INTEGER,
-	medal VARCHAR(6),
-	eid INTEGER,
-	dname VARCHAR(50),
-	PRIMARY KEY (aid, dname, eid, year),
---	FOREIGN KEY (aid) REFERENCES Athletes,
---	FOREIGN KEY (eid) REFERENCES hasEvents,
---	FOREIGN KEY (dname) REFERENCES hasDiscipline,
---	FOREIGN KEY (year) REFERENCES Olympics,
-	CHECK (medal IN ('gold', 'silver', 'bronze')));
+aid INTEGER,
+year VARCHAR2(4),
+medal VARCHAR(6) ,
+eid INTEGER,
+dname VARCHAR(50),
+PRIMARY KEY (aid, dname, eid, year),
+FOREIGN KEY (aid) REFERENCES ATHLETES,
+FOREIGN KEY (year, dname, eid) REFERENCES hasEvents,
+FOREIGN KEY (year) REFERENCES Olympics,
+FOREIGN KEY (year, dname) REFERENCES hasDiscipline,
+CHECK (medal IN ('gold', 'silver', 'bronze')));
 
+drop table REPRESENTS
 CREATE TABLE REPRESENTS(
 	aid INTEGER,
 	code CHAR(3),
 	PRIMARY KEY (aid, code),
 	FOREIGN KEY (aid) REFERENCES Athletes,
-	FOREIGN KEY (code) REFERENCES Country
-);
+  FOREIGN KEY (code) REFERENCES Country);
