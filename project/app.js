@@ -2,7 +2,6 @@
  * Created by chen on 11/20/16.
  */
 
-
 var express = require('express')
     , routes = require('./routes')
     , http = require('http')
@@ -10,22 +9,18 @@ var express = require('express')
     , stylus = require('stylus')
     , nib = require('nib')
     , cons  = require('consolidate')
+    , engine = require('ejs-locals')
 ;
 
 // Initialize express
-var app = express()
+var app = express();
 
-// View engine setup use html
-app.engine('html', cons.swig)
-app.set('view engine', 'html');
-
-
+// View engine setup use ejs
+app.engine('ejs', engine);
+app.set('view engine', 'ejs');
 
 
-
-
-
-init_app(app)
+init_app(app);
 
 
 // Listen on the port we specify
@@ -43,20 +38,24 @@ function compile(str, path) {
 
 //  When we get a request for {app}/ we should call routes/index.js
 app.get('/', function (req, res) {
-    res.send('Express Works');
+    // res.send('Express Works');
+    res.render('home.ejs')
 });
-app.listen(app.get('port'), function () {
-    console.log('Express started press Ctril-C to terminate');
-});
+
+// //  We have country, athlete, discipline
+// app.get('/country', routes.country);
+// app.get('/athlete', routes.athlete);
+// app.get('/discipline', routes.discipline);
+
 
 
 // This is app initialization code
 function init_app() {
 //    All environments
-    app.set('port', process.env.PORT || 8080)
+    app.set('port', process.env.PORT || 8080);
 //    Use html to do views
     app.set('views', path.join(__dirname, 'views'));
-    
+
 
 }
 
