@@ -18,6 +18,7 @@ var app = express();
 // View engine setup use ejs
 app.engine('ejs', engine);
 app.set('view engine', 'ejs');
+app.use(express.static("public"));
 
 
 init_app(app);
@@ -39,7 +40,8 @@ function compile(str, path) {
 //  When we get a request for {app}/ we should call routes/index.js
 app.get('/', function (req, res) {
     // res.send('Express Works');
-    res.render('home.ejs')
+    // res.render('home.ejs')
+    res.render('test.ejs')
 });
 
 // //  We have country, athlete, discipline
