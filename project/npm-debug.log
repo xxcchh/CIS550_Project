@@ -1,0 +1,436 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/zhongwen/.nvm/versions/node/v4.6.0/bin/node',
+1 verbose cli   '/Users/zhongwen/.nvm/versions/node/v4.6.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'oracledb' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.0
+4 verbose install initial load of /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/package.json
+5 warn package.json cis550@1.0.0 No description
+6 warn package.json cis550@1.0.0 No repository field.
+7 warn package.json cis550@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/accepts/package.json
+9 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/amdefine/package.json
+10 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/ansi-regex/package.json
+11 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/ansi-styles/package.json
+12 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/array-flatten/package.json
+13 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/asn1/package.json
+14 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/assert-plus/package.json
+15 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/async/package.json
+16 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/asynckit/package.json
+17 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/aws-sdk/package.json
+18 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/aws-sign2/package.json
+19 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/aws4/package.json
+20 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/balanced-match/package.json
+21 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/base64-js/package.json
+22 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/bcrypt-pbkdf/package.json
+23 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/bluebird/package.json
+24 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/boom/package.json
+25 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/bootstrap/package.json
+26 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/brace-expansion/package.json
+27 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/buffer/package.json
+28 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/camelcase/package.json
+29 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/caseless/package.json
+30 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/chalk/package.json
+31 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/combined-stream/package.json
+32 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/commander/package.json
+33 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/concat-map/package.json
+34 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/consolidate/package.json
+35 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/content-disposition/package.json
+36 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/content-type/package.json
+37 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/cookie/package.json
+38 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/cookie-signature/package.json
+39 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/cryptiles/package.json
+40 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/crypto-browserify/package.json
+41 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/css-parse/package.json
+42 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/dashdash/package.json
+43 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/debug/package.json
+44 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/decamelize/package.json
+45 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/delayed-stream/package.json
+46 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/depd/package.json
+47 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/destroy/package.json
+48 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/ecc-jsbn/package.json
+49 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/ee-first/package.json
+50 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/ejs/package.json
+51 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/ejs-locals/package.json
+52 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/encodeurl/package.json
+53 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/escape-html/package.json
+54 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/escape-string-regexp/package.json
+55 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/etag/package.json
+56 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/express/package.json
+57 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/extend/package.json
+58 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/extsprintf/package.json
+59 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/finalhandler/package.json
+60 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/forever-agent/package.json
+61 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/form-data/package.json
+62 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/forwarded/package.json
+63 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/fresh/package.json
+64 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/fs.realpath/package.json
+65 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/generate-function/package.json
+66 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/generate-object-property/package.json
+67 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/getpass/package.json
+68 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/glob/package.json
+69 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/graceful-readlink/package.json
+70 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/har-validator/package.json
+71 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/has-ansi/package.json
+72 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/hawk/package.json
+73 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/hoek/package.json
+74 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/http-errors/package.json
+75 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/http-signature/package.json
+76 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/ieee754/package.json
+77 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/inflight/package.json
+78 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/inherits/package.json
+79 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/ipaddr.js/package.json
+80 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/is-my-json-valid/package.json
+81 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/is-property/package.json
+82 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/is-typedarray/package.json
+83 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/isarray/package.json
+84 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/isstream/package.json
+85 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/jmespath/package.json
+86 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/jodid25519/package.json
+87 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/jquery/package.json
+88 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/jsbn/package.json
+89 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/json-schema/package.json
+90 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/json-stringify-safe/package.json
+91 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/jsonpointer/package.json
+92 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/jsprim/package.json
+93 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/lodash/package.json
+94 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/media-typer/package.json
+95 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/merge-descriptors/package.json
+96 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/methods/package.json
+97 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/mime/package.json
+98 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/mime-db/package.json
+99 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/mime-types/package.json
+100 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/minimatch/package.json
+101 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/minimist/package.json
+102 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/mkdirp/package.json
+103 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/ms/package.json
+104 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/nan/package.json
+105 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/negotiator/package.json
+106 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/nib/package.json
+107 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/node-bing-api/package.json
+108 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oauth-sign/package.json
+109 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/on-finished/package.json
+110 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/once/package.json
+111 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/optimist/package.json
+112 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb/package.json
+113 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/parseurl/package.json
+114 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/path-is-absolute/package.json
+115 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/path-to-regexp/package.json
+116 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/pinkie/package.json
+117 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/pinkie-promise/package.json
+118 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/proxy-addr/package.json
+119 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/punycode/package.json
+120 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/qs/package.json
+121 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/querystring/package.json
+122 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/range-parser/package.json
+123 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/request/package.json
+124 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/sax/package.json
+125 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/send/package.json
+126 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/serve-static/package.json
+127 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/setprototypeof/package.json
+128 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/sntp/package.json
+129 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/source-map/package.json
+130 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/sshpk/package.json
+131 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/statuses/package.json
+132 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/stringstream/package.json
+133 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/strip-ansi/package.json
+134 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/stylus/package.json
+135 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/supports-color/package.json
+136 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/swig/package.json
+137 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/tough-cookie/package.json
+138 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/tunnel-agent/package.json
+139 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/tweetnacl/package.json
+140 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/type-is/package.json
+141 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/uglify-js/package.json
+142 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/uglify-to-browserify/package.json
+143 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/underscore/package.json
+144 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/unpipe/package.json
+145 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/url/package.json
+146 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/utils-merge/package.json
+147 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/uuid/package.json
+148 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/vary/package.json
+149 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/verror/package.json
+150 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/window-size/package.json
+151 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/wordwrap/package.json
+152 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/wrappy/package.json
+153 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/xml2js/package.json
+154 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/xmlbuilder/package.json
+155 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/xtend/package.json
+156 verbose installManyTop reading scoped package data from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/yargs/package.json
+157 info package.json async@0.2.10 No license field.
+158 info package.json bcrypt-pbkdf@1.0.0 No repository field.
+159 info package.json buffer@4.9.1 buffer is also the name of a node core module.
+160 info package.json ejs-locals@1.0.2 No license field.
+161 info package.json jmespath@0.15.0 No license field.
+162 info package.json jsbn@0.1.0 license should be a valid SPDX license expression
+163 info package.json json-schema@0.2.3 No license field.
+164 info package.json extsprintf@1.0.2 No license field.
+165 info package.json mime@1.3.4 No license field.
+166 info package.json ms@0.7.1 No license field.
+167 info package.json optimist@0.6.1 license should be a valid SPDX license expression
+168 info package.json querystring@0.2.0 querystring is also the name of a node core module.
+169 info package.json querystring@0.2.0 No license field.
+170 info package.json sax@0.5.8 license should be a valid SPDX license expression
+171 info package.json sntp@1.0.9 No license field.
+172 info package.json source-map@0.1.34 No license field.
+173 info package.json uglify-js@2.4.24 license should be a valid SPDX license expression
+174 info package.json url@0.10.3 url is also the name of a node core module.
+175 info package.json utils-merge@1.0.0 No license field.
+176 info package.json verror@1.3.6 No license field.
+177 info package.json window-size@0.1.0 No license field.
+178 info package.json punycode@1.3.2 punycode is also the name of a node core module.
+179 info package.json yargs@3.5.4 license should be a valid SPDX license expression
+180 verbose readDependencies loading dependencies from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/package.json
+181 verbose install oracledb is installed as 1.11.0
+182 silly cache add args [ 'oracledb', null ]
+183 verbose cache add spec oracledb
+184 silly cache add parsed spec Result {
+184 silly cache add   raw: 'oracledb',
+184 silly cache add   scope: null,
+184 silly cache add   name: 'oracledb',
+184 silly cache add   rawSpec: '',
+184 silly cache add   spec: 'latest',
+184 silly cache add   type: 'tag' }
+185 silly addNamed oracledb@latest
+186 verbose addNamed "latest" is being treated as a dist-tag for oracledb
+187 info addNameTag [ 'oracledb', 'latest' ]
+188 silly mapToRegistry name oracledb
+189 silly mapToRegistry using default registry
+190 silly mapToRegistry registry https://registry.npmjs.org/
+191 silly mapToRegistry data Result {
+191 silly mapToRegistry   raw: 'oracledb',
+191 silly mapToRegistry   scope: null,
+191 silly mapToRegistry   name: 'oracledb',
+191 silly mapToRegistry   rawSpec: '',
+191 silly mapToRegistry   spec: 'latest',
+191 silly mapToRegistry   type: 'tag' }
+192 silly mapToRegistry uri https://registry.npmjs.org/oracledb
+193 verbose addNameTag registry:https://registry.npmjs.org/oracledb not in flight; fetching
+194 verbose request uri https://registry.npmjs.org/oracledb
+195 verbose request no auth needed
+196 info attempt registry request try #1 at 8:22:58 PM
+197 verbose request id 413a55683589e4ca
+198 verbose etag W/"581f096a-a139"
+199 verbose lastModified Sun, 06 Nov 2016 10:43:54 GMT
+200 http request GET https://registry.npmjs.org/oracledb
+201 http 304 https://registry.npmjs.org/oracledb
+202 verbose headers { date: 'Mon, 21 Nov 2016 01:22:59 GMT',
+202 verbose headers   via: '1.1 varnish',
+202 verbose headers   'cache-control': 'max-age=300',
+202 verbose headers   etag: 'W/"581f096a-a139"',
+202 verbose headers   age: '0',
+202 verbose headers   connection: 'keep-alive',
+202 verbose headers   'x-served-by': 'cache-jfk8126-JFK',
+202 verbose headers   'x-cache': 'HIT',
+202 verbose headers   'x-cache-hits': '1',
+202 verbose headers   'x-timer': 'S1479691379.922289,VS0,VE66',
+202 verbose headers   vary: 'Accept-Encoding' }
+203 silly get cb [ 304,
+203 silly get   { date: 'Mon, 21 Nov 2016 01:22:59 GMT',
+203 silly get     via: '1.1 varnish',
+203 silly get     'cache-control': 'max-age=300',
+203 silly get     etag: 'W/"581f096a-a139"',
+203 silly get     age: '0',
+203 silly get     connection: 'keep-alive',
+203 silly get     'x-served-by': 'cache-jfk8126-JFK',
+203 silly get     'x-cache': 'HIT',
+203 silly get     'x-cache-hits': '1',
+203 silly get     'x-timer': 'S1479691379.922289,VS0,VE66',
+203 silly get     vary: 'Accept-Encoding' } ]
+204 verbose etag https://registry.npmjs.org/oracledb from cache
+205 verbose get saving oracledb to /Users/zhongwen/.npm/registry.npmjs.org/oracledb/.cache.json
+206 verbose correctMkdir /Users/zhongwen/.npm correctMkdir not in flight; initializing
+207 silly addNameTag next cb for oracledb with tag latest
+208 silly addNamed oracledb@1.11.0
+209 verbose addNamed "1.11.0" is a plain semver version for oracledb
+210 silly cache afterAdd oracledb@1.11.0
+211 verbose afterAdd /Users/zhongwen/.npm/oracledb/1.11.0/package/package.json not in flight; writing
+212 verbose correctMkdir /Users/zhongwen/.npm correctMkdir not in flight; initializing
+213 verbose afterAdd /Users/zhongwen/.npm/oracledb/1.11.0/package/package.json written
+214 silly install resolved [ { name: 'oracledb',
+214 silly install resolved     version: '1.11.0',
+214 silly install resolved     description: 'Oracle Database driver by Oracle Corp.',
+214 silly install resolved     license: 'Apache-2.0',
+214 silly install resolved     homepage: 'http://www.oracle.com/technetwork/database/database-technologies/scripting-languages/node_js/',
+214 silly install resolved     keywords:
+214 silly install resolved      [ 'oracledb',
+214 silly install resolved        'dboracle',
+214 silly install resolved        'Node.js',
+214 silly install resolved        'SQL',
+214 silly install resolved        'PL/SQL',
+214 silly install resolved        'connection',
+214 silly install resolved        'connectivity',
+214 silly install resolved        'OCI',
+214 silly install resolved        'client',
+214 silly install resolved        'plugin',
+214 silly install resolved        'library',
+214 silly install resolved        'driver',
+214 silly install resolved        'add-on',
+214 silly install resolved        'extension',
+214 silly install resolved        'binding',
+214 silly install resolved        'interface',
+214 silly install resolved        'adapter',
+214 silly install resolved        'module',
+214 silly install resolved        'DB',
+214 silly install resolved        'official',
+214 silly install resolved        'Database',
+214 silly install resolved        'Oracle' ],
+214 silly install resolved     repository:
+214 silly install resolved      { type: 'git',
+214 silly install resolved        url: 'git://github.com/oracle/node-oracledb.git' },
+214 silly install resolved     dependencies: { nan: '~2.3.0' },
+214 silly install resolved     devDependencies: { mocha: '^2.4.5', should: '^8.3.1', async: '^1.5.0' },
+214 silly install resolved     scripts:
+214 silly install resolved      { test: 'mocha --opts test/opts/mocha.opts',
+214 silly install resolved        testWindows: 'mocha --opts test\\opts\\mocha.opts',
+214 silly install resolved        install: 'node-gyp rebuild' },
+214 silly install resolved     engines: { node: '>=0.10.28 <7' },
+214 silly install resolved     maintainers: [ [Object], [Object] ],
+214 silly install resolved     bugs: { url: 'https://github.com/oracle/node-oracledb/issues' },
+214 silly install resolved     main: './index.js',
+214 silly install resolved     gypfile: true,
+214 silly install resolved     _id: 'oracledb@1.11.0',
+214 silly install resolved     _shasum: '847655885f3b0f0e1359ac314b89bb6a6db9e2f0',
+214 silly install resolved     _resolved: 'https://registry.npmjs.org/oracledb/-/oracledb-1.11.0.tgz',
+214 silly install resolved     _from: 'oracledb@latest',
+214 silly install resolved     _npmVersion: '3.10.3',
+214 silly install resolved     _nodeVersion: '6.4.0',
+214 silly install resolved     _npmUser: { name: 'cjbj', email: 'christopher.jones@oracle.com' },
+214 silly install resolved     dist:
+214 silly install resolved      { shasum: '847655885f3b0f0e1359ac314b89bb6a6db9e2f0',
+214 silly install resolved        tarball: 'https://registry.npmjs.org/oracledb/-/oracledb-1.11.0.tgz' },
+214 silly install resolved     _npmOperationalInternal:
+214 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+214 silly install resolved        tmp: 'tmp/oracledb-1.11.0.tgz_1471590426883_0.3451673074159771' },
+214 silly install resolved     directories: {},
+214 silly install resolved     readme: 'ERROR: No README data found!' } ]
+215 info install oracledb@1.11.0 into /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project
+216 info installOne oracledb@1.11.0
+217 verbose installOne of oracledb to /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project not in flight; installing
+218 verbose correctMkdir /Users/zhongwen/.npm/_locks correctMkdir not in flight; initializing
+219 verbose lock using /Users/zhongwen/.npm/_locks/oracledb-478b6309b0401fde.lock for /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb
+220 silly install write writing oracledb 1.11.0 to /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb
+221 verbose unbuild node_modules/oracledb
+222 info preuninstall oracledb@1.11.0
+223 info uninstall oracledb@1.11.0
+224 verbose unbuild rmStuff oracledb@1.11.0 from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules
+225 info postuninstall oracledb@1.11.0
+226 silly gentlyRm /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb is being purged from base /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project
+227 verbose gentlyRm don't care about contents; nuking /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb
+228 silly vacuum-fs purging /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb
+229 silly vacuum-fs quitting because other entries in /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules
+230 verbose tar unpack /Users/zhongwen/.npm/oracledb/1.11.0/package.tgz
+231 verbose tar unpacking to /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb
+232 silly gentlyRm /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb is being purged
+233 verbose gentlyRm don't care about contents; nuking /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb
+234 silly gunzTarPerm modes [ '755', '644' ]
+235 silly gunzTarPerm extractEntry package.json
+236 silly gunzTarPerm extractEntry README.md
+237 silly gunzTarPerm extractEntry index.js
+238 silly gunzTarPerm extractEntry CHANGELOG.md
+239 silly gunzTarPerm extractEntry LICENSE.md
+240 silly gunzTarPerm extractEntry binding.gyp
+241 silly gunzTarPerm extractEntry lib/connection.js
+242 silly gunzTarPerm extractEntry lib/lob.js
+243 silly gunzTarPerm extractEntry lib/oracledb.js
+244 silly gunzTarPerm extractEntry lib/pool.js
+245 silly gunzTarPerm extractEntry lib/querystream.js
+246 silly gunzTarPerm extractEntry lib/resultset.js
+247 silly gunzTarPerm extractEntry lib/util.js
+248 silly gunzTarPerm extractEntry src/dpi/include/dpi.h
+249 silly gunzTarPerm extractEntry src/dpi/include/dpiCommon.h
+250 silly gunzTarPerm extractEntry src/dpi/include/dpiConn.h
+251 silly gunzTarPerm extractEntry src/dpi/include/dpiDateTimeArray.h
+252 silly gunzTarPerm extractEntry src/dpi/include/dpiEnv.h
+253 silly gunzTarPerm extractEntry src/dpi/include/dpiException.h
+254 silly gunzTarPerm extractEntry src/dpi/include/dpiLob.h
+255 silly gunzTarPerm extractEntry src/dpi/include/dpiPool.h
+256 silly gunzTarPerm extractEntry src/dpi/include/dpiStmt.h
+257 silly gunzTarPerm extractEntry src/dpi/src/dpiExceptionImpl.cpp
+258 silly gunzTarPerm extractEntry src/dpi/src/dpiCommon.cpp
+259 silly gunzTarPerm extractEntry src/dpi/src/dpiConnImpl.h
+260 silly gunzTarPerm extractEntry src/dpi/src/dpiDateTimeArrayImpl.cpp
+261 silly gunzTarPerm extractEntry src/dpi/src/dpiDateTimeArrayImpl.h
+262 silly gunzTarPerm extractEntry src/dpi/src/dpiEnv.cpp
+263 silly gunzTarPerm extractEntry src/dpi/src/dpiEnvImpl.cpp
+264 silly gunzTarPerm extractEntry src/dpi/src/dpiEnvImpl.h
+265 silly gunzTarPerm extractEntry src/dpi/src/dpiException.cpp
+266 silly gunzTarPerm extractEntry src/dpi/src/dpiConnImpl.cpp
+267 silly gunzTarPerm extractEntry src/dpi/src/dpiExceptionImpl.h
+268 silly gunzTarPerm extractEntry src/dpi/src/dpiLob.cpp
+269 silly gunzTarPerm extractEntry src/dpi/src/dpiPoolImpl.cpp
+270 silly gunzTarPerm extractEntry src/dpi/src/dpiPoolImpl.h
+271 silly gunzTarPerm extractEntry src/dpi/src/dpiStmtImpl.cpp
+272 silly gunzTarPerm extractEntry src/dpi/src/dpiStmtImpl.h
+273 silly gunzTarPerm extractEntry src/dpi/src/dpiUtils.cpp
+274 silly gunzTarPerm extractEntry src/dpi/src/dpiUtils.h
+275 silly gunzTarPerm extractEntry src/njs/src/njsOracle.cpp
+276 silly gunzTarPerm extractEntry src/njs/src/njsConnection.cpp
+277 silly gunzTarPerm extractEntry src/njs/src/njsIntLob.cpp
+278 silly gunzTarPerm extractEntry src/njs/src/njsIntLob.h
+279 silly gunzTarPerm extractEntry src/njs/src/njsMessages.cpp
+280 silly gunzTarPerm extractEntry src/njs/src/njsMessages.h
+281 silly gunzTarPerm extractEntry src/njs/src/njsConnection.h
+282 silly gunzTarPerm extractEntry src/njs/src/njsOracle.h
+283 silly gunzTarPerm extractEntry src/njs/src/njsPool.cpp
+284 silly gunzTarPerm extractEntry src/njs/src/njsPool.h
+285 silly gunzTarPerm extractEntry src/njs/src/njsResultSet.cpp
+286 silly gunzTarPerm extractEntry src/njs/src/njsResultSet.h
+287 silly gunzTarPerm extractEntry src/njs/src/njsUtils.h
+288 verbose write writing to /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb/package.json
+289 info preinstall oracledb@1.11.0
+290 verbose readDependencies loading dependencies from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb/package.json
+291 verbose readDependencies loading dependencies from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb/package.json
+292 silly install resolved []
+293 verbose about to build /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb
+294 info build /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb
+295 info linkStuff oracledb@1.11.0
+296 silly linkStuff oracledb@1.11.0 has /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules as its parent node_modules
+297 verbose linkBins oracledb@1.11.0
+298 verbose linkMans oracledb@1.11.0
+299 verbose rebuildBundles oracledb@1.11.0
+300 info install oracledb@1.11.0
+301 verbose unsafe-perm in lifecycle true
+302 info oracledb@1.11.0 Failed to exec install script
+303 verbose unlock done using /Users/zhongwen/.npm/_locks/oracledb-478b6309b0401fde.lock for /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb
+304 verbose stack Error: oracledb@1.11.0 install: `node-gyp rebuild`
+304 verbose stack Exit status 1
+304 verbose stack     at EventEmitter.<anonymous> (/Users/zhongwen/.nvm/versions/node/v4.6.0/lib/node_modules/npm/lib/utils/lifecycle.js:217:16)
+304 verbose stack     at emitTwo (events.js:87:13)
+304 verbose stack     at EventEmitter.emit (events.js:172:7)
+304 verbose stack     at ChildProcess.<anonymous> (/Users/zhongwen/.nvm/versions/node/v4.6.0/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+304 verbose stack     at emitTwo (events.js:87:13)
+304 verbose stack     at ChildProcess.emit (events.js:172:7)
+304 verbose stack     at maybeClose (internal/child_process.js:829:16)
+304 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+305 verbose pkgid oracledb@1.11.0
+306 verbose cwd /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project
+307 error Darwin 16.0.0
+308 error argv "/Users/zhongwen/.nvm/versions/node/v4.6.0/bin/node" "/Users/zhongwen/.nvm/versions/node/v4.6.0/bin/npm" "install" "oracledb"
+309 error node v4.6.0
+310 error npm  v2.15.9
+311 error code ELIFECYCLE
+312 error oracledb@1.11.0 install: `node-gyp rebuild`
+312 error Exit status 1
+313 error Failed at the oracledb@1.11.0 install script 'node-gyp rebuild'.
+313 error This is most likely a problem with the oracledb package,
+313 error not with npm itself.
+313 error Tell the author that this fails on your system:
+313 error     node-gyp rebuild
+313 error You can get information on how to open an issue for this project with:
+313 error     npm bugs oracledb
+313 error Or if that isn't available, you can get their info via:
+313 error
+313 error     npm owner ls oracledb
+313 error There is likely additional logging output above.
+314 verbose exit [ 1, true ]
+315 verbose unbuild node_modules/oracledb
+316 info preuninstall oracledb@1.11.0
+317 info uninstall oracledb@1.11.0
+318 verbose unbuild rmStuff oracledb@1.11.0 from /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules
+319 info postuninstall oracledb@1.11.0
+320 silly gentlyRm /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb is being purged from base /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project
+321 verbose gentlyRm don't care about contents; nuking /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb
+322 silly vacuum-fs purging /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules/oracledb
+323 silly vacuum-fs quitting because other entries in /Users/zhongwen/Dropbox/Fall16/550/CIS550Project/project/node_modules
