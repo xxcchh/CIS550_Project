@@ -1,0 +1,2817 @@
+{
+"Athlete":[
+  {
+"_id":1,
+"name":{
+	"first": "Yannick",
+	"last": "AGNEL"
+},
+"DOB":{
+	"year": 1992,
+	"month": 6,
+	"day": 9
+},
+"Sex": "Male",
+"Height(cm)": 202,
+"Weigth(kg)": 90,
+"Nationality": "FRA",
+"Rank":[
+	{
+		"Event":"200 Metres Freestyle Male LC",
+		"Year": 2011,
+		"Rank": 5
+	},
+	{
+		"Event": "400 Metres Freestyle Male LC",
+		"Year": 2011,
+		"Rank": 3
+	}
+],
+"Social Network" :{
+	"Facebook":"https://www.facebook.com/Yannick-AGNEL-215498776943/",
+	"Twitter": "https://twitter.com/YannickAgnel",
+	"Fans on Facebook": 132163,
+	"Followers on Twitter": 149628
+},
+"Record":
+[
+  {
+    "Event": "50m Freestyle",
+    "Course": "50m",
+    "Time": 22.87,
+    "Points": 764,
+    "Date": "3 Nov 2015",
+    "City(Nation)": "Doha (QAT)",
+    "Meet": "FINA: World Cup No 7 - 2015 Series"
+  },
+  {
+    "Event": "50m Freestyle",
+    "Course": "25m",
+    "Time": 22.06,
+    "Points": 774,
+    "Date": "11 Aug 2013",
+    "City(Nation)": "Berlin (GER)",
+    "Meet": "FINA: World Cup No 2 - 2013 Series"
+  },
+  {
+    "Event": "50m Freestyle",
+    "Course": "25m",
+    "Time": 22.06,
+    "Points": 774,
+    "Date": "20 Nov 2014",
+    "City(Nation)": "Montpellier",
+    "Meet": "Championnats de France en petit ..."
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "50m",
+    "Time": 47.84,
+    "Points": 942,
+    "Date": "1 Aug 2012",
+    "City(Nation)": "London (GBR)",
+    "Meet": "XXX Olympic Games"
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "25m",
+    "Time": 46.68,
+    "Points": 892,
+    "Date": "16 Nov 2012",
+    "City(Nation)": "Angers",
+    "Meet": "Championnats de France en petit ..."
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "50m",
+    "Time": "1:43.14",
+    "Points": 967,
+    "Date": "30 Jul 2012",
+    "City(Nation)": "London (GBR)",
+    "Meet": "XXX Olympic Games"
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "25m",
+    "Time": "1:39.70",
+    "Points": 990,
+    "Date": "18 Nov 2012",
+    "City(Nation)": "Angers",
+    "Meet": "Championnats de France en petit ..."
+  },
+  {
+    "Event": "400m Freestyle",
+    "Course": "50m",
+    "Time": "3:43.85",
+    "Points": 950,
+    "Date": "23 Mar 2011",
+    "City(Nation)": "Strasbourg",
+    "Meet": "Championnats de France Elite"
+  },
+  {
+    "Event": "400m Freestyle",
+    "Course": "25m",
+    "Time": "3:32.25",
+    "Points": 1000,
+    "Date": "15 Nov 2012",
+    "City(Nation)": "Angers",
+    "Meet": "Championnats de France en petit ..."
+  },
+  {
+    "Event": "800m Freestyle",
+    "Course": "50m",
+    "Time": "8:08.20",
+    "Points": 794,
+    "Date": "19 Jan 2014",
+    "City(Nation)": "Austin (USA)",
+    "Meet": "Grand Prix"
+  },
+  {
+    "Event": "800m Freestyle",
+    "Course": "25m",
+    "Time": "7:29.17",
+    "Points": 962,
+    "Date": "16 Nov 2012",
+    "City(Nation)": "Angers",
+    "Meet": "Championnats de France en petit ..."
+  },
+  {
+    "Event": "1500m Freestyle",
+    "Course": "50m",
+    "Time": "15:07.76",
+    "Points": 883,
+    "Date": "19 Jan 2014",
+    "City(Nation)": "Austin (USA)",
+    "Meet": "Grand Prix"
+  },
+  {
+    "Event": "1500m Freestyle",
+    "Course": "25m",
+    "Time": "14:58.93",
+    "Points": 839,
+    "Date": "5 Nov 2011",
+    "City(Nation)": "Antibes",
+    "Meet": "Championnats Régionaux ..."
+  },
+  {
+    "Event": "50m Backstroke",
+    "Course": "50m",
+    "Time": 27.02,
+    "Points": 704,
+    "Date": "4 Mar 2016",
+    "City(Nation)": "Marseille",
+    "Meet": "Meeting Open de la Mediterranee ..."
+  },
+  {
+    "Event": "50m Backstroke",
+    "Course": "25m",
+    "Time": 25.41,
+    "Points": 668,
+    "Date": "21 Nov 2014",
+    "City(Nation)": "Montpellier",
+    "Meet": "Championnats de France en petit ..."
+  },
+  {
+    "Event": "100m Backstroke",
+    "Course": "50m",
+    "Time": 57.64,
+    "Points": 731,
+    "Date": "27 Feb 2010",
+    "City(Nation)": "Nice",
+    "Meet": "Meeting National de Nice"
+  },
+  {
+    "Event": "100m Backstroke",
+    "Course": "25m",
+    "Time": 54.71,
+    "Points": 714,
+    "Date": "14 Nov 2010",
+    "City(Nation)": "Antibes",
+    "Meet": "Championnats Régionaux ..."
+  },
+  {
+    "Event": "200m Backstroke",
+    "Course": "50m",
+    "Time": "2:20.37",
+    "Points": 506,
+    "Date": "12 Mar 2006",
+    "City(Nation)": "Chamalieres",
+    "Meet": "Circuit Federal - Sud-Est"
+  },
+  {
+    "Event": "200m Backstroke",
+    "Course": "25m",
+    "Time": "1:56.18",
+    "Points": 751,
+    "Date": "11 Aug 2013",
+    "City(Nation)": "Berlin (GER)",
+    "Meet": "FINA: World Cup No 2 - 2013 Series"
+  },
+  {
+    "Event": "50m Breaststroke",
+    "Course": "50m",
+    "Time": 30.24,
+    "Points": 666,
+    "Date": "16 Jan 2015",
+    "City(Nation)": "Courbevoie",
+    "Meet": "Meeting Olympique de Courbevoie"
+  },
+  {
+    "Event": "100m Breaststroke",
+    "Course": "50m",
+    "Time": "1:08.71",
+    "Points": 598,
+    "Date": "18 Jun 2016",
+    "City(Nation)": "Mulhouse",
+    "Meet": "Championnat Regional d'ete 50m"
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "50m",
+    "Time": 24.59,
+    "Points": 758,
+    "Date": "17 Jan 2015",
+    "City(Nation)": "Courbevoie",
+    "Meet": "Meeting Olympique de Courbevoie"
+  },
+  {
+    "Event": "100m Butterfly",
+    "Course": "50m",
+    "Time": 55.79,
+    "Points": 712,
+    "Date": "16 May 2014",
+    "City(Nation)": "Charlotte (USA)",
+    "Meet": "Grand Prix"
+  },
+  {
+    "Event": "100m Butterfly",
+    "Course": "25m",
+    "Time": 55.26,
+    "Points": 673,
+    "Date": "25 Oct 2015",
+    "City(Nation)": "Saint-Louis",
+    "Meet": "Meeting des Dauphins de Saint Louis"
+  },
+  {
+    "Event": "200m Butterfly",
+    "Course": "25m",
+    "Time": "2:04.27",
+    "Points": 666,
+    "Date": "10 Aug 2013",
+    "City(Nation)": "Berlin (GER)",
+    "Meet": "FINA: World Cup No 2 - 2013 Series"
+  },
+  {
+    "Event": "100m Medley",
+    "Course": "25m",
+    "Time": 54.1,
+    "Points": 821,
+    "Date": "22 Nov 2014",
+    "City(Nation)": "Montpellier",
+    "Meet": "Championnats de France en petit ..."
+  },
+  {
+    "Event": "200m Medley",
+    "Course": "50m",
+    "Time": "2:04.71",
+    "Points": 763,
+    "Date": "21 Jan 2012",
+    "City(Nation)": "Nancy",
+    "Meet": "Meeting international d'hiver de ..."
+  },
+  {
+    "Event": "200m Medley",
+    "Course": "25m",
+    "Time": "1:57.26",
+    "Points": 817,
+    "Date": "20 Nov 2014",
+    "City(Nation)": "Montpellier",
+    "Meet": "Championnats de France en petit ..."
+  },
+  {
+    "Event": "400m Medley",
+    "Course": "50m",
+    "Time": "4:43.10",
+    "Points": 638,
+    "Date": "25 Jan 2009",
+    "City(Nation)": "Nice Jean Bouin",
+    "Meet": "Meeting Inter Regional"
+  },
+  {
+    "Event": "400m Medley",
+    "Course": "25m",
+    "Time": "5:00.57",
+    "Points": 480,
+    "Date": "18 Dec 2005",
+    "City(Nation)": "Port La Nouvelle",
+    "Meet": "Interclubs - ..."
+  },
+  {
+    "Event": "50m Freestyle Lap",
+    "Course": "50m",
+    "Time": 24.34,
+    "Date": "10 May 2008",
+    "City(Nation)": "Montpellier",
+    "Meet": "Coupe des Regions Minimes et Cadets ..."
+  },
+  {
+    "Event": "50m Freestyle Lap",
+    "Course": "25m",
+    "Time": 22.17,
+    "Date": "9 Nov 2014",
+    "City(Nation)": "Strasbourg",
+    "Meet": "Championnat Regional Interclubs ..."
+  },
+  {
+    "Event": "100m Freestyle Lap",
+    "Course": "50m",
+    "Time": 46.74,
+    "Date": "29 Jul 2012",
+    "City(Nation)": "London (GBR)",
+    "Meet": "XXX Olympic Games"
+  },
+  {
+    "Event": "100m Freestyle Lap",
+    "Course": "25m",
+    "Time": 46.12,
+    "Date": "19 Dec 2010",
+    "City(Nation)": "Dubai (UAE)",
+    "Meet": "FINA: 10th World Short Course ..."
+  },
+  {
+    "Event": "200m Freestyle Lap",
+    "Course": "50m",
+    "Time": "1:43.24",
+    "Date": "31 Jul 2012",
+    "City(Nation)": "London (GBR)",
+    "Meet": "XXX Olympic Games"
+  },
+  {
+    "Event": "200m Freestyle Lap",
+    "Course": "25m",
+    "Time": "1:42.71",
+    "Date": "16 Dec 2010",
+    "City(Nation)": "Dubai (UAE)",
+    "Meet": "FINA: 10th World Short Course ..."
+  },
+  {
+    "Event": "100m Breaststroke Lap",
+    "Course": "25m",
+    "Time": "1:02.56",
+    "Date": "9 Nov 2014",
+    "City(Nation)": "Strasbourg",
+    "Meet": "Championnat Regional Interclubs ..."
+  }
+]
+},
+{
+"_id":2,
+"name":{
+	"first": "Biedermann",
+	"last": "Paul"
+},
+"DOB":{
+	"year": 1986,
+	"month": 8,
+	"day": 7 
+},
+"Sex": "Male",
+"Height(cm)": 193,
+"Weigth(kg)": 93,
+"Nationality": "GER",
+"Rank":[
+	{
+		"Event":"400 Metres Freestyle Male LC",
+		"Year": 2011,
+		"Rank": 4
+	},
+	{
+		"Event": "200 Metres Freestyle Male LC",
+		"Year": 2011,
+		"Rank": 3
+	}
+],
+"Social Network" :{
+	"Facebook":"https://www.facebook.com/Paul-Biedermann-Offizielle-Fanseite-216622041706201/",
+	"Twitter": "https://twitter.com/PBiedermann",
+	"Fans on Facebook": 13260,
+	"Followers on Twitter": 6906
+},
+"Record":
+[
+  {
+    "Event": "50m Freestyle",
+    "Course": "50m",
+    "Time": 22.98,
+    "Points": 753,
+    "Date": "5 Mar 2011",
+    "City(Nation)": "Halle",
+    "Meet": "11. Einladungsschwimmfest"
+  },
+  {
+    "Event": "50m Freestyle",
+    "Course": "25m",
+    "Time": 22.95,
+    "Points": 687,
+    "Date": "29 Jan 2006",
+    "City(Nation)": "Uster (SUI)",
+    "Meet": "15th International Meet - IMU"
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "50m",
+    "Time": 48.31,
+    "Points": 915,
+    "Date": "3 May 2014",
+    "City(Nation)": "Berlin",
+    "Meet": "126. Deutsche Meisterschaften"
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "25m",
+    "Time": 46.63,
+    "Points": 895,
+    "Date": "19 Dec 2009",
+    "City(Nation)": "Saint Petersburg (RUS)",
+    "Meet": "Vladimir Salnikov's Cup"
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "50m",
+    "Time": "1:42.00",
+    "Points": 1000,
+    "Date": "28 Jul 2009",
+    "City(Nation)": "Rome (ITA)",
+    "Meet": "FINA: 13th World Championships"
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "25m",
+    "Time": "1:39.37",
+    "Points": 1000,
+    "Date": "15 Nov 2009",
+    "City(Nation)": "Berlin",
+    "Meet": "FINA: World Cup No 4 - 2009 Series"
+  },
+  {
+    "Event": "400m Freestyle",
+    "Course": "50m",
+    "Time": "3:40.07",
+    "Points": 1000,
+    "Date": "26 Jul 2009",
+    "City(Nation)": "Rome (ITA)",
+    "Meet": "FINA: 13th World Championships"
+  },
+  {
+    "Event": "400m Freestyle",
+    "Course": "25m",
+    "Time": "3:32.77",
+    "Points": 992,
+    "Date": "14 Nov 2009",
+    "City(Nation)": "Berlin",
+    "Meet": "FINA: World Cup No 4 - 2009 Series"
+  },
+  {
+    "Event": "800m Freestyle",
+    "Course": "50m",
+    "Time": "8:00.38",
+    "Points": 833,
+    "Date": "24 Nov 2006",
+    "City(Nation)": "Hannover",
+    "Meet": "German Short Course Championships"
+  },
+  {
+    "Event": "800m Freestyle",
+    "Course": "25m",
+    "Time": "7:35.23",
+    "Points": 924,
+    "Date": "27 Nov 2008",
+    "City(Nation)": "Essen",
+    "Meet": "German Short Course Championships"
+  },
+  {
+    "Event": "1500m Freestyle",
+    "Course": "50m",
+    "Time": "15:17.46",
+    "Points": 855,
+    "Date": "25 Jun 2006",
+    "City(Nation)": "Berlin",
+    "Meet": "German Championships"
+  },
+  {
+    "Event": "1500m Freestyle",
+    "Course": "25m",
+    "Time": "14:36.70",
+    "Points": 905,
+    "Date": "22 Jan 2006",
+    "City(Nation)": "Berlin",
+    "Meet": "FINA: World Cup No 5 - 2005/2006 ..."
+  },
+  {
+    "Event": "50m Backstroke",
+    "Course": "50m",
+    "Time": 27.65,
+    "Points": 657,
+    "Date": "16 Dec 2006",
+    "City(Nation)": "Magdeburg",
+    "Meet": "2. Internationaler Pokal der ..."
+  },
+  {
+    "Event": "50m Breaststroke",
+    "Course": "50m",
+    "Time": 30.11,
+    "Points": 675,
+    "Date": "26 Jan 2013",
+    "City(Nation)": "Essen",
+    "Meet": "Dms"
+  },
+  {
+    "Event": "50m Breaststroke",
+    "Course": "25m",
+    "Time": 28.25,
+    "Points": 714,
+    "Date": "5 Dec 2009",
+    "City(Nation)": "Berlin",
+    "Meet": "DMS Endkampf 2. Bundelsiga Nord"
+  },
+  {
+    "Event": "100m Breaststroke",
+    "Course": "50m",
+    "Time": "1:06.18",
+    "Points": 670,
+    "Date": "26 Jan 2013",
+    "City(Nation)": "Essen",
+    "Meet": "Dms"
+  },
+  {
+    "Event": "100m Breaststroke",
+    "Course": "25m",
+    "Time": "1:02.32",
+    "Points": 710,
+    "Date": "21 Nov 2009",
+    "City(Nation)": "Oldenburg",
+    "Meet": "DMS"
+  },
+  {
+    "Event": "200m Breaststroke",
+    "Course": "25m",
+    "Time": "2:18.36",
+    "Points": 660,
+    "Date": "21 Nov 2009",
+    "City(Nation)": "Oldenburg",
+    "Meet": "DMS"
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "50m",
+    "Time": 24.46,
+    "Points": 771,
+    "Date": "19 Jun 2010",
+    "City(Nation)": "Magdeburg",
+    "Meet": "20. Landesmeisterschaften ..."
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "25m",
+    "Time": 23.87,
+    "Points": 761,
+    "Date": "5 Dec 2009",
+    "City(Nation)": "Berlin",
+    "Meet": "DMS Endkampf 2. Bundelsiga Nord"
+  },
+  {
+    "Event": "100m Butterfly",
+    "Course": "50m",
+    "Time": 53.66,
+    "Points": 800,
+    "Date": "7 Jun 2009",
+    "City(Nation)": "Magdeburg",
+    "Meet": "Landesmeisterschaften ..."
+  },
+  {
+    "Event": "100m Butterfly",
+    "Course": "25m",
+    "Time": 53.07,
+    "Points": 760,
+    "Date": "21 Nov 2009",
+    "City(Nation)": "Oldenburg",
+    "Meet": "DMS"
+  },
+  {
+    "Event": "200m Butterfly",
+    "Course": "50m",
+    "Time": "2:01.17",
+    "Points": 779,
+    "Date": "4 Feb 2008",
+    "City(Nation)": "Beijing (CHN)",
+    "Meet": "China Open"
+  },
+  {
+    "Event": "200m Butterfly",
+    "Course": "25m",
+    "Time": "1:58.39",
+    "Points": 771,
+    "Date": "12 Nov 2005",
+    "City(Nation)": "Mainz",
+    "Meet": "DMS Qualifikation 1. Bundesliga"
+  },
+  {
+    "Event": "100m Medley",
+    "Course": "25m",
+    "Time": 55.38,
+    "Points": 765,
+    "Date": "21 Nov 2009",
+    "City(Nation)": "Oldenburg",
+    "Meet": "DMS"
+  },
+  {
+    "Event": "200m Medley",
+    "Course": "50m",
+    "Time": "2:07.48",
+    "Points": 715,
+    "Date": "28 Jan 2012",
+    "City(Nation)": "Essen",
+    "Meet": "Deutscher Mannschaftswettbewerb ..."
+  },
+  {
+    "Event": "50m Freestyle Lap",
+    "Course": "50m",
+    "Time": 23.63,
+    "Date": "23 Nov 2006",
+    "City(Nation)": "Hannover",
+    "Meet": "German Short Course Championships"
+  },
+  {
+    "Event": "100m Freestyle Lap",
+    "Course": "50m",
+    "Time": 46.89,
+    "Date": "2 Aug 2009",
+    "City(Nation)": "Rome (ITA)",
+    "Meet": "FINA: 13th World Championships"
+  },
+  {
+    "Event": "200m Freestyle Lap",
+    "Course": "50m",
+    "Time": "1:44.80",
+    "Date": "7 Aug 2015",
+    "City(Nation)": "Kazan (RUS)",
+    "Meet": "FINA: 16th World Championships"
+  },
+  {
+    "Event": "200m Freestyle Lap",
+    "Course": "25m",
+    "Time": "1:44.73",
+    "Date": "13 Dec 2012",
+    "City(Nation)": "Istanbul (TUR)",
+    "Meet": "FINA: 11th World Short Course ..."
+  },
+  {
+    "Event": "50m Butterfly Lap",
+    "Course": "25m",
+    "Time": 24.69,
+    "Date": "29 Jan 2006",
+    "City(Nation)": "Uster (SUI)",
+    "Meet": "15th International Meet - IMU"
+  }
+]
+},
+{
+"_id":3,
+"name":{
+	"first": "César",
+	"middle": "Filho",
+	"last": "Cielo"
+},
+"DOB":{
+	"year": 1987,
+	"month": 1,
+	"day": 10 
+},
+"Sex": "Male",
+"Height(cm)": 195,
+"Weigth(kg)": 80,
+"Nationality": "USA",
+"Rank":[
+	{
+		"Event":"50 Metres Freestyle Male LC",
+		"Year": 2011,
+		"Rank": 1
+	},
+	{
+		"Event": "100 Metres Freestyle Male LC",
+		"Year": 2011,
+		"Rank": 2
+	},
+	{
+		"Event":"50 Metres Butterfly Male LC",
+		"Year": 2011,
+		"Rank": 1
+	}
+],
+"Social Network" :{
+	"Facebook":"https://www.facebook.com/CesarCielo/ ",
+	"Twitter": "https://twitter.com/CesarCielo ",
+	"Fans on Facebook": 760714,
+	"Followers on Twitter": 1080192
+},
+"Record":
+[
+  {
+    "Event": "50m Freestyle",
+    "Course": "50m",
+    "Time": 20.91,
+    "Points": 1086,
+    "Date": "18 Dec 2009",
+    "City(Nation)": "Sao Paulo",
+    "Meet": "Brasilian Championships"
+  },
+  {
+    "Event": "50m Freestyle",
+    "Course": "25m",
+    "Time": 20.51,
+    "Points": 1089,
+    "Date": "17 Dec 2010",
+    "City(Nation)": "Dubai (UAE)",
+    "Meet": "FINA: 10th World Short Course ..."
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "50m",
+    "Time": 46.91,
+    "Points": 1042,
+    "Date": "30 Jul 2009",
+    "City(Nation)": "Rome (ITA)",
+    "Meet": "FINA: 13th World Championships"
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "25m",
+    "Time": 45.74,
+    "Points": 1047,
+    "Date": "19 Dec 2010",
+    "City(Nation)": "Dubai (UAE)",
+    "Meet": "FINA: 10th World Short Course ..."
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "25m",
+    "Time": "1:46.96",
+    "Points": 879,
+    "Date": "6 Sep 2005",
+    "City(Nation)": "Taca Correios",
+    "Meet": "Brasilian Championships"
+  },
+  {
+    "Event": "50m Backstroke",
+    "Course": "50m",
+    "Time": 26.94,
+    "Points": 786,
+    "Date": "4 May 2005",
+    "City(Nation)": "Belo Horizonte",
+    "Meet": "Trofeu Brasil"
+  },
+  {
+    "Event": "50m Backstroke",
+    "Course": "25m",
+    "Time": 25.99,
+    "Points": 735,
+    "Date": "9 Oct 2004",
+    "City(Nation)": "Indianapolis (USA)",
+    "Meet": "FINA: 7th World Short Course ..."
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "50m",
+    "Time": 22.86,
+    "Points": 1063,
+    "Date": "28 Jul 2013",
+    "City(Nation)": "Barcelona (ESP)",
+    "Meet": "FINA: 15th World Championships"
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "25m",
+    "Time": 23.29,
+    "Points": 937,
+    "Date": "11 Oct 2008",
+    "City(Nation)": "Belo Horizonte",
+    "Meet": "FINA: World Cup No 1 - 2008 Series"
+  },
+  {
+    "Event": "100m Butterfly",
+    "Course": "50m",
+    "Time": 53.13,
+    "Points": 886,
+    "Date": "12 Jul 2008",
+    "City(Nation)": "Georgia (USA)",
+    "Meet": "Sectional Championships"
+  },
+  {
+    "Event": "50m Freestyle Lap",
+    "Course": "25m",
+    "Time": 20.08,
+    "Date": "4 Dec 2014",
+    "City(Nation)": "Doha (QAT)",
+    "Meet": "FINA: 12th World Short Course ..."
+  },
+  {
+    "Event": "100m Freestyle Lap",
+    "Course": "50m",
+    "Time": 46.22,
+    "Date": "2 Aug 2009",
+    "City(Nation)": "Rome (ITA)",
+    "Meet": "FINA: 13th World Championships"
+  },
+  {
+    "Event": "100m Freestyle Lap",
+    "Course": "25m",
+    "Time": 44.67,
+    "Date": "7 Dec 2014",
+    "City(Nation)": "Doha (QAT)",
+    "Meet": "FINA: 12th World Short Course ..."
+  },
+  {
+    "Event": "200m Freestyle Lap",
+    "Course": "25m",
+    "Time": "1:46.09",
+    "Date": "6 Apr 2006",
+    "City(Nation)": "Shanghai (CHN)",
+    "Meet": "FINA: 8th World Short Course ..."
+  }
+]
+},
+{
+"_id":4,
+"name":{
+	"first": "Markus",
+	"last": "Deibler"
+},
+"DOB":{
+	"year": 1990,
+	"month": 1,
+	"day": 28 
+},
+"Sex": "Male",
+"Height(cm)": 197,
+"Weigth(kg)": 94,
+"Nationality": "GER",
+"Rank":[
+	{
+		"Event":"200 Metres Individual Medley Male LC",
+		"Year": 2011,
+		"Rank": 10
+	}
+],
+"Social Network" :{
+	"Facebook":"https://www.facebook.com/deiblermarkus/",
+	"Twitter": "https://twitter.com/MarkusDeibler ",
+	"Fans on Facebook": 8089,
+	"Followers on Twitter": 2209
+},
+"Record":
+[
+  {
+    "Event": "50m Freestyle",
+    "Course": "50m",
+    "Time": 23.32,
+    "Points": 783,
+    "Date": "5 Mar 2011",
+    "City(Nation)": "Halle",
+    "Meet": "11. Einladungsschwimmfest"
+  },
+  {
+    "Event": "50m Freestyle",
+    "Course": "25m",
+    "Time": 21.91,
+    "Points": 893,
+    "Date": "14 Nov 2010",
+    "City(Nation)": "Wuppertal",
+    "Meet": "Deutsche ..."
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "50m",
+    "Time": 48.79,
+    "Points": 926,
+    "Date": "27 Apr 2013",
+    "City(Nation)": "Berlin",
+    "Meet": "German Championships"
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "25m",
+    "Time": 47.1,
+    "Points": 959,
+    "Date": "10 Aug 2013",
+    "City(Nation)": "Berlin",
+    "Meet": "FINA: World Cup No 2 - 2013 Series"
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "50m",
+    "Time": "1:48.66",
+    "Points": 904,
+    "Date": "5 Jun 2011",
+    "City(Nation)": "Berlin",
+    "Meet": "German Junior Championships"
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "25m",
+    "Time": "1:43.68",
+    "Points": 965,
+    "Date": "4 Dec 2014",
+    "City(Nation)": "Doha (QAT)",
+    "Meet": "FINA: 12th World Short Course ..."
+  },
+  {
+    "Event": "400m Freestyle",
+    "Course": "50m",
+    "Time": "4:02.77",
+    "Points": 772,
+    "Date": "9 Feb 2014",
+    "City(Nation)": "Luxembourg (LUX)",
+    "Meet": "16th Luxembourg Euro-Meet"
+  },
+  {
+    "Event": "400m Freestyle",
+    "Course": "25m",
+    "Time": "3:46.94",
+    "Points": 885,
+    "Date": "27 Nov 2011",
+    "City(Nation)": "Wuppertal",
+    "Meet": "Deutsche ..."
+  },
+  {
+    "Event": "800m Freestyle",
+    "Course": "50m",
+    "Time": "8:48.68",
+    "Points": 683,
+    "Date": "6 May 2006",
+    "City(Nation)": "Darmstadt",
+    "Meet": "South German Championships - ..."
+  },
+  {
+    "Event": "1500m Freestyle",
+    "Course": "50m",
+    "Time": "16:27.06",
+    "Points": 715,
+    "Date": "6 May 2006",
+    "City(Nation)": "Darmstadt",
+    "Meet": "South German Championships - ..."
+  },
+  {
+    "Event": "50m Backstroke",
+    "Course": "50m",
+    "Time": 27.98,
+    "Points": 701,
+    "Date": "3 Dec 2006",
+    "City(Nation)": "Stuttgart",
+    "Meet": "32. Internationales Dr. Otto Fahr - ..."
+  },
+  {
+    "Event": "50m Backstroke",
+    "Course": "25m",
+    "Time": 26.25,
+    "Points": 714,
+    "Date": "18 Oct 2008",
+    "City(Nation)": "Bad Mergentheim",
+    "Meet": "27. Sprintertag"
+  },
+  {
+    "Event": "100m Backstroke",
+    "Course": "50m",
+    "Time": 58.7,
+    "Points": 735,
+    "Date": "18 Feb 2012",
+    "City(Nation)": "Montreux (SUI)",
+    "Meet": "9eme Meeting Lemanique"
+  },
+  {
+    "Event": "100m Backstroke",
+    "Course": "25m",
+    "Time": 55.78,
+    "Points": 741,
+    "Date": "5 Feb 2012",
+    "City(Nation)": "Dulsberg",
+    "Meet": "DMS Landesliga Endkampf Hamburg"
+  },
+  {
+    "Event": "200m Backstroke",
+    "Course": "50m",
+    "Time": "2:11.20",
+    "Points": 678,
+    "Date": "22 Mar 2014",
+    "City(Nation)": "Munich",
+    "Meet": "Head Trophy"
+  },
+  {
+    "Event": "50m Breaststroke",
+    "Course": "50m",
+    "Time": 28.01,
+    "Points": 938,
+    "Date": "2 May 2014",
+    "City(Nation)": "Berlin",
+    "Meet": "126. Deutsche Meisterschaften"
+  },
+  {
+    "Event": "50m Breaststroke",
+    "Course": "25m",
+    "Time": 27.7,
+    "Points": 882,
+    "Date": "29 Nov 2008",
+    "City(Nation)": "Essen",
+    "Meet": "German Short Course Championships"
+  },
+  {
+    "Event": "100m Breaststroke",
+    "Course": "50m",
+    "Time": "1:02.26",
+    "Points": 877,
+    "Date": "18 Apr 2008",
+    "City(Nation)": "Berlin",
+    "Meet": "German Championships"
+  },
+  {
+    "Event": "100m Breaststroke",
+    "Course": "25m",
+    "Time": 58.52,
+    "Points": 965,
+    "Date": "20 Nov 2014",
+    "City(Nation)": "Wuppertal",
+    "Meet": "Deutsche ..."
+  },
+  {
+    "Event": "200m Breaststroke",
+    "Course": "50m",
+    "Time": "2:16.39",
+    "Points": 842,
+    "Date": "22 Mar 2014",
+    "City(Nation)": "Munich",
+    "Meet": "Head Trophy"
+  },
+  {
+    "Event": "200m Breaststroke",
+    "Course": "25m",
+    "Time": "2:16.65",
+    "Points": 768,
+    "Date": "25 Oct 2008",
+    "City(Nation)": "Balingen",
+    "Meet": "Wuerttembergische ..."
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "50m",
+    "Time": 25.39,
+    "Points": 776,
+    "Date": "15 Jun 2014",
+    "City(Nation)": "Rome (ITA)",
+    "Meet": "51. Sette Colli"
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "25m",
+    "Time": 24.15,
+    "Points": 840,
+    "Date": "24 Oct 2009",
+    "City(Nation)": "Aachen",
+    "Meet": "40th International Swimming ..."
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "25m",
+    "Time": 24.15,
+    "Points": 840,
+    "Date": "24 Jan 2016",
+    "City(Nation)": "Dornbirn (AUT)",
+    "Meet": "30. Dornbirner Sprintpokal"
+  },
+  {
+    "Event": "100m Butterfly",
+    "Course": "50m",
+    "Time": 53.73,
+    "Points": 857,
+    "Date": "8 Jun 2014",
+    "City(Nation)": "Monte-Carlo (MON)",
+    "Meet": "Mare Nostrum"
+  },
+  {
+    "Event": "100m Butterfly",
+    "Course": "25m",
+    "Time": 52.34,
+    "Points": 882,
+    "Date": "24 Oct 2010",
+    "City(Nation)": "Aachen",
+    "Meet": "41st International ..."
+  },
+  {
+    "Event": "200m Butterfly",
+    "Course": "50m",
+    "Time": "2:04.22",
+    "Points": 769,
+    "Date": "14 Jun 2014",
+    "City(Nation)": "Rome (ITA)",
+    "Meet": "51. Sette Colli"
+  },
+  {
+    "Event": "200m Butterfly",
+    "Course": "25m",
+    "Time": "1:59.03",
+    "Points": 819,
+    "Date": "23 Oct 2010",
+    "City(Nation)": "Aachen",
+    "Meet": "41st International ..."
+  },
+  {
+    "Event": "100m Medley",
+    "Course": "25m",
+    "Time": 50.66,
+    "Points": 1096,
+    "Date": "7 Dec 2014",
+    "City(Nation)": "Doha (QAT)",
+    "Meet": "FINA: 12th World Short Course ..."
+  },
+  {
+    "Event": "200m Medley",
+    "Course": "50m",
+    "Time": "1:57.82",
+    "Points": 985,
+    "Date": "12 May 2012",
+    "City(Nation)": "Berlin",
+    "Meet": "German Championships"
+  },
+  {
+    "Event": "200m Medley",
+    "Course": "25m",
+    "Time": "1:52.38",
+    "Points": 1040,
+    "Date": "22 Nov 2014",
+    "City(Nation)": "Wuppertal",
+    "Meet": "Deutsche ..."
+  },
+  {
+    "Event": "400m Medley",
+    "Course": "50m",
+    "Time": "4:27.61",
+    "Points": 808,
+    "Date": "25 Mar 2011",
+    "City(Nation)": "Essen",
+    "Meet": "Alex Athletics Swim & Fun Days"
+  },
+  {
+    "Event": "400m Medley",
+    "Course": "25m",
+    "Time": "4:13.93",
+    "Points": 875,
+    "Date": "22 Oct 2011",
+    "City(Nation)": "Berlin",
+    "Meet": "FINA: World Cup No 4 - 2011 Series"
+  },
+  {
+    "Event": "50m Freestyle Lap",
+    "Course": "50m",
+    "Time": 22.49,
+    "Date": "5 Feb 2011",
+    "City(Nation)": "Essen",
+    "Meet": "Laenderkampf Deutschland vs. ..."
+  },
+  {
+    "Event": "50m Freestyle Lap",
+    "Course": "25m",
+    "Time": 21.06,
+    "Date": "28 Nov 2010",
+    "City(Nation)": "Eindhoven (NED)",
+    "Meet": "LEN: European Short Course ..."
+  },
+  {
+    "Event": "100m Freestyle Lap",
+    "Course": "50m",
+    "Time": 47.97,
+    "Date": "29 Jul 2012",
+    "City(Nation)": "London (GBR)",
+    "Meet": "XXX Olympic Games"
+  },
+  {
+    "Event": "100m Freestyle Lap",
+    "Course": "25m",
+    "Time": 45.93,
+    "Date": "7 Dec 2014",
+    "City(Nation)": "Doha (QAT)",
+    "Meet": "FINA: 12th World Short Course ..."
+  },
+  {
+    "Event": "200m Freestyle Lap",
+    "Course": "50m",
+    "Time": "1:48.63",
+    "Date": "2 Aug 2013",
+    "City(Nation)": "Barcelona (ESP)",
+    "Meet": "FINA: 15th World Championships"
+  },
+  {
+    "Event": "200m Freestyle Lap",
+    "Course": "25m",
+    "Time": "1:44.08",
+    "Date": "16 Dec 2010",
+    "City(Nation)": "Dubai (UAE)",
+    "Meet": "FINA: 10th World Short Course ..."
+  },
+  {
+    "Event": "50m Breaststroke Lap",
+    "Course": "25m",
+    "Time": 26.55,
+    "Date": "25 Sep 2010",
+    "City(Nation)": "Hamburg",
+    "Meet": "4. Hamburger SprintCup"
+  },
+  {
+    "Event": "100m Breaststroke Lap",
+    "Course": "50m",
+    "Time": "1:05.51",
+    "Date": "31 Mar 2012",
+    "City(Nation)": "Hamburg-Dulsberg",
+    "Meet": "Hamburger ..."
+  },
+  {
+    "Event": "100m Breaststroke Lap",
+    "Course": "25m",
+    "Time": "1:11.54",
+    "Date": "10 Oct 2004",
+    "City(Nation)": "Immenstadt",
+    "Meet": "18. Internationales ..."
+  }
+]
+},
+{
+"_id":5,
+"name":{
+	"first": "Deibler",
+	"last": "Steffen"
+},
+"DOB":{
+	"year": 1987,
+	"month": 7,
+	"day":  10
+},
+"Sex": "Male",
+"Height(cm)": 185,
+"Weigth(kg)": 79,
+"Nationality": "GER",
+"Rank":[
+	{
+		"Event":"50 Metres Butterfly Male LC",
+		"Year": 2011,
+		"Rank": 6
+	}
+],
+"Social Network" :{
+	"Facebook":"https://www.facebook.com/deiblersteffen/ ",
+	"Twitter": "https://twitter.com/SteffenDeibler ",
+	"Fans on Facebook": 9875,
+	"Followers on Twitter": 3586
+},
+"Record":
+[
+  {
+    "Event": "50m Freestyle",
+    "Course": "50m",
+    "Time": 21.99,
+    "Points": 933,
+    "Date": "14 Aug 2010",
+    "City(Nation)": "Budapest (HUN)",
+    "Meet": "LEN: European Championships"
+  },
+  {
+    "Event": "50m Freestyle",
+    "Course": "25m",
+    "Time": 20.73,
+    "Points": 1055,
+    "Date": "15 Nov 2009",
+    "City(Nation)": "Berlin",
+    "Meet": "FINA: World Cup No 4 - 2009 Series"
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "50m",
+    "Time": 48.27,
+    "Points": 957,
+    "Date": "7 Jul 2016",
+    "City(Nation)": "Berlin",
+    "Meet": "German Open"
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "25m",
+    "Time": 45.91,
+    "Points": 1036,
+    "Date": "25 Oct 2009",
+    "City(Nation)": "Aachen",
+    "Meet": "40th International Swimming ..."
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "50m",
+    "Time": "1:47.71",
+    "Points": 928,
+    "Date": "19 Apr 2008",
+    "City(Nation)": "Berlin",
+    "Meet": "German Championships"
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "25m",
+    "Time": "1:42.74",
+    "Points": 992,
+    "Date": "28 Nov 2008",
+    "City(Nation)": "Essen",
+    "Meet": "German Short Course Championships"
+  },
+  {
+    "Event": "400m Freestyle",
+    "Course": "50m",
+    "Time": "4:01.25",
+    "Points": 786,
+    "Date": "26 Apr 2009",
+    "City(Nation)": "Hamburg",
+    "Meet": "Nord Test"
+  },
+  {
+    "Event": "400m Freestyle",
+    "Course": "25m",
+    "Time": "3:52.31",
+    "Points": 825,
+    "Date": "18 Oct 2008",
+    "City(Nation)": "Aachen",
+    "Meet": "39. Internationales Schwimm ..."
+  },
+  {
+    "Event": "50m Backstroke",
+    "Course": "50m",
+    "Time": 27.67,
+    "Points": 725,
+    "Date": "10 Mar 2007",
+    "City(Nation)": "Stuttgart",
+    "Meet": "Baden-Wuerttembergische ..."
+  },
+  {
+    "Event": "50m Backstroke",
+    "Course": "25m",
+    "Time": 24.7,
+    "Points": 857,
+    "Date": "31 Oct 2015",
+    "City(Nation)": "Rostock",
+    "Meet": "60. Internationales ..."
+  },
+  {
+    "Event": "100m Backstroke",
+    "Course": "50m",
+    "Time": "1:00.63",
+    "Points": 667,
+    "Date": "1 Apr 2006",
+    "City(Nation)": "Regensburg",
+    "Meet": "International Swim Meet"
+  },
+  {
+    "Event": "100m Backstroke",
+    "Course": "25m",
+    "Time": 52.72,
+    "Points": 877,
+    "Date": "11 Oct 2014",
+    "City(Nation)": "Hamburg",
+    "Meet": "8. Hamburger SprintCup"
+  },
+  {
+    "Event": "200m Backstroke",
+    "Course": "50m",
+    "Time": "2:24.70",
+    "Points": 506,
+    "Date": "18 Jan 2003",
+    "City(Nation)": "Geneva (SUI)",
+    "Meet": "International Meet"
+  },
+  {
+    "Event": "50m Breaststroke",
+    "Course": "25m",
+    "Time": 29.08,
+    "Points": 762,
+    "Date": "24 Oct 2009",
+    "City(Nation)": "Aachen",
+    "Meet": "40th International Swimming ..."
+  },
+  {
+    "Event": "100m Breaststroke",
+    "Course": "25m",
+    "Time": "1:02.13",
+    "Points": 806,
+    "Date": "12 Oct 2014",
+    "City(Nation)": "Hamburg",
+    "Meet": "8. Hamburger SprintCup"
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "50m",
+    "Time": 23.02,
+    "Points": 1041,
+    "Date": "28 Jul 2013",
+    "City(Nation)": "Barcelona (ESP)",
+    "Meet": "FINA: 15th World Championships"
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "25m",
+    "Time": 21.8,
+    "Points": 1143,
+    "Date": "14 Nov 2009",
+    "City(Nation)": "Berlin",
+    "Meet": "FINA: World Cup No 4 - 2009 Series"
+  },
+  {
+    "Event": "100m Butterfly",
+    "Course": "50m",
+    "Time": 51.19,
+    "Points": 991,
+    "Date": "28 Apr 2013",
+    "City(Nation)": "Berlin",
+    "Meet": "German Championships"
+  },
+  {
+    "Event": "100m Butterfly",
+    "Course": "25m",
+    "Time": 49.23,
+    "Points": 1060,
+    "Date": "15 Nov 2009",
+    "City(Nation)": "Berlin",
+    "Meet": "FINA: World Cup No 4 - 2009 Series"
+  },
+  {
+    "Event": "200m Butterfly",
+    "Course": "50m",
+    "Time": "2:08.68",
+    "Points": 691,
+    "Date": "6 Mar 2015",
+    "City(Nation)": "Marseille (FRA)",
+    "Meet": "Meeting International circuit FFN ..."
+  },
+  {
+    "Event": "200m Butterfly",
+    "Course": "25m",
+    "Time": "1:58.26",
+    "Points": 835,
+    "Date": "21 Nov 2014",
+    "City(Nation)": "Wuppertal",
+    "Meet": "Deutsche ..."
+  },
+  {
+    "Event": "100m Medley",
+    "Course": "25m",
+    "Time": 53.29,
+    "Points": 942,
+    "Date": "31 Oct 2015",
+    "City(Nation)": "Rostock",
+    "Meet": "60. Internationales ..."
+  },
+  {
+    "Event": "200m Medley",
+    "Course": "25m",
+    "Time": "2:07.60",
+    "Points": 710,
+    "Date": "30 Jun 2007",
+    "City(Nation)": "Biberach",
+    "Meet": "Partnerschaft Schwimmfest"
+  },
+  {
+    "Event": "400m Medley",
+    "Course": "25m",
+    "Time": "4:45.31",
+    "Points": 617,
+    "Date": "9 Oct 2004",
+    "City(Nation)": "Immenstadt",
+    "Meet": "18. Internationales ..."
+  },
+  {
+    "Event": "50m Freestyle Lap",
+    "Course": "50m",
+    "Time": 25.29,
+    "Date": "19 Jan 2002",
+    "City(Nation)": "Geneva (SUI)",
+    "Meet": "Championnats Internationaux"
+  },
+  {
+    "Event": "50m Freestyle Lap",
+    "Course": "25m",
+    "Time": 20.63,
+    "Date": "11 Dec 2008",
+    "City(Nation)": "Rijeka (CRO)",
+    "Meet": "LEN: European Short Course ..."
+  },
+  {
+    "Event": "100m Freestyle Lap",
+    "Course": "50m",
+    "Time": 48.09,
+    "Date": "4 Aug 2013",
+    "City(Nation)": "Barcelona (ESP)",
+    "Meet": "FINA: 15th World Championships"
+  },
+  {
+    "Event": "100m Freestyle Lap",
+    "Course": "25m",
+    "Time": 46.14,
+    "Date": "19 Dec 2010",
+    "City(Nation)": "Dubai (UAE)",
+    "Meet": "FINA: 10th World Short Course ..."
+  },
+  {
+    "Event": "200m Freestyle Lap",
+    "Course": "50m",
+    "Time": "1:50.98",
+    "Date": "2 Feb 2008",
+    "City(Nation)": "Beijing (CHN)",
+    "Meet": "China Open"
+  },
+  {
+    "Event": "50m Butterfly Lap",
+    "Course": "50m",
+    "Time": 23.9,
+    "Date": "6 Feb 2011",
+    "City(Nation)": "Essen",
+    "Meet": "Länderkampf Deutschland vs. ..."
+  },
+  {
+    "Event": "50m Butterfly Lap",
+    "Course": "25m",
+    "Time": 21.76,
+    "Date": "12 Dec 2013",
+    "City(Nation)": "Herning (DEN)",
+    "Meet": "LEN: European Short Course ..."
+  },
+  {
+    "Event": "100m Butterfly Lap",
+    "Course": "50m",
+    "Time": 50.91,
+    "Date": "4 Aug 2012",
+    "City(Nation)": "London (GBR)",
+    "Meet": "XXX Olympic Games"
+  },
+  {
+    "Event": "100m Butterfly Lap",
+    "Course": "25m",
+    "Time": 49.72,
+    "Date": "7 Dec 2014",
+    "City(Nation)": "Doha (QAT)",
+    "Meet": "FINA: 12th World Short Course …"
+  }
+]
+},
+{
+"_id":6,
+"name":{
+	"first": "Alshammar",
+	"last": "Therèse"
+},
+"DOB":{
+	"year": 1977,
+	"month": 8,
+	"day":  26
+},
+"Sex": "Female",
+"Height(cm)": 179,
+"Weigth(kg)": 63,
+"Nationality": "SWE",
+"Rank":[
+	{
+		"Event":"50 Metres Butterfly Female LC",
+		"Year": 2011,
+		"Rank": 1
+	},
+	{
+		"Event": "50 Metres Freestyle Female LC",
+		"Year": 2011,
+		"Rank": 1
+	},
+	{
+		"Event":"100 Metres Butterfly Female LC",
+		"Year": 2011,
+		"Rank": 16
+	}
+],
+"Social Network" :{
+	"Facebook":"https://en.wikipedia.org/wiki/Therese_Alshammar",
+	"Twitter": "https://www.facebook.com/T.Alshammar/?fref=ts",
+	"Fans on Facebook": 2326,
+	"Followers on Twitter": 1556
+},
+"Record":
+[
+  {
+    "Event": "50m Freestyle",
+    "Course": "50m",
+    "Time": 23.88,
+    "Points": 1042,
+    "Date": "2 Aug 2009",
+    "City(Nation)": "Rome (ITA)",
+    "Meet": "FINA: 13th World Championships"
+  },
+  {
+    "Event": "50m Freestyle",
+    "Course": "25m",
+    "Time": 23.27,
+    "Points": 1071,
+    "Date": "21 Nov 2009",
+    "City(Nation)": "Singapore (SIN)",
+    "Meet": "FINA: World Cup No 5 - 2009 Series"
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "50m",
+    "Time": 53.58,
+    "Points": 992,
+    "Date": "26 Jul 2009",
+    "City(Nation)": "Rome (ITA)",
+    "Meet": "FINA: 13th World Championships"
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "25m",
+    "Time": 52.17,
+    "Points": 1014,
+    "Date": "16 Mar 2000",
+    "City(Nation)": "Athen (GRE)",
+    "Meet": "FINA: 5th World Short Course ..."
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "50m",
+    "Time": "2:03.33",
+    "Points": 826,
+    "Date": "4 Jul 2000",
+    "City(Nation)": "Helsinki (FIN)",
+    "Meet": "LEN: European Championships"
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "25m",
+    "Time": "1:59.94",
+    "Points": 860,
+    "Date": "18 Nov 2002",
+    "City(Nation)": "Genova (ITA)",
+    "Meet": "Interational Meet"
+  },
+  {
+    "Event": "50m Backstroke",
+    "Course": "50m",
+    "Time": 29.22,
+    "Points": 880,
+    "Date": "4 May 2005",
+    "City(Nation)": "Belo Horizonte (BRA)",
+    "Meet": "Trofeu Brasil"
+  },
+  {
+    "Event": "50m Backstroke",
+    "Course": "25m",
+    "Time": 26.62,
+    "Points": 1023,
+    "Date": "26 Nov 2009",
+    "City(Nation)": "Goteborg",
+    "Meet": "Swedish Short Course ..."
+  },
+  {
+    "Event": "100m Backstroke",
+    "Course": "50m",
+    "Time": "1:02.20",
+    "Points": 862,
+    "Date": "27 Jun 2012",
+    "City(Nation)": "Norrkoeping",
+    "Meet": "Swedish Championships"
+  },
+  {
+    "Event": "100m Backstroke",
+    "Course": "25m",
+    "Time": 57.43,
+    "Points": 1004,
+    "Date": "26 Nov 2009",
+    "City(Nation)": "Goteborg",
+    "Meet": "Swedish Short Course ..."
+  },
+  {
+    "Event": "200m Backstroke",
+    "Course": "25m",
+    "Time": "2:12.60",
+    "Points": 810,
+    "Date": "13 Mar 1999",
+    "City(Nation)": "Soedertaelje",
+    "Meet": "Swedish Short Course ..."
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "50m",
+    "Time": 25.07,
+    "Points": 1098,
+    "Date": "31 Jul 2009",
+    "City(Nation)": "Rome (ITA)",
+    "Meet": "FINA: 13th World Championships"
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "25m",
+    "Time": 24.38,
+    "Points": 1151,
+    "Date": "22 Nov 2009",
+    "City(Nation)": "Singapore (SIN)",
+    "Meet": "FINA: World Cup No 5 - 2009 Series"
+  },
+  {
+    "Event": "100m Butterfly",
+    "Course": "50m",
+    "Time": 57.55,
+    "Points": 982,
+    "Date": "12 Aug 2010",
+    "City(Nation)": "Budapest (HUN)",
+    "Meet": "LEN: European Championships"
+  },
+  {
+    "Event": "100m Butterfly",
+    "Course": "25m",
+    "Time": 55.53,
+    "Points": 1048,
+    "Date": "6 Nov 2010",
+    "City(Nation)": "Stockholm",
+    "Meet": "FINA: World Cup No 7 - 2010 Series"
+  },
+  {
+    "Event": "100m Medley",
+    "Course": "25m",
+    "Time": 58.07,
+    "Points": 1089,
+    "Date": "26 Nov 2009",
+    "City(Nation)": "Goteborg",
+    "Meet": "Swedish Short Course ..."
+  },
+  {
+    "Event": "50m Freestyle Lap",
+    "Course": "25m",
+    "Time": 23.13,
+    "Date": "26 Nov 2009",
+    "City(Nation)": "Goteborg",
+    "Meet": "Swedish Short Course ..."
+  },
+  {
+    "Event": "100m Freestyle Lap",
+    "Course": "50m",
+    "Time": 53.77,
+    "Date": "15 Sep 2000",
+    "City(Nation)": "Sydney (AUS)",
+    "Meet": "XXVII Olympic Games"
+  },
+  {
+    "Event": "100m Freestyle Lap",
+    "Course": "25m",
+    "Time": 51.34,
+    "Date": "27 Nov 2009",
+    "City(Nation)": "Goteborg",
+    "Meet": "Swedish Short Course ..."
+  },
+  {
+    "Event": "200m Freestyle Lap",
+    "Course": "50m",
+    "Time": "2:04.73",
+    "Date": "17 Jan 1998",
+    "City(Nation)": "Perth (AUS)",
+    "Meet": "FINA: 8th World Championships"
+  },
+  {
+    "Event": "50m Butterfly Lap",
+    "Course": "25m",
+    "Time": 24.18,
+    "Date": "28 Nov 2009",
+    "City(Nation)": "Goteborg",
+    "Meet": "Swedish Short Course ..."
+  },
+  {
+    "Event": "100m Butterfly Lap",
+    "Course": "50m",
+    "Time": 57.04,
+    "Date": "5 Jul 2009",
+    "City(Nation)": "Linkoeping",
+    "Meet": "UTE-SM/JSM"
+  },
+  {
+    "Event": "100m Butterfly Lap",
+    "Course": "25m",
+    "Time": 55.86,
+    "Date": "5 Dec 2010",
+    "City(Nation)": "Stockholm",
+    "Meet": "SM"
+  }
+]
+},
+{
+"_id":7,
+"name":{
+	"first": "Belmonte",
+	"last": "Mireia"
+},
+"DOB":{
+	"year": 1990,
+	"month": 11,
+	"day": 10
+},
+"Sex": "Female",
+"Height(cm)": 170,
+"Weigth(kg)": 62,
+"Nationality": "ESP",
+"Rank":[
+	{
+		"Event":"800 Metres Freestyle Female LC",
+		"Year": 2011,
+		"Rank": 3
+	},
+	{
+		"Event": "400 Metres Individual Medley Female LC",
+		"Year": 2011,
+		"Rank": 6
+	},
+		{
+		"Event": "200 Metres Butterfly Female LC",
+		"Year": 2011,
+		"Rank": 7
+	},
+		{
+		"Event": "200 Metres Individual Medley Female LC",
+		"Year": 2011,
+		"Rank": 7
+	}
+],
+"Social Network" :{
+	"Facebook":"https://www.facebook.com/mireiabelmonteoficial/",
+	"Twitter": "https://twitter.com/miss_belmont/followers",
+	"Fans on Facebook": 160680,
+	"Followers on Twitter": 302687
+},
+"Record":
+[
+  {
+    "Event": "50m Freestyle",
+    "Course": "25m",
+    "Time": 25.63,
+    "Points": 802,
+    "Date": "24 Nov 2013",
+    "City(Nation)": "Compiegne (FRA)",
+    "Meet": "Meeting National d Automne"
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "50m",
+    "Time": 58.23,
+    "Points": 773,
+    "Date": "1 Jun 2013",
+    "City(Nation)": "Mairena Aljarafe",
+    "Meet": "Trofeo Villa Mairena Del Aljarafe"
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "50m",
+    "Time": 58.23,
+    "Points": 773,
+    "Date": "10 May 2014",
+    "City(Nation)": "Castellon",
+    "Meet": "Copa De Espana De Clubes 2 Division"
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "25m",
+    "Time": 54.92,
+    "Points": 870,
+    "Date": "9 Apr 2011",
+    "City(Nation)": "Sabadell",
+    "Meet": "Copa Clubes Division Honor"
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "50m",
+    "Time": "1:57.58",
+    "Points": 954,
+    "Date": "30 Mar 2012",
+    "City(Nation)": "Malaga",
+    "Meet": "Cto. Espana Open De Primavera"
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "25m",
+    "Time": "1:55.33",
+    "Points": 967,
+    "Date": "17 Dec 2011",
+    "City(Nation)": "Madrid",
+    "Meet": "Cto. Espana Absoluto De Invierno"
+  },
+  {
+    "Event": "400m Freestyle",
+    "Course": "50m",
+    "Time": "4:03.84",
+    "Points": 991,
+    "Date": "13 Apr 2014",
+    "City(Nation)": "Palma De Mallorca",
+    "Meet": "Spanish Championships"
+  },
+  {
+    "Event": "400m Freestyle",
+    "Course": "25m",
+    "Time": "3:54.52",
+    "Points": 1070,
+    "Date": "11 Aug 2013",
+    "City(Nation)": "Berlin (GER)",
+    "Meet": "FINA: World Cup No 2 - 2013 Series"
+  },
+  {
+    "Event": "800m Freestyle",
+    "Course": "50m",
+    "Time": "8:18.55",
+    "Points": 1002,
+    "Date": "12 Aug 2016",
+    "City(Nation)": "Rio (BRA)",
+    "Meet": "XXXI Olympic Games"
+  },
+  {
+    "Event": "800m Freestyle",
+    "Course": "25m",
+    "Time": "7:59.34",
+    "Points": 1078,
+    "Date": "10 Aug 2013",
+    "City(Nation)": "Berlin (GER)",
+    "Meet": "FINA: World Cup No 2 - 2013 Series"
+  },
+  {
+    "Event": "1500m Freestyle",
+    "Course": "50m",
+    "Time": "15:57.29",
+    "Points": 998,
+    "Date": "23 Aug 2014",
+    "City(Nation)": "Berlin (GER)",
+    "Meet": "LEN: European Championships"
+  },
+  {
+    "Event": "1500m Freestyle",
+    "Course": "25m",
+    "Time": "15:19.71",
+    "Points": 1097,
+    "Date": "12 Dec 2014",
+    "City(Nation)": "Sabadell",
+    "Meet": "Spanish Championships"
+  },
+  {
+    "Event": "50m Backstroke",
+    "Course": "50m",
+    "Time": 30.65,
+    "Points": 762,
+    "Date": "21 May 2011",
+    "City(Nation)": "Gijon",
+    "Meet": "Trofeo Internacional Villa De ..."
+  },
+  {
+    "Event": "100m Backstroke",
+    "Course": "50m",
+    "Time": "1:05.70",
+    "Points": 731,
+    "Date": "9 Mar 2014",
+    "City(Nation)": "Marseille (FRA)",
+    "Meet": "3e Meeting Open Mediterraneen"
+  },
+  {
+    "Event": "100m Backstroke",
+    "Course": "25m",
+    "Time": "1:01.87",
+    "Points": 803,
+    "Date": "24 Nov 2013",
+    "City(Nation)": "Compiegne (FRA)",
+    "Meet": "Meeting National d Automne"
+  },
+  {
+    "Event": "200m Backstroke",
+    "Course": "50m",
+    "Time": "2:14.37",
+    "Points": 843,
+    "Date": "13 Dec 2015",
+    "City(Nation)": "Amsterdam (NED)",
+    "Meet": "Swim Cup"
+  },
+  {
+    "Event": "200m Backstroke",
+    "Course": "25m",
+    "Time": "2:11.82",
+    "Points": 825,
+    "Date": "4 Oct 2014",
+    "City(Nation)": "Moscow (RUS)",
+    "Meet": "FINA: World Cup No 4 - 2014 Series"
+  },
+  {
+    "Event": "50m Breaststroke",
+    "Course": "50m",
+    "Time": 34.19,
+    "Points": 721,
+    "Date": "28 May 2010",
+    "City(Nation)": "Terrassa",
+    "Meet": "Cto. Absoluto Open De Cataluna"
+  },
+  {
+    "Event": "100m Breaststroke",
+    "Course": "50m",
+    "Time": "1:11.39",
+    "Points": 804,
+    "Date": "28 Feb 2009",
+    "City(Nation)": "Madrid",
+    "Meet": "2. Jornada Circuito Comunidad de ..."
+  },
+  {
+    "Event": "100m Breaststroke",
+    "Course": "25m",
+    "Time": "1:06.12",
+    "Points": 947,
+    "Date": "28 Nov 2009",
+    "City(Nation)": "Castellon",
+    "Meet": "Spanish Short Course ..."
+  },
+  {
+    "Event": "200m Breaststroke",
+    "Course": "50m",
+    "Time": "2:27.00",
+    "Points": 916,
+    "Date": "6 Apr 2008",
+    "City(Nation)": "Palma de Mallorca",
+    "Meet": "Spanish Open Championships"
+  },
+  {
+    "Event": "200m Breaststroke",
+    "Course": "25m",
+    "Time": "2:21.65",
+    "Points": 956,
+    "Date": "13 Apr 2008",
+    "City(Nation)": "Manchester (GBR)",
+    "Meet": "FINA: 9th World Short Course ..."
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "50m",
+    "Time": 28.92,
+    "Points": 715,
+    "Date": "28 May 2010",
+    "City(Nation)": "Terrassa",
+    "Meet": "Cto. Absoluto Open De Cataluna"
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "25m",
+    "Time": 30.53,
+    "Points": 586,
+    "Date": "1 May 2007",
+    "City(Nation)": "Pontevedra",
+    "Meet": "Campeonato de Espana por ..."
+  },
+  {
+    "Event": "100m Butterfly",
+    "Course": "50m",
+    "Time": "1:01.00",
+    "Points": 825,
+    "Date": "2 Mar 2013",
+    "City(Nation)": "Marseille (FRA)",
+    "Meet": "2e Meeting International de la ..."
+  },
+  {
+    "Event": "100m Butterfly",
+    "Course": "25m",
+    "Time": 59.54,
+    "Points": 850,
+    "Date": "24 Nov 2013",
+    "City(Nation)": "Compiegne (FRA)",
+    "Meet": "Meeting National d Automne"
+  },
+  {
+    "Event": "200m Butterfly",
+    "Course": "50m",
+    "Time": "2:04.78",
+    "Points": 1021,
+    "Date": "1 Aug 2013",
+    "City(Nation)": "Barcelona",
+    "Meet": "FINA: 15th World Championships"
+  },
+  {
+    "Event": "200m Butterfly",
+    "Course": "25m",
+    "Time": "1:59.61",
+    "Points": 1118,
+    "Date": "3 Dec 2014",
+    "City(Nation)": "Doha (QAT)",
+    "Meet": "FINA: 12th World Short Course ..."
+  },
+  {
+    "Event": "100m Medley",
+    "Course": "25m",
+    "Time": "1:00.80",
+    "Points": 949,
+    "Date": "9 Apr 2011",
+    "City(Nation)": "Sabadell",
+    "Meet": "Copa Clubes Division Honor"
+  },
+  {
+    "Event": "200m Medley",
+    "Course": "50m",
+    "Time": "2:09.45",
+    "Points": 1012,
+    "Date": "29 Jul 2013",
+    "City(Nation)": "Barcelona",
+    "Meet": "FINA: 15th World Championships"
+  },
+  {
+    "Event": "200m Medley",
+    "Course": "25m",
+    "Time": "2:05.73",
+    "Points": 1060,
+    "Date": "18 Dec 2010",
+    "City(Nation)": "Dubai (UAE)",
+    "Meet": "FINA: 10th World Short Course ..."
+  },
+  {
+    "Event": "400m Medley",
+    "Course": "50m",
+    "Time": "4:31.21",
+    "Points": 1020,
+    "Date": "4 Aug 2013",
+    "City(Nation)": "Barcelona",
+    "Meet": "FINA: 15th World Championships"
+  },
+  {
+    "Event": "400m Medley",
+    "Course": "25m",
+    "Time": "4:19.86",
+    "Points": 1110,
+    "Date": "3 Dec 2014",
+    "City(Nation)": "Doha (QAT)",
+    "Meet": "FINA: 12th World Short Course ..."
+  },
+  {
+    "Event": "100m Freestyle Lap",
+    "Course": "50m",
+    "Time": "1:00.63",
+    "Date": "25 Mar 2006",
+    "City(Nation)": "Hamburg (GER)",
+    "Meet": "5 Nation Junior Meet"
+  },
+  {
+    "Event": "200m Freestyle Lap",
+    "Course": "50m",
+    "Time": "1:57.85",
+    "Date": "19 May 2016",
+    "City(Nation)": "London (GBR)",
+    "Meet": "LEN: European Championships"
+  },
+  {
+    "Event": "100m Breaststroke Lap",
+    "Course": "50m",
+    "Time": "1:10.46",
+    "Date": "15 Aug 2008",
+    "City(Nation)": "Beijing (CHN)",
+    "Meet": "XXIX Olympic Games"
+  },
+  {
+    "Event": "100m Butterfly Lap",
+    "Course": "50m",
+    "Time": "1:00.75",
+    "Date": "3 Dec 2011",
+    "City(Nation)": "Eindhoven (NED)",
+    "Meet": "Open Dutch Championships"
+  }
+]
+},
+{
+"_id":8,
+"name":{
+	"first": "Boyle",
+	"last": "Lauren"
+},
+"DOB":{
+	"year": 1987,
+	"month": 12,
+	"day":  14
+},
+"Sex": "Female",
+"Height(cm)": 182,
+"Weigth(kg)": 67,
+"Nationality": "USA",
+"Rank":[
+	{
+		"Event":"400 Metres Freestyle Female LC",
+		"Year": 2011,
+		"Rank": 11
+	},
+	{
+		"Event": "800 Metres Freestyle Female LC",
+		"Year": 2011,
+		"Rank": 13
+	},
+	{
+		"Event": "200 Metres Freestyle Female LC",
+		"Year": 2011,
+		"Rank": 18
+	}
+],
+"Social Network" :{
+	"Facebook":"https://www.facebook.com/Lauren-Boyle-1459499304302877/?hc_ref=SEARCH",
+	"Twitter": "https://twitter.com/1aurenboyle",
+	"Fans on Facebook": 2509,
+	"Followers on Twitter": 2103
+},
+"Record":
+[
+  {
+    "Event": "50m Freestyle",
+    "Course": "50m",
+    "Time": 26.23,
+    "Points": 786,
+    "Date": "12 Apr 2006",
+    "City(Nation)": "Christchurch",
+    "Meet": "New Zealand Championships"
+  },
+  {
+    "Event": "50m Freestyle",
+    "Course": "25m",
+    "Time": 26.03,
+    "Points": 765,
+    "Date": "1 Oct 2013",
+    "City(Nation)": "Wellington",
+    "Meet": "New Zealand State Championships"
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "50m",
+    "Time": 55.75,
+    "Points": 881,
+    "Date": "21 Mar 2013",
+    "City(Nation)": "Auckland",
+    "Meet": "State New Zealand Open ..."
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "25m",
+    "Time": 54.62,
+    "Points": 884,
+    "Date": "30 Sep 2013",
+    "City(Nation)": "Wellington",
+    "Meet": "New Zealand State Championships"
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "50m",
+    "Time": "1:56.82",
+    "Points": 972,
+    "Date": "24 Jul 2014",
+    "City(Nation)": "Glasgow (GBR)",
+    "Meet": "XX Commonwealth Games"
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "25m",
+    "Time": "1:54.97",
+    "Points": 976,
+    "Date": "7 Aug 2013",
+    "City(Nation)": "Eindhoven (NED)",
+    "Meet": "FINA: World Cup No 1 - 2013 Series"
+  },
+  {
+    "Event": "400m Freestyle",
+    "Course": "50m",
+    "Time": "4:03.63",
+    "Points": 994,
+    "Date": "29 Jul 2012",
+    "City(Nation)": "London (GBR)",
+    "Meet": "XXX Olympic Games"
+  },
+  {
+    "Event": "400m Freestyle",
+    "Course": "25m",
+    "Time": "3:55.16",
+    "Points": 1061,
+    "Date": "8 Aug 2013",
+    "City(Nation)": "Eindhoven (NED)",
+    "Meet": "FINA: World Cup No 1 - 2013 Series"
+  },
+  {
+    "Event": "800m Freestyle",
+    "Course": "50m",
+    "Time": "8:17.65",
+    "Points": 1007,
+    "Date": "8 Aug 2015",
+    "City(Nation)": "Kazan (RUS)",
+    "Meet": "FINA: 16th World Championships"
+  },
+  {
+    "Event": "800m Freestyle",
+    "Course": "25m",
+    "Time": "8:01.22",
+    "Points": 1066,
+    "Date": "7 Aug 2013",
+    "City(Nation)": "Eindhoven (NED)",
+    "Meet": "FINA: World Cup No 1 - 2013 Series"
+  },
+  {
+    "Event": "1500m Freestyle",
+    "Course": "50m",
+    "Time": "15:40.14",
+    "Points": 1054,
+    "Date": "4 Aug 2015",
+    "City(Nation)": "Kazan (RUS)",
+    "Meet": "FINA: 16th World Championships"
+  },
+  {
+    "Event": "1500m Freestyle",
+    "Course": "25m",
+    "Time": "15:22.68",
+    "Points": 1086,
+    "Date": "4 Aug 2014",
+    "City(Nation)": "Wellington",
+    "Meet": "Wellington Short Course ..."
+  },
+  {
+    "Event": "50m Backstroke",
+    "Course": "50m",
+    "Time": 34.18,
+    "Points": 550,
+    "Date": "29 Mar 2005",
+    "City(Nation)": "Wellington",
+    "Meet": "New Zealand"
+  },
+  {
+    "Event": "50m Breaststroke",
+    "Course": "50m",
+    "Time": 35.41,
+    "Points": 649,
+    "Date": "12 Feb 2012",
+    "City(Nation)": "Sydney (AUS)",
+    "Meet": "NSW State Open Championships"
+  },
+  {
+    "Event": "50m Breaststroke",
+    "Course": "25m",
+    "Time": 33.72,
+    "Points": 709,
+    "Date": "29 Sep 2013",
+    "City(Nation)": "Wellington",
+    "Meet": "New Zealand State Championships"
+  },
+  {
+    "Event": "100m Breaststroke",
+    "Course": "50m",
+    "Time": "1:23.02",
+    "Points": 511,
+    "Date": "15 Apr 2006",
+    "City(Nation)": "Christchurch",
+    "Meet": "New Zealand Championships"
+  },
+  {
+    "Event": "100m Breaststroke",
+    "Course": "25m",
+    "Time": "1:13.05",
+    "Points": 702,
+    "Date": "13 Nov 2010",
+    "City(Nation)": "Mount Maunganui",
+    "Meet": "New Zealand Short Course ..."
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "25m",
+    "Time": 29.16,
+    "Points": 673,
+    "Date": "30 Sep 2013",
+    "City(Nation)": "Wellington",
+    "Meet": "New Zealand State Championships"
+  },
+  {
+    "Event": "100m Medley",
+    "Course": "25m",
+    "Time": "1:03.67",
+    "Points": 826,
+    "Date": "1 Oct 2013",
+    "City(Nation)": "Wellington",
+    "Meet": "New Zealand State Championships"
+  },
+  {
+    "Event": "200m Medley",
+    "Course": "50m",
+    "Time": "2:22.48",
+    "Points": 759,
+    "Date": "8 Jun 2014",
+    "City(Nation)": "Monte-Carlo (MON)",
+    "Meet": "Mare Nostrum"
+  },
+  {
+    "Event": "50m Freestyle Lap",
+    "Course": "25m",
+    "Time": 25.92,
+    "Date": "26 Sep 2006",
+    "City(Nation)": "Dunedin",
+    "Meet": "New Zealand Spring Competition"
+  },
+  {
+    "Event": "100m Freestyle Lap",
+    "Course": "50m",
+    "Time": 55.39,
+    "Date": "31 Mar 2007",
+    "City(Nation)": "Melbourne (AUS)",
+    "Meet": "FINA: 12th World Championships"
+  },
+  {
+    "Event": "100m Freestyle Lap",
+    "Course": "25m",
+    "Time": 55.37,
+    "Date": "8 Apr 2006",
+    "City(Nation)": "Shanghai (CHN)",
+    "Meet": "FINA: 8th World Short Course ..."
+  },
+  {
+    "Event": "200m Freestyle Lap",
+    "Course": "50m",
+    "Time": "1:58.60",
+    "Date": "17 Aug 2011",
+    "City(Nation)": "Shenzhen (CHN)",
+    "Meet": "XXVI Universiade"
+  },
+  {
+    "Event": "200m Freestyle Lap",
+    "Course": "25m",
+    "Time": "1:56.31",
+    "Date": "4 Sep 2014",
+    "City(Nation)": "Wellington",
+    "Meet": "New Zealand Short Course …"
+  }
+]
+},
+{
+"_id":9,
+"name":{
+	"first": "Cate",
+	"last": "Campbell"
+},
+"DOB":{
+	"year": 1992,
+	"month": 5,
+	"day":  20
+},
+"Sex": "Female",
+"Height(cm)": 186,
+"Weigth(kg)": 67,
+"Nationality": "AUS",
+"Rank":[
+	{
+		"Event":"50 Metres Freestyle Female LC",
+		"Year": 2011,
+		"Rank": 4
+	},
+	{
+		"Event": "100 Metres Freestyle Female LC",
+		"Year": 2011,
+		"Rank": 9
+	}
+],
+"Social Network" :{
+	"Facebook":"https://www.facebook.com/campbell.cate/",
+	"Twitter": "https://twitter.com/catecamp",
+	"Fans on Facebook": 9845,
+	"Followers on Twitter": 11181 
+},
+"Record":
+[
+  {
+    "Event": "50m Freestyle",
+    "Course": "50m",
+    "Time": 23.84,
+    "Points": 1047,
+    "Date": "13 Apr 2016",
+    "City(Nation)": "Adelaide",
+    "Meet": "Australian Championships"
+  },
+  {
+    "Event": "50m Freestyle",
+    "Course": "25m",
+    "Time": 23.47,
+    "Points": 1044,
+    "Date": "9 Nov 2013",
+    "City(Nation)": "Tokyo (JPN)",
+    "Meet": "FINA: World Cup No 7 - 2013 Series"
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "50m",
+    "Time": 52.06,
+    "Points": 1082,
+    "Date": "2 Jul 2016",
+    "City(Nation)": "Brisbane",
+    "Meet": "Australia Grand Prix"
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "25m",
+    "Time": 50.91,
+    "Points": 1092,
+    "Date": "28 Nov 2015",
+    "City(Nation)": "Sydney",
+    "Meet": "Australian Short Course ..."
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "50m",
+    "Time": "2:03.23",
+    "Points": 828,
+    "Date": "12 Dec 2015",
+    "City(Nation)": "Brisbane",
+    "Meet": "Queensland Championships"
+  },
+  {
+    "Event": "200m Freestyle",
+    "Course": "25m",
+    "Time": "1:56.11",
+    "Points": 948,
+    "Date": "28 Nov 2015",
+    "City(Nation)": "Sydney",
+    "Meet": "Australian Short Course ..."
+  },
+  {
+    "Event": "50m Backstroke",
+    "Course": "50m",
+    "Time": 31.43,
+    "Points": 707,
+    "Date": "14 Dec 2006",
+    "City(Nation)": "Brisbane",
+    "Meet": "Queensland Championships"
+  },
+  {
+    "Event": "100m Backstroke",
+    "Course": "25m",
+    "Time": "1:19.59",
+    "Points": 377,
+    "Date": "28 Aug 2004",
+    "City(Nation)": "Brisbane",
+    "Meet": "Queensland Championships"
+  },
+  {
+    "Event": "100m Breaststroke",
+    "Course": "25m",
+    "Time": "1:23.58",
+    "Points": 469,
+    "Date": "28 Aug 2004",
+    "City(Nation)": "Brisbane",
+    "Meet": "Queensland Championships"
+  },
+  {
+    "Event": "200m Breaststroke",
+    "Course": "25m",
+    "Time": "2:57.09",
+    "Points": 489,
+    "Date": "28 Aug 2004",
+    "City(Nation)": "Brisbane",
+    "Meet": "Queensland Championships"
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "50m",
+    "Time": 27.25,
+    "Points": 855,
+    "Date": "16 Mar 2010",
+    "City(Nation)": "Sydney",
+    "Meet": "Telstra Australian Champi"
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "25m",
+    "Time": 26.73,
+    "Points": 873,
+    "Date": "30 Aug 2007",
+    "City(Nation)": "Melbourne",
+    "Meet": "Australian Short Course ..."
+  },
+  {
+    "Event": "200m Medley",
+    "Course": "25m",
+    "Time": "2:49.76",
+    "Points": 431,
+    "Date": "28 Aug 2004",
+    "City(Nation)": "Brisbane",
+    "Meet": "Queensland Championships"
+  },
+  {
+    "Event": "50m Freestyle Lap",
+    "Course": "50m",
+    "Time": 23.37,
+    "Date": "2 Jul 2016",
+    "City(Nation)": "Brisbane",
+    "Meet": "Australia Grand Prix"
+  },
+  {
+    "Event": "100m Freestyle Lap",
+    "Course": "50m",
+    "Time": 51.59,
+    "Date": "29 Jul 2014",
+    "City(Nation)": "Glasgow (GBR)",
+    "Meet": "XX Commonwealth Games"
+  },
+  {
+    "Event": "100m Freestyle Lap",
+    "Course": "25m",
+    "Time": 55.69,
+    "Date": "1 Sep 2007",
+    "City(Nation)": "Melbourne",
+    "Meet": "Australian Short Course ..."
+  }
+]
+},
+{
+"_id":10,
+"name":{
+	"first": "Yuliya",
+	"last": "Yefimova"
+},
+"DOB":{
+	"year": 1992,
+	"month": 3,
+	"day": 3 
+},
+"Sex": "Female",
+"Height(cm)": 178,
+"Weigth(kg)": 64,
+"Nationality": "RUS",
+"Rank":[
+	{
+		"Event":"200 Metres Breaststroke Female LC",
+		"Year": 2011,
+		"Rank": 2
+	},
+	{
+		"Event": "50 Metres Breaststroke Female LC",
+		"Year": 2011,
+		"Rank": 3
+	},
+	{
+		"Event": "100 Metres Breaststroke Female LC",
+		"Year": 2011,
+		"Rank": 5
+	}
+],
+"Record":
+[
+  {
+    "Event": "50m Freestyle",
+    "Course": "50m",
+    "Time": 26.49,
+    "Points": 763,
+    "Date": "20 Jun 2015",
+    "City(Nation)": "Santa Clara (USA)",
+    "Meet": "Arena Pro Swim Series"
+  },
+  {
+    "Event": "100m Freestyle",
+    "Course": "50m",
+    "Time": 58.05,
+    "Points": 780,
+    "Date": "10 Jul 2015",
+    "City(Nation)": "Los Angeles (USA)",
+    "Meet": "CA Los Angeles Invite"
+  },
+  {
+    "Event": "100m Backstroke",
+    "Course": "50m",
+    "Time": "1:08.34",
+    "Points": 650,
+    "Date": "21 Feb 2008",
+    "City(Nation)": "Saint-Petersburg",
+    "Meet": "Russian Championships"
+  },
+  {
+    "Event": "50m Breaststroke",
+    "Course": "50m",
+    "Time": 29.52,
+    "Points": 1120,
+    "Date": "4 Aug 2013",
+    "City(Nation)": "Barcelona (ESP)",
+    "Meet": "FINA: 15th World Championships"
+  },
+  {
+    "Event": "50m Breaststroke",
+    "Course": "25m",
+    "Time": 29.08,
+    "Points": 1106,
+    "Date": "31 Aug 2016",
+    "City(Nation)": "Berlin (GER)",
+    "Meet": "FINA: World Cup No 2 - 2016 Series"
+  },
+  {
+    "Event": "100m Breaststroke",
+    "Course": "50m",
+    "Time": "1:05.02",
+    "Points": 1064,
+    "Date": "30 Jul 2013",
+    "City(Nation)": "Barcelona (ESP)",
+    "Meet": "FINA: 15th World Championships"
+  },
+  {
+    "Event": "100m Breaststroke",
+    "Course": "25m",
+    "Time": "1:02.91",
+    "Points": 1099,
+    "Date": "3 Sep 2016",
+    "City(Nation)": "Moscow",
+    "Meet": "FINA: World Cup No 3 - 2016 Series"
+  },
+  {
+    "Event": "200m Breaststroke",
+    "Course": "50m",
+    "Time": "2:19.41",
+    "Points": 1073,
+    "Date": "2 Aug 2013",
+    "City(Nation)": "Barcelona (ESP)",
+    "Meet": "FINA: 15th World Championships"
+  },
+  {
+    "Event": "200m Breaststroke",
+    "Course": "25m",
+    "Time": "2:16.39",
+    "Points": 1070,
+    "Date": "9 Oct 2016",
+    "City(Nation)": "Doha (QAT)",
+    "Meet": "FINA: World Cup No 6 - 2016 Series"
+  },
+  {
+    "Event": "50m Butterfly",
+    "Course": "50m",
+    "Time": "28.83",
+    "Points": 722,
+    "Date": "4 May 2010",
+    "City(Nation)": "Moscow",
+    "Meet": "Russian National Swimming ..."
+  },
+  {
+    "Event": "100m Medley",
+    "Course": "25m",
+    "Time": "59.91",
+    "Points": 992,
+    "Date": "9 Oct 2016",
+    "City(Nation)": "Doha (QAT)",
+    "Meet": "FINA: World Cup No 6 - 2016 Series"
+  },
+  {
+    "Event": "200m Medley",
+    "Course": "50m",
+    "Time": "2:12.91",
+    "Points": 935,
+    "Date": "21 Jun 2015",
+    "City(Nation)": "Santa Clara (USA)",
+    "Meet": "Arena Pro Swim Series"
+  },
+  {
+    "Event": "200m Medley",
+    "Course": "25m",
+    "Time": "2:06.79",
+    "Points": 1033,
+    "Date": "3 Sep 2016",
+    "City(Nation)": "Moscow",
+    "Meet": "FINA: World Cup No 3 - 2016 Series"
+  },
+  {
+    "Event": "400m Medley",
+    "Course": "50m",
+    "Time": "5:11.90",
+    "Points": 670,
+    "Date": "17 Jun 2006",
+    "City(Nation)": "Volgograd",
+    "Meet": "Russian Youth Championships"
+  },
+  {
+    "Event": "400m Medley",
+    "Course": "25m",
+    "Time": "5:02.98",
+    "Points": 700,
+    "Date": "11 Nov 2006",
+    "City(Nation)": "Lipetsk",
+    "Meet": "Russian Championships"
+  },
+  {
+    "Event": "50m Breaststroke Lap",
+    "Course": "25m",
+    "Time": "29.79",
+    "Date": "18 Dec 2011",
+    "City(Nation)": "Saint Petersburg",
+    "Meet": "Vladimir Salnikov's Cup"
+  },
+  {
+    "Event": "100m Breaststroke Lap",
+    "Course": "50m",
+    "Time": "1:04.82",
+    "Date": "4 Aug 2013",
+    "City(Nation)": "Barcelona (ESP)",
+    "Meet": "FINA: 15th World Championships"
+  },
+  {
+    "Event": "100m Breaststroke Lap",
+    "Course": "25m",
+    "Time": "1:03.36",
+    "Date": "11 Dec 2015",
+    "City(Nation)": "Indianapolis (USA)",
+    "Meet": "Duel in the Pool"
+  }
+]
+}
+]
+}
