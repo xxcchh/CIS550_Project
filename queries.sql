@@ -1,9 +1,9 @@
-Q2
-What is the difference of performance between men and women for each country?
+Q1
+  What is the difference of performance between men and women for each country?
 
 
 WITH Fcount AS(
-    SELECT C.code, COUNT(DISTINCT hE.EID) AS Female_gold_medals
+  SELECT C.code, COUNT(DISTINCT hE.EID) AS Female_gold_medals
   FROM Country C INNER JOIN Represents R ON C.code = R.code
                  INNER JOIN Athletes A ON R.aid = A.aid
                  INNER JOIN PerformanceOfAthletes POA ON A.aid = POA.aid
@@ -81,8 +81,17 @@ WITH TEMP AS (SELECT aid, COUNT(medal) AS total_medals
 By clicking the name of each athlete, show athlete profile
 SELECT A.name, A.DOB, A.gender, C.name as Country
 FROM Athletes A, Represents R, Country C
-WHERE A.aid = R.aid AND C.code = R.code
+WHERE A.aid = R.aid AND C.code = R.code AND A.name = var
 
+We can also have top N athletes
+
+WITH TEMP AS (SELECT aid, COUNT(medal) AS total_medals
+  FROM PERFORMANCEOFATHLETES
+  GROUP BY aid
+  ORDER BY total_medals DESC)
+  SELECT A.name, T.total_medals
+  FROM TEMP T, Athletes A
+  WHERE T.aid = A.aid AND ROWNUM <= N
 
 Q5
 Total medals of every country from most to least
@@ -97,17 +106,17 @@ ORDER BY total DESC
 
 By clicking the name of each country (var = ccode), show economics
 SELECT * 
-FROM Country 
-WHERE country.code = var
+FROM Economics 
+WHERE Economics.code = var
 
 
 Q6
 What is the maximum record for a given event
-
 
 WITH TEMP1 AS (SELECT H1.eid, MAX(H1.record) AS MAXRECORD
 FROM hasEvents H1 
 GROUP BY H1.eid)
 SELECT H.dname AS Discipline, H.ename AS Event, H.record, H.year
 FROM hasEvents H, TEMP1 T
-WHERE H.eid = T.MAXRECORD
+WHERE H.eid = T.MAXRECORD 
+
