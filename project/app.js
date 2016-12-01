@@ -2,6 +2,7 @@
  * Created by chen on 11/20/16.
  */
 
+// Modules needed
 var express = require('express')
     , routes = require('./routes')
     , http = require('http')
@@ -18,6 +19,8 @@ var app = express();
 // View engine setup use ejs
 app.engine('ejs', engine);
 app.set('view engine', 'ejs');
+
+// Set static files
 app.use(express.static("public"));
 
 
@@ -38,18 +41,24 @@ function compile(str, path) {
 }
 
 //  When we get a request for {app}/ we should call routes/index.js
-app.get('/', function (req, res) {
+// app.get('/', function (req, res) {
     // res.send('Express Works');
     // res.render('home.ejs')
-    res.render('test.ejs')
-});
+//     res.render('test.ejs')
+// });
 
 // //  We have country, athlete, discipline
 // app.get('/country', routes.country);
 // app.get('/athlete', routes.athlete);
 // app.get('/discipline', routes.discipline);
 
+app.get('/', routes.homepage);
+app.get('/country', routes.country);
+app.get('/athletes', routes.athletes);
+app.get('/discipline', routes.discipline);
 
+// This is a test page
+app.get('/testquery', routes.testquery);
 
 // This is app initialization code
 function init_app() {
