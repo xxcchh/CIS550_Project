@@ -7,7 +7,7 @@ var connectData = {
     user          : "cis550project",
     password      : "zwdkxchcc",
     connectString : "olympics2020.co8dwthdt6zb.us-east-1.rds.amazonaws.com:1521/OLYMPICS"
-    };
+};
 
 // oracledb.createPool(
 //     connectData,
@@ -19,7 +19,15 @@ var connectData = {
 // Q1 What is the difference of performance between men and women for each country?
 // [ [ 'AFG', 1960, 537777811.911, 8994793, 0, 0 ],
 //     [ 'AFG', 1964, 800000045.511, 9728645, 0, 0 ],
-    function getMenAndWomenPerform(callback) {
+var getMenAndWomenPerform = function (callback) {
+    var oracledb = require('oracledb');
+// Connection data
+    var connectData = {
+    user          : "cis550project",
+    password      : "zwdkxchcc",
+    connectString : "olympics2020.co8dwthdt6zb.us-east-1.rds.amazonaws.com:1521/OLYMPICS"
+    };
+
     console.log('getMenAndWomenPerform');
     oracledb.getConnection(
         connectData,
@@ -60,19 +68,20 @@ var connectData = {
                             console.error(err.message);
                             callback(err, null);
                         }else{
-                            connection.close();
-                            // console.log(result.rows);
+                            // connection.close();
+                            console.log(result.rows);
                             callback(null, result.rows);
+                            // connection.close();
                         }
                     });
             }
+            connection.close();
         });
     }
 
-
 // Q2. cont By clicking the name of each country (var = ccode), show country page.
 // [ [ 'USA', 'United States', 0, 0, 0, 0 ] ]
-function getCountry(ccode, callback) {
+var getCountry = function (ccode, callback) {
     console.log('getCountry' + ccode);
     oracledb.getConnection(
         connectData,
@@ -101,7 +110,7 @@ function getCountry(ccode, callback) {
         });
 }
 // // By clicking the  the medal number of each country (var1 = gender, var2=ccode), show events
-function getEvents(gender, ccode, callback) {
+var getEvents = function (gender, ccode, callback) {
     console.log('getEvents' + 'country' + ccode + 'gender' + gender);
     oracledb.getConnection(
         connectData,
@@ -136,7 +145,7 @@ function getEvents(gender, ccode, callback) {
 
 
 // Q3 What is the economic impact of hosting the Olympic Games?
-function getEconomicsOfHost(callback) {
+var getEconomicsOfHost = function (callback) {
     console.log('getEconomicsOfHost'),
     oracledb.getConnection(
     connectData,
@@ -172,7 +181,7 @@ function getEconomicsOfHost(callback) {
 // Q4 Top n athletes win the most medals
 // [ [ 'LATYNINA, Larisa', 18 ],
 //     [ 'PHELPS, Michael', 16 ],
-function getTopNAthletes(N = 10, callback) {
+var getTopNAthletes = function (N, callback) {
     console.log('getTopNAthletes' + N),
     oracledb.getConnection(
         connectData,
@@ -204,7 +213,7 @@ function getTopNAthletes(N = 10, callback) {
         });
 }
 // // By clicking the name of each athlete, show athlete profile
-function showAthleteProfile(name, callback) {
+var showAthleteProfile = function (name, callback) {
     console.log('showAthleteProfile' + name),
     oracledb.getConnection(
         connectData,
@@ -233,7 +242,7 @@ function showAthleteProfile(name, callback) {
 }
 
 // Q5 Total medals of every country from most to least
-function getTopMedalsOfCountry(callback) {
+var getTopMedalsOfCountry = function (callback) {
     console.log('getTopMedalsOfCountry');
     oracledb.getConnection(
     connectData,
@@ -262,7 +271,7 @@ function getTopMedalsOfCountry(callback) {
 
 // By clicking the name of each country (var = ccode), show economics
 // Get the economics about a country
-function getEconomics(code, calllback){
+var getEconomics = function (code, calllback){
     console.log('getEconomics' + code);
     oracledb.getConnection(
         connectData,
@@ -289,7 +298,7 @@ function getEconomics(code, calllback){
 
 
 // Q6 What is the maximum record for a given event
-function getMaxRecordOfEvent(ename, callback) {
+var getMaxRecordOfEvent = function (ename, callback) {
     console.log('getMaxRecordOfEvent' + ename);
     oracledb.getConnection(
         connectData,
@@ -316,6 +325,30 @@ function getMaxRecordOfEvent(ename, callback) {
                 });
         });
 }
+
+module.exports = {
+    getMenAndWomenPerform: getMenAndWomenPerform,
+    getCountry: getCountry,
+    getEvents: getEvents,
+    getEconomicsOfHost: getEconomicsOfHost,
+    getTopNAthletes: getTopNAthletes,
+    showAthleteProfile: showAthleteProfile,
+    getTopMedalsOfCountry: getTopMedalsOfCountry,
+    getEconomics: getEconomics,
+    getMaxRecordOfEvent: getMaxRecordOfEvent
+}
+
+/*
+    getMenAndWomenPerform: getMenAndWomenPerform,
+    getCountry: getCountry,
+    getEvents: getEvents,
+    getEconomicsOfHost: getEconomicsOfHost,
+    getTopNAthletes: getTopNAthletes,
+    showAthleteProfile: showAthleteProfile,
+    getTopMedalsOfCountry: getTopMedalsOfCountry,
+    getEconomics: getEconomics,
+    getMaxRecordOfEvent: getMaxRecordOfEvent
+*/
 
 
 // oracledb.getConnection(
