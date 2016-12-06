@@ -14,6 +14,9 @@ var db = require('../db');
 
 
 var homepage = function(req, res){
+    // var x = request('http://www.youtube.com/embed/XGSy3_Czz8k')
+    // req.pipe(x)
+    // x.pipe(res)
 	res.render('test', {});
 }
 

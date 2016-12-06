@@ -66,8 +66,6 @@ function init_app() {
     app.set('port', process.env.PORT || 8080);
 //    Use html to do views
     app.set('views', path.join(__dirname, 'views'));
-
-
 }
 
 

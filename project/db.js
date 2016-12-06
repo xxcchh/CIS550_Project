@@ -326,6 +326,38 @@ var getMaxRecordOfEvent = function (ename, callback) {
         });
 }
 
+// Q7 show 2016 top 10 records
+var getShowOnHomePage = function(){
+    console.log("show 2016 records");
+    oracledb.getConnection(
+        connectData, 
+        function(err, connection)
+        {
+            if (err){
+                console.log(err.message);
+                return;
+            }
+            connection.execute(
+            "   SELECT *" +
+            "   FROM (" + 
+            "   SELECT *" +
+            "   FROM performanceofcountries"+
+            "   WHERE year = 2008 "+
+            "   ORDER BY num_of_gold DESC )" + 
+            "   WHERE ROWNUM <= 10",
+            function(err, result)
+            {
+                if (err){
+                    console.log(err.message);
+                    return;
+                }
+                console.log(result.rows);
+            }
+        )
+    }
+)
+}
+
 module.exports = {
     getMenAndWomenPerform: getMenAndWomenPerform,
     getCountry: getCountry,
@@ -335,7 +367,8 @@ module.exports = {
     showAthleteProfile: showAthleteProfile,
     getTopMedalsOfCountry: getTopMedalsOfCountry,
     getEconomics: getEconomics,
-    getMaxRecordOfEvent: getMaxRecordOfEvent
+    getMaxRecordOfEvent: getMaxRecordOfEvent,
+    getShowOnHomePage: getShowOnHomePage
 }
 
 /*
@@ -360,12 +393,13 @@ module.exports = {
 //             return;
 //         }
 //         connection.execute(
-//             "    WITH TEMP1 AS (SELECT H1.eid, MAX(H1.record) AS MAXRECORD" +
-//             "    FROM hasEvents H1" +
-//             "    GROUP BY H1.eid)" +
-//             "    SELECT H.dname AS Discipline, H.ename AS Event, H.record, H.year" +
-//             "    FROM hasEvents H, TEMP1 T" +
-//             "    WHERE H.eid = T.MAXRECORD",
+//             "   SELECT *" +
+//             "   FROM (" + 
+//             "   SELECT *" +
+//             "   FROM performanceofcountries"+
+//             "   WHERE year = 2008 "+
+//             "   ORDER BY num_of_gold DESC )" + 
+//             "   WHERE ROWNUM <= 10",    
 //         function(err, result)
 //             {
 //                 if (err) {
