@@ -1,5 +1,6 @@
 /**
  * Created by chen on 11/20/16.
+ * edited by cch dynamodb module
  */
 var oracledb = require('oracledb');
 // Connection data
@@ -8,6 +9,72 @@ var connectData = {
     password      : "zwdkxchcc",
     connectString : "olympics2020.co8dwthdt6zb.us-east-1.rds.amazonaws.com:1521/OLYMPICS"
 };
+
+
+/*dynamodb modelu */
+
+var AWS = require("aws-sdk");
+AWS.config.update({
+    accessKeyId: 'AKIAI5UILHT4HFUW2WMQ',
+    secretAccessKey: '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',
+    region: 'us-east-1'
+});
+var docClient = new AWS.DynamoDB.DocumentClient();
+
+
+var getAllAthlete = function(callback){
+    console.log('getAllAthlete');
+    var params = {
+        TableName : "Athlete",
+        // ProjectionExpression: "#ht",
+        // FilterExpression: "#ht between :min_ht and :max_ht",
+        // ExpressionAttributeNames: {
+        //     "#ht": "Height",
+        // },
+        // ExpressionAttributeValues: {
+        //      ":min_ht": 180,
+        //      ":max_ht": 190 
+        // }
+    };
+
+        docClient.scan(params, function(err, data) {
+        if (err || data.Items.length == 0){
+            console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
+            callback(err, null);
+        }
+        else {
+            console.log("Query succeeded.");
+            var items = [];
+            for (var i = 0; i < data.Items.length; i++) {
+                items.push(data.Items[i]);
+                console.log(" -" +data.Items[i].Sex);
+            }
+            callback(null, items);
+        }
+    });
+    // docClient.scan(params, function(err, data) {
+    //     if (err) {
+    //         console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
+    //         callback(err, null);
+    //     } else {
+    //         console.log("Query succeeded.");
+    //         var result = [];
+    //         data.Items.forEach(function(item) {
+    //             var name = item.name;
+    //             var aid = item._id;
+    //             result[aid]=name;
+    //             console.log(" -", name + ": " + aid);
+    //         });
+    //         callback(null, data);
+    //     }
+    // });   
+}
+
+/*dynamodb test*/
+
+
+
+
 
 // oracledb.createPool(
 //     connectData,
@@ -20,13 +87,13 @@ var connectData = {
 // [ [ 'AFG', 1960, 537777811.911, 8994793, 0, 0 ],
 //     [ 'AFG', 1964, 800000045.511, 9728645, 0, 0 ],
 var getMenAndWomenPerform = function (callback) {
-    var oracledb = require('oracledb');
-// Connection data
-    var connectData = {
-    user          : "cis550project",
-    password      : "zwdkxchcc",
-    connectString : "olympics2020.co8dwthdt6zb.us-east-1.rds.amazonaws.com:1521/OLYMPICS"
-    };
+//     var oracledb = require('oracledb');
+// // Connection data
+//     var connectData = {
+//     user          : "cis550project",
+//     password      : "zwdkxchcc",
+//     connectString : "olympics2020.co8dwthdt6zb.us-east-1.rds.amazonaws.com:1521/OLYMPICS"
+//     };
 
     console.log('getMenAndWomenPerform');
     oracledb.getConnection(
@@ -241,6 +308,7 @@ var showAthleteProfile = function (name, callback) {
         });
 }
 
+
 // Q5 Total medals of every country from most to least
 var getTopMedalsOfCountry = function (callback) {
     console.log('getTopMedalsOfCountry');
@@ -335,7 +403,9 @@ module.exports = {
     showAthleteProfile: showAthleteProfile,
     getTopMedalsOfCountry: getTopMedalsOfCountry,
     getEconomics: getEconomics,
-    getMaxRecordOfEvent: getMaxRecordOfEvent
+    getMaxRecordOfEvent: getMaxRecordOfEvent,
+    /*dynanodb query*/
+    getAllAthlete: getAllAthlete
 }
 
 /*

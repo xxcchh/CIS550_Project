@@ -63,7 +63,7 @@ app.get('/testquery', routes.testquery);
 // This is app initialization code
 function init_app() {
 //    All environments
-    app.set('port', process.env.PORT || 8080);
+    app.set('port', process.env.PORT || 3000);
 //    Use html to do views
     app.set('views', path.join(__dirname, 'views'));
 

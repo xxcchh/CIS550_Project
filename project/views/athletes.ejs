@@ -61,6 +61,21 @@
   </div>
 </nav>
 
-<h3>This is athletes page!</h3>
+
+  
+<table>
+   <tr>
+      <th>firstname</th><th>lastname</th>
+   </tr>
+
+   <% for (var i = 0; i < data.length; i++) { %>
+    <tr>
+      <td><%= data[i].name.first%></td>
+      <td><%= data[i].name.last%></td>
+    </tr>    
+   <% } %>
+</table>
+<!--end of table-->
+
 </body>
 </html>

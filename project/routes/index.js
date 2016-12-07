@@ -39,7 +39,10 @@ var country = function(req, res){
 
 // athletes related queries
 var athletes = function(req, res){
-	res.render('athletes', {});
+	db.getAllAthlete(function(err, results){
+		if(err) throw err;
+		res.render('athletes', {data: results});
+	});
 }
 
 // discipline related queries
