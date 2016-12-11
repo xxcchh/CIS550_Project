@@ -14,19 +14,11 @@ var db = require('../db');
 
 
 var homepage = function(req, res){
-	res.render('test', {});
+    db.getShowOnHomePage(function(err, results){
+    	if(err) throw err;
+    	res.render('home', {data: results});
+    });
 }
-
-// This is a test method
-var testquery = function(req, res){
-	// db.getTopMedalsOfCountry(function(err, results){
-	db.getMenAndWomenPerform(function(err, results){
-		if(err) throw err;
-		res.render('testquery', {data: results});
-	});
-	// res.render('testquery', {});
-}
-
 
 // country related queries
 var country = function(req, res){
@@ -34,6 +26,43 @@ var country = function(req, res){
 		if(err) throw err;
 		res.render('country', {data: results});
 	});
+}
+
+var countryEconomics = function(req, res){
+
+	db.getEconomicsOfHost(function(err, results){
+		if(err) throw err;
+		// console.log(results);
+		// console.log(results[0][0]);
+		res.render('economics', {
+			data: results
+		});
+	});
+}
+
+function countryName(req, res, next){
+	db.getTopMedalsOfCountry(function(err, results){
+		if(err) throw err;
+		req.cname = results;
+		return next();
+	});
+}
+
+function Performance(req, res, next){
+	db.getMenAndWomenPerform(function(err, results){
+		if(err) throw err;
+		req.cperformance = results;
+		next();
+	});
+}
+
+var analysis = function(req, res){
+	console.log("success");
+	res.render("analysis", {
+		cname: req.cname,
+		cperformance: req.cperformance
+	});
+	// });
 }
 
 
@@ -52,5 +81,8 @@ module.exports = {
 	country: country,
 	athletes: athletes,
 	discipline: discipline,
-	testquery: testquery
+	countryEconomics: countryEconomics,
+	analysis: analysis,
+	countryName: countryName,
+	Performance : Performance
 }

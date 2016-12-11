@@ -32,7 +32,7 @@ SELECT *
 FROM Fcount F INNER JOIN Mcount M ON F.code = M.code;
 
 
-Q2. con’t 
+Q2. conï¿½t 
 By clicking the name of each country (var = ccode), show country page.
 SELECT * 
 FROM Country 
@@ -119,4 +119,18 @@ GROUP BY H1.eid)
 SELECT H.dname AS Discipline, H.ename AS Event, H.record, H.year
 FROM hasEvents H, TEMP1 T
 WHERE H.eid = T.MAXRECORD 
+
+Q7 
+Show 2016 top 10 
+
+SELECT *
+FROM 
+(SELECT * 
+FROM performanceofcountries
+WHERE year = 2016
+ORDER BY num_of_gold DESC)
+WHERE ROWNUM <= 10
+
+
+
 
