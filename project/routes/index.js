@@ -14,10 +14,10 @@ var db = require('../db');
 
 
 var homepage = function(req, res){
-    // var x = request('http://www.youtube.com/embed/XGSy3_Czz8k')
-    // req.pipe(x)
-    // x.pipe(res)
-	res.render('test', {});
+    db.getShowOnHomePage(function(err, results){
+    	if(err) throw err;
+    	res.render('home', {data: results});
+    });
 }
 
 // This is a test method

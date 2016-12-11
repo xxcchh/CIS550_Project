@@ -142,8 +142,6 @@ var getEvents = function (gender, ccode, callback) {
                 });
         });
 }
-
-
 // Q3 What is the economic impact of hosting the Olympic Games?
 var getEconomicsOfHost = function (callback) {
     console.log('getEconomicsOfHost'),
@@ -264,11 +262,10 @@ var getTopMedalsOfCountry = function (callback) {
                     console.error(err.message);
                     return;
                 }
-                console.log(result.rows);
+                callback(null, result.rows);
             });
 });
 }
-
 // By clicking the name of each country (var = ccode), show economics
 // Get the economics about a country
 var getEconomics = function (code, calllback){
@@ -291,12 +288,10 @@ var getEconomics = function (code, calllback){
                         console.error(err.message);
                         return;
                     }
-                    console.log(result.rows);
+                    callback(null, result.rows);
                 });
         });
 }
-
-
 // Q6 What is the maximum record for a given event
 var getMaxRecordOfEvent = function (ename, callback) {
     console.log('getMaxRecordOfEvent' + ename);
@@ -321,13 +316,12 @@ var getMaxRecordOfEvent = function (ename, callback) {
                         console.error(err.message);
                         return;
                     }
-                    console.log(result.rows);
+                    callback(null, result.rows);
                 });
         });
 }
-
 // Q7 show 2016 top 10 records
-var getShowOnHomePage = function(){
+var getShowOnHomePage = function(callback){
     console.log("show 2016 records");
     oracledb.getConnection(
         connectData, 
@@ -338,11 +332,11 @@ var getShowOnHomePage = function(){
                 return;
             }
             connection.execute(
-            "   SELECT *" +
+            "   SELECT code, num_of_gold, num_of_silver, num_of_bronze" +
             "   FROM (" + 
             "   SELECT *" +
             "   FROM performanceofcountries"+
-            "   WHERE year = 2008 "+
+            "   WHERE year = 2016 "+
             "   ORDER BY num_of_gold DESC )" + 
             "   WHERE ROWNUM <= 10",
             function(err, result)
@@ -351,13 +345,12 @@ var getShowOnHomePage = function(){
                     console.log(err.message);
                     return;
                 }
-                console.log(result.rows);
+                callback(null, result.rows);
             }
         )
     }
 )
 }
-
 module.exports = {
     getMenAndWomenPerform: getMenAndWomenPerform,
     getCountry: getCountry,
@@ -368,7 +361,7 @@ module.exports = {
     getTopMedalsOfCountry: getTopMedalsOfCountry,
     getEconomics: getEconomics,
     getMaxRecordOfEvent: getMaxRecordOfEvent,
-    getShowOnHomePage: getShowOnHomePage
+    getShowOnHomePage: getShowOnHomePage,
 }
 
 /*
@@ -409,4 +402,3 @@ module.exports = {
 //                 console.log(result.rows);
 //             });
 // });
-
