@@ -52,38 +52,22 @@ var getAllAthlete = function(callback){
             callback(null, items);
         }
     });
-}
-
-var getProfile = function(aname, callback){
-    console.log('getAllAthlete');
-    var params = {
-        TableName : "Athlete",
-        FilterExpression: "#fn = :first and #ln = :last",
-        ExpressionAttributeNames: {
-             "#fn": "name.first",
-             "#ln": "name.last"
-        },
-        ExpressionAttributeValues: {
-              ":first": aname.first,
-              ":last": aname.last
-        }
-    };
-
-        docClient.scan(params, function(err, data) {
-        if (err || data.Items.length == 0){
-            console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
-            callback(err, null);
-        }
-        else {
-            console.log("Query succeeded.");
-            var items = [];
-            for (var i = 0; i < data.Items.length; i++) {
-                items.push(data.Items[i]);
-                console.log(" -" +data.Items[i].Sex);
-            }
-            callback(null, items);
-        }
-    });
+    // docClient.scan(params, function(err, data) {
+    //     if (err) {
+    //         console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
+    //         callback(err, null);
+    //     } else {
+    //         console.log("Query succeeded.");
+    //         var result = [];
+    //         data.Items.forEach(function(item) {
+    //             var name = item.name;
+    //             var aid = item._id;
+    //             result[aid]=name;
+    //             console.log(" -", name + ": " + aid);
+    //         });
+    //         callback(null, data);
+    //     }
+    // });   
 }
 
 /*dynamodb test*/
@@ -410,38 +394,6 @@ var getMaxRecordOfEvent = function (ename, callback) {
         });
 }
 
-// Q7 show 2016 top 10 records
-var getShowOnHomePage = function(){
-    console.log("show 2016 records");
-    oracledb.getConnection(
-        connectData, 
-        function(err, connection)
-        {
-            if (err){
-                console.log(err.message);
-                return;
-            }
-            connection.execute(
-            "   SELECT *" +
-            "   FROM (" + 
-            "   SELECT *" +
-            "   FROM performanceofcountries"+
-            "   WHERE year = 2008 "+
-            "   ORDER BY num_of_gold DESC )" + 
-            "   WHERE ROWNUM <= 10",
-            function(err, result)
-            {
-                if (err){
-                    console.log(err.message);
-                    return;
-                }
-                console.log(result.rows);
-            }
-        )
-    }
-)
-}
-
 module.exports = {
     getMenAndWomenPerform: getMenAndWomenPerform,
     getCountry: getCountry,
@@ -453,8 +405,7 @@ module.exports = {
     getEconomics: getEconomics,
     getMaxRecordOfEvent: getMaxRecordOfEvent,
     /*dynanodb query*/
-    getAllAthlete: getAllAthlete,
-    getProfile: getProfile
+    getAllAthlete: getAllAthlete
 }
 
 /*
@@ -479,13 +430,12 @@ module.exports = {
 //             return;
 //         }
 //         connection.execute(
-//             "   SELECT *" +
-//             "   FROM (" + 
-//             "   SELECT *" +
-//             "   FROM performanceofcountries"+
-//             "   WHERE year = 2008 "+
-//             "   ORDER BY num_of_gold DESC )" + 
-//             "   WHERE ROWNUM <= 10",    
+//             "    WITH TEMP1 AS (SELECT H1.eid, MAX(H1.record) AS MAXRECORD" +
+//             "    FROM hasEvents H1" +
+//             "    GROUP BY H1.eid)" +
+//             "    SELECT H.dname AS Discipline, H.ename AS Event, H.record, H.year" +
+//             "    FROM hasEvents H, TEMP1 T" +
+//             "    WHERE H.eid = T.MAXRECORD",
 //         function(err, result)
 //             {
 //                 if (err) {

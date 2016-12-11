@@ -52,38 +52,22 @@ var getAllAthlete = function(callback){
             callback(null, items);
         }
     });
-}
-
-var getProfile = function(aname, callback){
-    console.log('getAllAthlete');
-    var params = {
-        TableName : "Athlete",
-        FilterExpression: "#fn = :first and #ln = :last",
-        ExpressionAttributeNames: {
-             "#fn": "name.first",
-             "#ln": "name.last"
-        },
-        ExpressionAttributeValues: {
-              ":first": aname.first,
-              ":last": aname.last
-        }
-    };
-
-        docClient.scan(params, function(err, data) {
-        if (err || data.Items.length == 0){
-            console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
-            callback(err, null);
-        }
-        else {
-            console.log("Query succeeded.");
-            var items = [];
-            for (var i = 0; i < data.Items.length; i++) {
-                items.push(data.Items[i]);
-                console.log(" -" +data.Items[i].Sex);
-            }
-            callback(null, items);
-        }
-    });
+    // docClient.scan(params, function(err, data) {
+    //     if (err) {
+    //         console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
+    //         callback(err, null);
+    //     } else {
+    //         console.log("Query succeeded.");
+    //         var result = [];
+    //         data.Items.forEach(function(item) {
+    //             var name = item.name;
+    //             var aid = item._id;
+    //             result[aid]=name;
+    //             console.log(" -", name + ": " + aid);
+    //         });
+    //         callback(null, data);
+    //     }
+    // });   
 }
 
 /*dynamodb test*/
@@ -452,9 +436,12 @@ module.exports = {
     getTopMedalsOfCountry: getTopMedalsOfCountry,
     getEconomics: getEconomics,
     getMaxRecordOfEvent: getMaxRecordOfEvent,
+<<<<<<< HEAD
     /*dynanodb query*/
-    getAllAthlete: getAllAthlete,
-    getProfile: getProfile
+    getAllAthlete: getAllAthlete
+=======
+    getShowOnHomePage: getShowOnHomePage
+>>>>>>> 6914ac5666a26a72b71b2e8eccda1336349c686a
 }
 
 /*

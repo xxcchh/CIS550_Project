@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Testquery</title>
+  <title>athletes</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */
     .navbar {
@@ -34,7 +36,7 @@
   }
   </style>
 </head>
-<body>
+<body ng-app = "myapp">
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -61,8 +63,9 @@
   </div>
 </nav>
 
+<h3>Top Ten Swimming Athletes In The History</h3>
 
-  
+
 <table>
    <tr>
       <th>firstname</th><th>lastname</th>
@@ -70,12 +73,17 @@
 
    <% for (var i = 0; i < data.length; i++) { %>
     <tr>
-      <td><%= data[i].name.first%></td>
-      <td><%= data[i].name.last%></td>
-    </tr>    
+      <td ><%= data[i].name.first%></td>
+      <td ><%= data[i].name.last%></td>
+    </tr>
    <% } %>
 </table>
 <!--end of table-->
+
+
+<h3>Swimmer's Profile</h3>
+
+
 
 </body>
 </html>

@@ -14,6 +14,9 @@ var db = require('../db');
 
 
 var homepage = function(req, res){
+    // var x = request('http://www.youtube.com/embed/XGSy3_Czz8k')
+    // req.pipe(x)
+    // x.pipe(res)
 	res.render('test', {});
 }
 
@@ -37,13 +40,19 @@ var country = function(req, res){
 }
 
 
-// athletes related queries
-var athletes = function(req, res){
-	db.getAllAthlete(function(err, results){
-		if(err) throw err;
-		res.render('athletes', {data: results});
-	});
-}
+// //athletes related queries
+// //this is a test query
+// //pass angularjs variable to node
+// var athletes = function(req,res){
+//     var name = req.body.swimmer;
+//
+//     db.getProfile(name, function(err,results){
+//         if (err) throw err;
+//         res.render('athletes',{
+//             data:results
+//         });
+//     });
+// }
 
 // discipline related queries
 var discipline = function(req, res){
@@ -53,7 +62,7 @@ var discipline = function(req, res){
 module.exports = {
 	homepage: homepage,
 	country: country,
-	athletes: athletes,
+	// athletes: athletes,
 	discipline: discipline,
 	testquery: testquery
 }
