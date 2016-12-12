@@ -44,19 +44,9 @@ function compile(str, path) {
         .use(nib());
 }
 
-//  When we get a request for {app}/ we should call routes/index.js
-// app.get('/', function (req, res) {
-    // res.send('Express Works');
-    // res.render('home.ejs')
-//     res.render('test.ejs')
-// });
-
-// //  We have country, athlete, discipline
-// app.get('/country', routes.country);
-// app.get('/athlete', routes.athlete);
-// app.get('/discipline', routes.discipline);
 
 app.get('/', routes.homepage);
+app.get('/', routes.googleSearch);
 app.get('/country', routes.country);
 app.get('/athletes', athletes.getAllAthlete);
 app.get('/profile', athletes.getProfile);
@@ -67,6 +57,9 @@ app.post('/profile', jsonParser, athletes.getProfile);
 
 // This is a test page
 app.get('/testquery', routes.testquery);
+app.get('/economics', routes.countryEconomics);
+app.get('/analysis', routes.countryName, routes.Performance, routes.analysis);
+
 
 // This is app initialization code
 function init_app() {

@@ -127,14 +127,10 @@ SELECT *
 FROM 
 (SELECT * 
 FROM performanceofcountries
-WHERE year = 2008 
+WHERE year = 2016
 ORDER BY num_of_gold DESC)
 WHERE ROWNUM <= 10
 
-SELECT * 
-FROM performanceofcountries
-WHERE year = 2008 
-ORDER BY num_of_gold DESC
 
 
 
