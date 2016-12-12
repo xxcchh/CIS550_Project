@@ -42,6 +42,7 @@ function compile(str, path) {
 
 
 app.get('/', routes.homepage);
+app.get('/', routes.googleSearch);
 app.get('/country', routes.country);
 app.get('/athletes', routes.athletes);
 app.get('/discipline', routes.discipline);

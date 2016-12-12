@@ -8,8 +8,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="/js/custom.js"></script>
   <link href='//fonts.googleapis.com/css?family=La Belle Aurore' rel='stylesheet'>
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */
@@ -102,13 +103,15 @@
 <body>
 
 <div id="fb-root"></div>
+
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/zh_CN/sdk.js#xfbml=1&version=v2.8";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+</script>
   
 
 <nav class="navbar navbar-inverse">
@@ -129,14 +132,29 @@
         <li><a href="/country">Country</a></li>
         <li><a href="/athletes">Athletes</a></li>
         <li><a href="/discipline">Discipline</a></li>
-
+      
            
-        <li> 
+            <li> 
             <div class="top-search">
+
+              <script type="text/javascript">
+
+                $(document).ready(function() {
+                  var lolz = $('#s');
+                  var kk = $('#kk');
+                  kk.click(function(){
+                    alert('Will show the page about: ' + lolz.val());
+                  })
+                });  
+
+              </script>
+
+
+
                <form  method="get" id="searchform" action="#">
                   <div>
                      <input type="text" value="Goolge Search..." name="enter" class = 'enter' id="s" />
-                     <button type="button" class="btn btn-default btn-sm" value="click" id='kk'>
+                     <button type="submit" class="btn btn-default btn-sm" value="click" id='kk'>
                      <span class="glyphicon glyphicon-search"></span> 
                      </button>
    <!-- <input type="submit" id="searchsubmit" value=" " /> -->
@@ -233,26 +251,54 @@
      
 
     <div class="col-sm-6">
-    
-    <br>
-    <table>
-          <img src="/images/rio2016.jpg" height="90">
-          <tr>
-            <th >Country</th>
-            <th style="color:#dab509;">Gold</th>
-            <th style="color:#a1a1a1;">Silver</th>
-            <th style="color:#b87058;">Bronze</th>
-          </tr>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+      $('#example').DataTable( {
+            // "columnDefs": [
+            //     {
+            //         // The `data` parameter refers to the data for the cell (defined by the
+            //         // `data` option, which defaults to the column being worked with, in
+            //         // this case `data: 0`.
+            //         "render": function ( data, type, row ) {
+            //             return data +' ('+ row[3]+')';
+            //         },
+            //         "targets": 0
+
+            //     },
+            //     { "visible": false,  "targets": [3] }
+            // ]
+        } );
+    } );
+    </script>
+
+    <img src="/images/rio2016.jpg" height="80">
+
+    <table id="example" class="display" cellspacing="0" width="100%">
+    <br>  
+          <thead>
+              <tr>
+              <th >Country</th>
+              <th style="color:#dab509;">Gold</th>
+              <th style="color:#a1a1a1;">Silver</th>
+              <th style="color:#b87058;">Bronze</th>
+              </tr>
+          </thead>
+
+           <tbody>
 
           <% for(var i=0; i< data.length; i++) { %>
-           <tr>
-             <td> <img src="/images/2016/<%=i+1%>.png" alt="<%= data[i][0] %>" width = "30" height = "20"/> &nbsp; <b> <%= data[i][0] %></b> </td>
+             <tr>
+             <td> <img src="/images/2016/<%=i+1%>.png" alt="<%= data[i][0] %>" width = "30" height = "20"/> &nbsp;
+             <b> <%= data[i][0] %></b></td>
              <td> <%= data[i][1] %> </td>
              <td> <%= data[i][2] %> </td>
              <td> <%= data[i][3] %> </td>
-            <tr>
+             </tr>
           <% } %>
-          
+
+            </tbody>
+
     </table>
       
 

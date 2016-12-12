@@ -11,7 +11,23 @@
 //   res.render('discipline.ejs', {});
 // };
 var db = require('../db');
+var google = require('google')
+var open = require('open')
 
+var googleSearch = function(req, res){
+    google.resultsPerPage = 5;
+    google(req.s, function (err, res){
+      if (err) {
+          console.error(err);
+      }
+      else{
+        var link = res.links[1];
+        console.log(link.title + ' - ' + link.href);
+        console.log(link.description + "\n");
+        open(link.href);
+      }
+    });
+};
 
 var homepage = function(req, res){
     db.getShowOnHomePage(function(err, results){
@@ -84,5 +100,6 @@ module.exports = {
 	countryEconomics: countryEconomics,
 	analysis: analysis,
 	countryName: countryName,
-	Performance : Performance
+	Performance : Performance,
+	googleSearch: googleSearch
 }
