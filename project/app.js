@@ -12,11 +12,16 @@ var express = require('express')
     , cons  = require('consolidate')
     , engine = require('ejs-locals')
 <<<<<<< HEAD
+<<<<<<< HEAD
     , bodyParser = require('body-parser');
 =======
     , bodyParser = require('body-parser')
     , athletes = require('./routes/athletes')
 >>>>>>> 84ef57235ed356b8a74c917f2ae48af92abea345
+=======
+    , bodyParser = require('body-parser')
+    , athletes = require('./routes/athletes')
+>>>>>>> hwp/master
 ;
 
 // Initialize expres
