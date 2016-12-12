@@ -83,10 +83,19 @@ var analysis = function(req, res){
 }
 
 
-// athletes related queries
-var athletes = function(req, res){
-	res.render('athletes', {});
-}
+// //athletes related queries
+// //this is a test query
+// //pass angularjs variable to node
+// var athletes = function(req,res){
+//     var name = req.body.swimmer;
+//
+//     db.getProfile(name, function(err,results){
+//         if (err) throw err;
+//         res.render('athletes',{
+//             data:results
+//         });
+//     });
+// }
 
 // discipline related queries
 var discipline = function(req, res){
@@ -96,7 +105,7 @@ var discipline = function(req, res){
 module.exports = {
 	homepage: homepage,
 	country: country,
-	athletes: athletes,
+	// athletes: athletes,
 	discipline: discipline,
 	countryEconomics: countryEconomics,
 	analysis: analysis,

@@ -12,12 +12,72 @@ var connectData = {
     connectString : "olympics2020.co8dwthdt6zb.us-east-1.rds.amazonaws.com:1521/OLYMPICS"
 };
 
-// oracledb.createPool(
-//     connectData,
-//     function (err, pool) {
-//         console.log(pool.poolAlias);
-//     }
-// );
+
+/*dynamodb modelu */
+var AWS = require("aws-sdk");
+AWS.config.update({
+    accessKeyId: 'AKIAI5UILHT4HFUW2WMQ',
+    secretAccessKey: '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',
+    region: 'us-east-1'
+});
+var docClient = new AWS.DynamoDB.DocumentClient();
+
+//show top ten swimmers in the history
+//output: firstname + lastname
+var getAllAthlete = function(callback){
+    console.log('getAllAthlete');
+    var params = {
+        TableName : "Athlete",
+    };
+
+        docClient.scan(params, function(err, data) {
+        if (err || data.Items.length == 0){
+            console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
+            callback(err, null);
+        }
+        else {
+            console.log("Query succeeded.");
+            var items = [];
+            for (var i = 0; i < data.Items.length; i++) {
+                items.push(data.Items[i]);
+            }
+            callback(null, items);
+        }
+    });
+};
+
+//show the full profile for a certain swimmer
+//key: the _id of the swimmer
+var getProfile = function(key, callback){
+
+    var params = {
+        TableName : "Athlete",
+        FilterExpression: "#id = :val",
+        ExpressionAttributeNames: {
+            "#id":"_id"
+        },
+        ExpressionAttributeValues: {
+            ":val":key
+        }
+    };
+
+        docClient.scan(params, function(err, data) {
+        if (err || data.Items.length == 0){
+            console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
+            callback(err, null);
+        }
+        else {
+            console.log("Query succeeded.");
+            var items = [];
+            for (var i = 0; i < data.Items.length; i++) {
+                items.push(data.Items[i]);
+                console.log(" -" +data.Items[i].Sex);
+            }
+            callback(null, data);
+        }
+    });
+}
+
 
 // Q1 What is the difference of performance between men and women for each country?
 // [ [ 'AFG', 1960, 537777811.911, 8994793, 0, 0 ],
@@ -304,6 +364,35 @@ var getTopMedalsOfCountry = function (callback) {
         });
 }
 
+
+// Q5 Total medals of every country from most to least
+var getTopMedalsOfCountry = function (callback) {
+    console.log('getTopMedalsOfCountry');
+    oracledb.getConnection(
+    connectData,
+    function(err, connection)
+    {
+        if (err) {
+            console.error(err.message);
+            return;
+        }
+        connection.execute(
+            "     SELECT C.name, SUM(P.TOTALMEDALS) as total" +
+            "     FROM CPerformance P, Country C" +
+            "     WHERE P.code = C.code" +
+            "     GROUP BY C.name" +
+            "     ORDER BY total DESC",
+        function(err, result)
+            {
+                if (err) {
+                    console.error(err.message);
+                    return;
+                }
+                console.log(result.rows);
+            });
+});
+}
+
 // By clicking the name of each country (var = ccode), show economics
 // Get the economics about a country
 var getEconomics = function (code, calllback){
@@ -420,6 +509,9 @@ module.exports = {
     getTopMedalsOfCountry: getTopMedalsOfCountry,
     getEconomics: getEconomics,
     getMaxRecordOfEvent: getMaxRecordOfEvent,
+    /*dynanodb query*/
+    getAllAthlete: getAllAthlete,
+    getProfile: getProfile
     getShowOnHomePage: getShowOnHomePage,
     getAllCountry: getAllCountry
 }

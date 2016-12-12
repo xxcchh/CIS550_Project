@@ -11,10 +11,15 @@ var express = require('express')
     , nib = require('nib')
     , cons  = require('consolidate')
     , engine = require('ejs-locals')
+<<<<<<< HEAD
     , bodyParser = require('body-parser');
+=======
+    , bodyParser = require('body-parser')
+    , athletes = require('./routes/athletes')
+>>>>>>> 84ef57235ed356b8a74c917f2ae48af92abea345
 ;
 
-// Initialize express
+// Initialize expres
 var app = express();
 
 // View engine setup use ejs
@@ -24,6 +29,8 @@ app.use(bodyParser());
 
 // Set static files
 app.use(express.static("public"));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 
 
 init_app(app);
@@ -49,10 +56,18 @@ function compile(str, path) {
 app.get('/', routes.homepage);
 app.get('/', routes.googleSearch('hello'));
 app.get('/country', routes.country);
-app.get('/athletes', routes.athletes);
+app.get('/athletes', athletes.getAllAthlete);
+app.get('/profile', athletes.getProfile);
 app.get('/discipline', routes.discipline);
+
+var jsonParser = bodyParser.json();
+app.post('/profile', jsonParser, athletes.getProfile);
+
+// This is a test page
+app.get('/testquery', routes.testquery);
 app.get('/economics', routes.countryEconomics);
 app.get('/analysis', routes.countryName, routes.Performance, routes.analysis);
+
 
 // This is app initialization code
 function init_app() {
