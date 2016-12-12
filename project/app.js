@@ -16,7 +16,6 @@ var express = require('express')
 ;
 
 // Initialize expres
-// s
 var app = express();
 
 // View engine setup use ejs
@@ -25,6 +24,8 @@ app.set('view engine', 'ejs');
 
 // Set static files
 app.use(express.static("public"));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 
 
 init_app(app);
@@ -57,11 +58,12 @@ function compile(str, path) {
 
 app.get('/', routes.homepage);
 app.get('/country', routes.country);
-app.get('/athletes', athletes.getProfile);
+app.get('/athletes', athletes.getAllAthlete);
+app.get('/profile', athletes.getProfile);
 app.get('/discipline', routes.discipline);
 
 var jsonParser = bodyParser.json();
-app.post('/athletes', jsonParser, athletes.getProfile);
+app.post('/profile', jsonParser, athletes.getProfile);
 
 // This is a test page
 app.get('/testquery', routes.testquery);

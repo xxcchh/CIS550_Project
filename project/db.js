@@ -1,6 +1,5 @@
 /**
  * Created by chen on 11/20/16.
- * edited by cch dynamodb module
  */
 var oracledb = require('oracledb');
 // Connection data
@@ -12,7 +11,6 @@ var connectData = {
 
 
 /*dynamodb modelu */
-
 var AWS = require("aws-sdk");
 AWS.config.update({
     accessKeyId: 'AKIAI5UILHT4HFUW2WMQ',
@@ -21,20 +19,12 @@ AWS.config.update({
 });
 var docClient = new AWS.DynamoDB.DocumentClient();
 
-
+//show top ten swimmers in the history
+//output: firstname + lastname
 var getAllAthlete = function(callback){
     console.log('getAllAthlete');
     var params = {
         TableName : "Athlete",
-        // ProjectionExpression: "#ht",
-        // FilterExpression: "#ht between :min_ht and :max_ht",
-        // ExpressionAttributeNames: {
-        //     "#ht": "Height",
-        // },
-        // ExpressionAttributeValues: {
-        //      ":min_ht": 180,
-        //      ":max_ht": 190 
-        // }
     };
 
         docClient.scan(params, function(err, data) {
@@ -47,25 +37,24 @@ var getAllAthlete = function(callback){
             var items = [];
             for (var i = 0; i < data.Items.length; i++) {
                 items.push(data.Items[i]);
-                console.log(" -" +data.Items[i].Sex);
             }
             callback(null, items);
         }
     });
-}
+};
 
-var getProfile = function(aname, callback){
-    console.log('getAllAthlete');
+//show the full profile for a certain swimmer
+//key: the _id of the swimmer
+var getProfile = function(key, callback){
+
     var params = {
         TableName : "Athlete",
-        FilterExpression: "#fn = :first and #ln = :last",
+        FilterExpression: "#id = :val",
         ExpressionAttributeNames: {
-             "#fn": "name.first",
-             "#ln": "name.last"
+            "#id":"_id"
         },
         ExpressionAttributeValues: {
-              ":first": aname.first,
-              ":last": aname.last
+            ":val":key
         }
     };
 
@@ -81,23 +70,11 @@ var getProfile = function(aname, callback){
                 items.push(data.Items[i]);
                 console.log(" -" +data.Items[i].Sex);
             }
-            callback(null, items);
+            callback(null, data);
         }
     });
 }
 
-/*dynamodb test*/
-
-
-
-
-
-// oracledb.createPool(
-//     connectData,
-//     function (err, pool) {
-//         console.log(pool.poolAlias);
-//     }
-// );
 
 // Q1 What is the difference of performance between men and women for each country?
 // [ [ 'AFG', 1960, 537777811.911, 8994793, 0, 0 ],

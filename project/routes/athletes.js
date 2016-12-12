@@ -1,27 +1,33 @@
 var db = require('../db');
 
+
+
 // athletes related queries
 var getAllAthlete = function(req, res){
     db.getAllAthlete(function(err, results){
         if(err) throw err;
         res.render('athletes', {data: results});
     });
-}
+};
 
 var getProfile = function(req,res){
-    var name = req.body.swimmer;
+    // var name = req.body.swimmer;
+    var key = 1;
 
-    db.getProfile(name, function(err,results){
+    db.getProfile(key, function(err,results){
         if (err) throw err;
-        res.render('test2',{
+
+        res.render('profile',{
             data:results
         });
+        return res.json(results);
     });
-}
+};
+
 module.exports = {
     getAllAthlete: getAllAthlete,
     getProfile: getProfile
-}
+};
 
 
 // app.post('/api/book', function(req, res, next){

@@ -4,7 +4,39 @@
   <title>athletes</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!--sd-admin style-->
+  <!-- Bootstrap Core CSS -->
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- MetisMenu CSS -->
+  <link href="/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/dist/css/sb-admin-2.css" rel="stylesheet">
+  <!-- Custom Fonts -->
+  <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <!--popup style-->
+  <!-- Theme CSS -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
+  <!-- Custom Fonts -->
+  <!--<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -15,74 +47,222 @@
       margin-bottom: 0;
       border-radius: 0;
     }
-    
+
     /* Add a gray background color and some padding to the footer */
     footer {
       background-color: #f2f2f2;
       padding: 25px;
     }
-    
-  .carousel-inner img {
+
+    .carousel-inner img {
       width: 100%; /* Set width to 100% */
       margin: auto;
       min-height:200px;
-  }
-
-  /* Hide the carousel text when the screen is less than 600 pixels wide */
-  @media (max-width: 600px) {
-    .carousel-caption {
-      display: none;
     }
-  }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none;
+      }
+    }
   </style>
 </head>
 <body ng-app = "myapp">
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/"><img src = '/images/logo.png' width = 50px /></a>
+<div id="wrapper">
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/"><img src = '/images/logo.png' width = 50px /></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="/">Home</a></li>
+          <li><a href="/country">Country</a></li>
+          <li class="active"><a href="/athletes">Athletes</a></li>
+          <li><a href="/discipline">Discipline</a></li>
+          <!-- <li><a href="#">Contact</a></li> -->
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="/">Home</a></li>
-        <li><a href="/country">Country</a></li>
-        <li class="active"><a href="/athletes">Athletes</a></li>
-        <li><a href="/discipline">Discipline</a></li>
-        <!-- <li><a href="#">Contact</a></li> -->
+  </nav>
+
+  <div class="navbar-default sidebar" role="navigation">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu">
+        <li class="sidebar-search">
+
+          <!-- /input-group -->
+        </li>
+        <li>
+          <a href="athletes"><i class="fa fa-dashboard fa-fw"></i>Top Swimmers</a>
+        </li>
+        <li>
+          <a href="athleteslist"><i class="fa fa-table fa-fw"></i> Athletes List</a>
+        </li>
+
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
+    </div>
+    <!-- /.sidebar-collapse -->
+  </div>
+  <!-- /.navbar-static-side -->
+  </nav>
+
+  <!-- Page Content -->
+  <div id="page-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">Top Ten Swimmers In The History</h1>
+          <div class="row">
+            <% for (var i = 0; i < data.length; i++) { %>
+
+            <div class="col-md-6">
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <div class="row">
+                    <div class="col-xs-3">
+
+                      <!--athletes' tabel-->
+                      <!--<i class="fa fa-tasks fa-5x"></i>-->
+                      <img src="/images/profile/<%=i+1%>.jpg" width = "70" height ="70"/>
+                    </div>
+                    <div class="col-xs-9 text-right">
+                      <div class="huge"><%= data[i].name.first +' '+ data[i].name.last%></div>
+                    </div>
+                  </div>
+                </div>
+                  <a href="#portfolioModal<%=i+1%>" class="portfolio-link" data-toggle="modal">
+                    <div class="panel-footer">
+                      <span class="pull-left">View Details</span>
+                      <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                      <div class="clearfix"></div>
+                    </div>
+                  </a>
+                <!--<a href="#">-->
+                  <!--<div class="panel-footer">-->
+                    <!--<span class="pull-left">View Details</span>-->
+                    <!--<span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>-->
+                    <!--<div class="clearfix"></div>-->
+                  <!--</div>-->
+                <!--</a>-->
+              </div>
+            </div>
+
+            <% } %>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</nav>
 
-<h3>Top Ten Swimming Athletes In The History</h3>
+  <!-- Portfolio Modals -->
+    <% for (var i = 0; i < data.length; i++) { %>
+  <div class="portfolio-modal modal fade" id="portfolioModal<%=i+1%>" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2><%= data[i].name.first +' '+ data[i].name.last%></h2>
+              <hr class="star-primary">
+              <!--<img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">-->
+              <img src="/images/profile/<%=i+1%>.jpg" class="img-responsive img-centered" alt=""/>
+              <p>Sex: <%= data[i].Sex%></p>
+              <p>Birthday: <%= data[i].DOB.day%>/<%= data[i].DOB.month%>/<%= data[i].DOB.year%></p>
+              <p>Nationality: <%= data[i].Nationality%></p>
+                <% if (data[i].Height) { %>
+              <p>Height: <%= data[i].Height%>(cm)</p>
+                <% } %>
+                <% if (data[i].Weigth) { %>
+              <p>Height: <%= data[i].Weigth%>(kg)</p>
+                <% } %>
+                <% if (data[i].Social) { %>
+              <p><a href="<%= data[i].Social.Facebook%>">Facebook</a></p>
+              <p><a href="<%= data[i].Social.Twitter%>">Twitter</a></p>
+                <% } %>
+                <% if (data[i].Rank) { %>
+              <div class="col-lg-6">
+                <div class="panel panel-default">
+                  <!-- /.panel-heading -->
+                  <div class="panel-body">
+                    <div class="table-responsive">
+                      <table class="table table-striped">
+                        <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Event</th>
+                          <th>Rank</th>
+                          <th>Year</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                        </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                    <% } %>
+                    <!-- /.table-responsive -->
+                  </div>
+                  <!-- /.panel-body -->
+                </div>
+                <!-- /.panel -->
+              <!--<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <% } %>
+  <!-- /#page-wrapper -->
+</div>
+<!-- /#wrapper -->
 
+<!--sd-admin style-->
+<!-- jQuery -->
+<script src="/vendor/jquery/jquery.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- Metis Menu Plugin JavaScript -->
+<script src="/vendor/metisMenu/metisMenu.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="/dist/js/sb-admin-2.js"></script>
+  <!-- DataTables JavaScript -->
+  <script src="/vendor/datatables/js/jquery.dataTables.min.js"></script>
+  <script src="/vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+  <script src="vendor/datatables-responsive/dataTables.responsive.js"></script>
 
-<table>
-   <tr>
-      <th>firstname</th><th>lastname</th>
-   </tr>
-
-   <% for (var i = 0; i < data.length; i++) { %>
-    <tr>
-      <td ><%= data[i].name.first%></td>
-      <td ><%= data[i].name.last%></td>
-    </tr>
-   <% } %>
-</table>
-<!--end of table-->
-
-
-<h3>Swimmer's Profile</h3>
-
+<!--popup style-->
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<!-- Contact Form JavaScript -->
+<script src="/js/jqBootstrapValidation.js"></script>
+<script src="/js/contact_me.js"></script>
+<!-- Theme JavaScript -->
+<script src="/js/freelancer.min.js"></script>
 
 
 </body>
