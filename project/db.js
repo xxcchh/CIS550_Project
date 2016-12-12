@@ -2,6 +2,9 @@
  * Created by chen on 11/20/16.
  */
 var oracledb = require('oracledb');
+var google = require('google');
+var open = require('open');
+
 // Connection data
 var connectData = {
     user          : "cis550project",
@@ -388,6 +391,25 @@ var getShowOnHomePage = function(callback){
     }
 )
 }
+
+var googleSearch = function(text, callback) {
+    // var text = req.s;
+    google.resultsPerPage = 5;
+    google(text, function (err, res){
+        if (err) {
+            console.error(err);
+        }
+        else{
+            var link = res.links[1];
+            console.log(link.title + ' - ' + link.href);
+            console.log(link.description + "\n");
+            open(link.href);
+            callback(null, link);
+        }
+    });
+};
+
+
 module.exports = {
     getMenAndWomenPerform: getMenAndWomenPerform,
     getCountry: getCountry,

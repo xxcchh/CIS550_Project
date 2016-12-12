@@ -11,6 +11,7 @@ var express = require('express')
     , nib = require('nib')
     , cons  = require('consolidate')
     , engine = require('ejs-locals')
+    , bodyParser = require('body-parser');
 ;
 
 // Initialize express
@@ -19,6 +20,7 @@ var app = express();
 // View engine setup use ejs
 app.engine('ejs', engine);
 app.set('view engine', 'ejs');
+app.use(bodyParser());
 
 // Set static files
 app.use(express.static("public"));
@@ -40,9 +42,12 @@ function compile(str, path) {
         .use(nib());
 }
 
-
+// app.get('/', routes.homepage, function (req, res) {
+//     var text = req.s;
+//     return routes.googleSearch(text);
+// });
 app.get('/', routes.homepage);
-app.get('/', routes.googleSearch);
+app.get('/', routes.googleSearch('hello'));
 app.get('/country', routes.country);
 app.get('/athletes', routes.athletes);
 app.get('/discipline', routes.discipline);
