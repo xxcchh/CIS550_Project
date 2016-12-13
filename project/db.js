@@ -252,8 +252,8 @@ var getEconomicsOfHost = function (callback) {
                     "        FROM PERFORMANCEOFCOUNTRIES" +
                     "        ORDER BY code, year)" +
                     "        SELECT c.NAME, e.YEAR, e.GDP, e.CPI, e.POPULATION, e.INCOME, p.TOTALMEDALS" +
-                    "        FROM ECONOMICS e, COUNTRY c, CPERFORMANCE p" +
-                    "        WHERE e.CODE = c.CODE AND e.CODE = p.CODE AND e.YEAR = p.YEAR" +
+                    "        FROM ECONOMICS e, COUNTRY c, CPERFORMANCE p, OLYMPICS o" +
+                    "        WHERE e.CODE = c.CODE AND e.CODE = p.CODE AND e.YEAR = p.YEAR AND o.country = c.CODE AND o.year = e.year" +
                     "        ORDER BY e.CODE, e.YEAR",
                     function(err, result)
                     {

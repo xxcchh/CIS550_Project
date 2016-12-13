@@ -59,7 +59,6 @@ app.get('/athletesanalysis',athletes.getPerformance );
 app.get('/athleteslist',athletes.getAthleteslist);
 app.get('/discipline', routes.discipline);
 
-
 var jsonParser = bodyParser.json();
 app.post('/profile', jsonParser, athletes.getProfile);
 app.get('/economics', routes.countryEconomics);
