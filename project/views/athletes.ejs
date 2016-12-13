@@ -7,28 +7,21 @@
 
   <!--sd-admin style-->
   <!-- Bootstrap Core CSS -->
-  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="startbs/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- MetisMenu CSS -->
-  <link href="/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+  <link href="startbs/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
   <!-- Custom CSS -->
   <link href="/dist/css/sb-admin-2.css" rel="stylesheet">
   <!-- Custom Fonts -->
-  <link href="/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="startbs/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-  <!--popup style-->
+  <!--popup style-->S
   <!-- Theme CSS -->
   <link href="css/freelancer.min.css" rel="stylesheet">
   <!-- Custom Fonts -->
-  <!--<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
+  <!--<link href=startbs"vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -100,16 +93,19 @@
   <div class="navbar-default sidebar" role="navigation">
     <div class="sidebar-nav navbar-collapse">
       <ul class="nav" id="side-menu">
-        <li class="sidebar-search">
-
-          <!-- /input-group -->
-        </li>
-        <li>
-          <a href="athletes"><i class="fa fa-dashboard fa-fw"></i>Top Swimmers</a>
-        </li>
-        <li>
-          <a href="athleteslist"><i class="fa fa-table fa-fw"></i> Athletes List</a>
-        </li>
+          <li class="sidebar-search">
+              <img src = '/images/tokyo.png' width = 200px />
+              <!-- /input-group -->
+          </li>
+          <li>
+              <a href="athletes"><i class="fa fa-dashboard fa-fw"></i>Top Swimmers</a>
+          </li>
+          <li>
+              <a href="athleteslist"><i class="fa fa-table fa-fw"></i> Athletes List</a>
+          </li>
+          <li>
+              <a href="athletesanalysis"><i class="fa fa-table fa-fw"></i> Analysis</a>
+          </li>
 
       </ul>
     </div>
@@ -177,7 +173,7 @@
         </div>
       </div>
       <div class="container">
-        <div class="row">
+        <!--<div class="row">-->
           <div class="col-lg-8 col-lg-offset-2">
             <div class="modal-body">
               <h2><%= data[i].name.first +' '+ data[i].name.last%></h2>
@@ -197,42 +193,87 @@
               <p><a href="<%= data[i].Social.Facebook%>">Facebook</a></p>
               <p><a href="<%= data[i].Social.Twitter%>">Twitter</a></p>
                 <% } %>
-                <% if (data[i].Rank) { %>
-              <div class="col-lg-6">
+                <% if (data[i].Rank) {%>
+                <div class="col-lg-12">
                 <div class="panel panel-default">
-                  <!-- /.panel-heading -->
+                    <div class="panel-heading">
+                        World Ranking
+                    </div>
                   <div class="panel-body">
-                    <div class="table-responsive">
-                      <table class="table table-striped">
+                    <!--<div class="table-responsive">-->
+                      <table class="table">
                         <thead>
                         <tr>
                           <th>#</th>
+                          <th>Year</th>
                           <th>Event</th>
                           <th>Rank</th>
-                          <th>Year</th>
                         </tr>
                         </thead>
                         <tbody>
+                        <%for (var j=0; j<data[i].Rank.length; j++){%>
                         <tr>
-                          <td>1</td>
-                          <td>Mark</td>
-                          <td>Otto</td>
-                          <td>@mdo</td>
+                          <td><%=j+1%></td>
+                          <td><%=data[i].Rank[j].Year%></td>
+                          <td><%=data[i].Rank[j].Event%></td>
+                          <td><%=data[i].Rank[j].Rank%></td>
                         </tr>
+                        <% } %>
                         </tbody>
                       </table>
-                    </div>
+                    <!--</div>-->
                   </div>
-                    <% } %>
                     <!-- /.table-responsive -->
                   </div>
                   <!-- /.panel-body -->
                 </div>
+                <% } %>
+                <!--show athletes records-->
+                <% if (data[i].Record) {%>
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Match Records
+                        </div>
+                        <div class="panel-body">
+                            <table width="100%" class="table-striped" id="dataTables-example">
+                                <thead>
+                                <tr>
+                                    <th>City</th>
+                                    <th>Course</th>
+                                    <th>Date</th>
+                                    <th>Event</th>
+                                    <th>Meet</th>
+                                    <th>Points</th>
+                                    <th>Time</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <% for (var j=0; j<data[i].Record.length; j++){%>
+                                <tr>
+                                    <td><%= data[i].Record[j].City%></td>
+                                    <td><%= data[i].Record[j].Course%></td>
+                                    <td><%= data[i].Record[j].Date%></td>
+                                    <td><%= data[i].Record[j].Event%></td>
+                                    <td><%= data[i].Record[j].Meet%></td>
+                                    <td><%= data[i].Record[j].Points%></td>
+                                    <td><%= data[i].Record[j].Time%></td>
+                                </tr>
+                                <%}%>
+                                </tbody>
+                            </table>
+                            <!-- /.table-responsive -->
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                </div>
+                <%}%>
+
+
                 <!-- /.panel -->
-              <!--<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>-->
             </div>
           </div>
-        </div>
+        <!--</div>-->
       </div>
     </div>
   </div>
@@ -241,19 +282,24 @@
 </div>
 <!-- /#wrapper -->
 
+    <!-- /#wrapper -->
+    <footer class="container-fluid text-center">
+        <p>Footer Text</p>
+    </footer>
+
 <!--sd-admin style-->
 <!-- jQuery -->
-<script src="/vendor/jquery/jquery.min.js"></script>
+<script src="startbs/vendor/jquery/jquery.min.js"></script>
 <!-- Bootstrap Core JavaScript -->
-<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="startbs/vendor/bootstrap/js/bootstrap.min.js"></script>
 <!-- Metis Menu Plugin JavaScript -->
-<script src="/vendor/metisMenu/metisMenu.min.js"></script>
+<script src="startbs/vendor/metisMenu/metisMenu.min.js"></script>
 <!-- Custom Theme JavaScript -->
 <script src="/dist/js/sb-admin-2.js"></script>
   <!-- DataTables JavaScript -->
-  <script src="/vendor/datatables/js/jquery.dataTables.min.js"></script>
-  <script src="/vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
-  <script src="vendor/datatables-responsive/dataTables.responsive.js"></script>
+  <script src="startbs/vendor/datatables/js/jquery.dataTables.min.js"></script>
+  <script src="startbs/vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+  <script src="startbs/vendor/datatables-responsive/dataTables.responsive.js"></script>
 
 <!--popup style-->
 <!-- Plugin JavaScript -->
@@ -263,6 +309,30 @@
 <script src="/js/contact_me.js"></script>
 <!-- Theme JavaScript -->
 <script src="/js/freelancer.min.js"></script>
+
+    <!--datatabel style-->
+    <!-- DataTables JavaScript -->
+    <script src="startbs/vendor/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="startbs/vendor/datatables-plugins/dataTables.bootstrap.min.js"></script>
+    <script src="startbs/vendor/datatables-responsive/dataTables.responsive.js"></script>
+
+
+    <!-- Custom Theme JavaScript -->
+    <script src="dist/js/sb-admin-2.js"></script>
+
+    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+    <script>
+//        $(document).ready(function() {
+//            $('#dataTables-example').DataTable({
+//                responsive: true
+//            });
+//        });
+
+
+        $(document).ready(function() {
+            $('table.table-striped').DataTable();
+        } );
+    </script>
 
 
 </body>

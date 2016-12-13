@@ -55,13 +55,13 @@ app.get('/', routes.homepage);
 // app.get('/', routes.googleSearch('hello'));
 app.get('/country', routes.country);
 app.get('/athletes', athletes.getAllAthlete);
-app.get('/profile', athletes.getProfile);
+app.get('/athletesanalysis',athletes.getPerformance );
+app.get('/athleteslist',athletes.getAthleteslist);
 app.get('/discipline', routes.discipline);
+
 
 var jsonParser = bodyParser.json();
 app.post('/profile', jsonParser, athletes.getProfile);
-
-// This is a test page
 app.get('/economics', routes.countryEconomics);
 app.get('/analysis', routes.countryName, routes.Performance, routes.analysis);
 
@@ -69,7 +69,7 @@ app.get('/analysis', routes.countryName, routes.Performance, routes.analysis);
 // This is app initialization code
 function init_app() {
 //    All environments
-    app.set('port', process.env.PORT || 8080);
+    app.set('port', process.env.PORT || 3000);
 //    Use html to do views
     app.set('views', path.join(__dirname, 'views'));
 }
