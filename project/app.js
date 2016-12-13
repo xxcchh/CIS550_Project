@@ -13,8 +13,6 @@ var express = require('express')
     , engine = require('ejs-locals')
     , bodyParser = require('body-parser')
     , athletes = require('./routes/athletes')
-    , bodyParser = require('body-parser')
-    , athletes = require('./routes/athletes')
 ;
 
 // Initialize expres
@@ -55,12 +53,10 @@ app.get('/', routes.homepage);
 // app.get('/', routes.googleSearch('hello'));
 app.get('/country', routes.country);
 app.get('/athletes', athletes.getAllAthlete);
-app.get('/athletesanalysis',athletes.getPerformance );
+app.get('/athletesanalysis',athletes.getPerformance, athletes.getPhelpsvscountry, athletes.athletesanalysis );
 app.get('/athleteslist',athletes.getAthleteslist);
 app.get('/discipline', routes.discipline);
 
-var jsonParser = bodyParser.json();
-app.post('/profile', jsonParser, athletes.getProfile);
 app.get('/economics', routes.countryEconomics);
 app.get('/analysis', routes.countryName, routes.Performance, routes.analysis);
 

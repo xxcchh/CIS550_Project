@@ -27,7 +27,7 @@ var docClient = new AWS.DynamoDB.DocumentClient();
 var getAllAthlete = function(callback){
     console.log('getAllAthlete');
     var params = {
-        TableName : "Athlete",
+        TableName : "Athlete"
     };
 
         docClient.scan(params, function(err, data) {
@@ -76,7 +76,7 @@ var getProfile = function(key, callback){
             callback(null, data);
         }
     });
-}
+};
 
 
 // Q1 What is the difference of performance between men and women for each country?
@@ -141,7 +141,7 @@ var getMenAndWomenPerform = function (callback) {
             }
             connection.close();
         });
-}
+};
 
 // Q2. cont By clicking the name of each country (var = ccode), show country page.
 // [ [ 'USA', 'United States', 0, 0, 0, 0 ] ]
@@ -171,7 +171,7 @@ var getCountry = function (ccode, callback) {
                     });
             }
         });
-}
+};
 
 var getAllCountry = function (callback) {
     oracledb.getConnection(
@@ -198,7 +198,7 @@ var getAllCountry = function (callback) {
                     });
             }
         });
-}
+};
 
 // // By clicking the  the medal number of each country (var1 = gender, var2=ccode), show events
 var getEvents = function (gender, ccode, callback) {
@@ -232,7 +232,7 @@ var getEvents = function (gender, ccode, callback) {
                     }
                 });
         });
-}
+};
 
 
 // Q3 What is the economic impact of hosting the Olympic Games?
@@ -267,7 +267,7 @@ var getEconomicsOfHost = function (callback) {
                         }
                     });
             });
-}
+};
 
 // Q4 Top n athletes win the most medals
 // [ [ 'LATYNINA, Larisa', 18 ],
@@ -302,7 +302,7 @@ var getTopNAthletes = function (N, callback) {
                         }
                     });
             });
-}
+};
 // // By clicking the name of each athlete, show athlete profile
 var showAthleteProfile = function (callback) {
     console.log('showAthleteProfile'),
@@ -330,7 +330,7 @@ var showAthleteProfile = function (callback) {
                         }
                     });
             });
-}
+};
 
 // Q5 Total medals of every country from most to least
 var getTopMedalsOfCountry = function (callback) {
@@ -362,36 +362,8 @@ var getTopMedalsOfCountry = function (callback) {
                     // console.log(result.rows);
                 });
         });
-}
+};
 
-
-// Q5 Total medals of every country from most to least
-var getTopMedalsOfCountry = function (callback) {
-    console.log('getTopMedalsOfCountry');
-    oracledb.getConnection(
-    connectData,
-    function(err, connection)
-    {
-        if (err) {
-            console.error(err.message);
-            return;
-        }
-        connection.execute(
-            "     SELECT C.name, SUM(P.TOTALMEDALS) as total" +
-            "     FROM CPerformance P, Country C" +
-            "     WHERE P.code = C.code" +
-            "     GROUP BY C.name" +
-            "     ORDER BY total DESC",
-        function(err, result)
-            {
-                if (err) {
-                    console.error(err.message);
-                    return;
-                }
-                console.log(result.rows);
-            });
-});
-}
 
 // By clicking the name of each country (var = ccode), show economics
 // Get the economics about a country
@@ -418,7 +390,7 @@ var getEconomics = function (code, calllback){
                     console.log(result.rows);
                 });
         });
-}
+};
 
 
 // Q6 What is the maximum record for a given event
@@ -448,7 +420,7 @@ var getMaxRecordOfEvent = function (ename, callback) {
                     console.log(result.rows);
                 });
         });
-}
+};
 // Q7 show 2016 top 10 records
 var getShowOnHomePage = function(callback){
     console.log("show 2016 records");
@@ -479,7 +451,7 @@ var getShowOnHomePage = function(callback){
         )
     }
 )
-}
+};
 
 var googleSearch = function(text, callback) {
     // var text = req.s;
@@ -535,7 +507,44 @@ var recordofevents = function (callback) {
             }
             connection.close();
         });
-}
+};
+
+
+var getPHILPS = function(callback){
+    console.log("show countries vs philps ");
+    oracledb.getConnection(
+        connectData,
+        function(err, connection)
+        {
+            if (err){
+                console.log(err.message);
+                return;
+            }
+            connection.execute(
+            "   WITH PHELPS AS("+
+            "   SELECT COUNT(*) AS PCOUNT"+
+            "   FROM PERFORMANCEOFATHLETES P, ATHLETES A"+
+            "   WHERE A.NAME = 'PHELPS, Michael' AND A.AID = P.AID AND P.MEDAL = 'Gold'),"+
+            "   COUNTRYCOUNT AS("+
+            "   SELECT CODE, SUM(NUM_OF_GOLD) AS ALLYEARGOLD"+
+            "   FROM PERFORMANCEOFCOUNTRIES"+
+            "   GROUP BY CODE)"+
+            "   SELECT C.NAME AS Country, CC.ALLYEARGOLD AS totalgold"+
+            "   FROM COUNTRYCOUNT CC, PHELPS Ph, COUNTRY C"+
+            "   WHERE CC.ALLYEARGOLD < Ph.PCOUNT AND C.CODE = CC.CODE"+
+            "   ORDER BY CC.ALLYEARGOLD DESC",
+                function(err, result)
+                {
+                    if (err){
+                        console.log(err.message);
+                        return;
+                    }
+                    callback(null, result.rows);
+                }
+            )
+        }
+    )
+};
 
 module.exports = {
     getMenAndWomenPerform: getMenAndWomenPerform,
@@ -552,7 +561,8 @@ module.exports = {
     getProfile: getProfile,
     getShowOnHomePage: getShowOnHomePage,
     getAllCountry: getAllCountry,
-    recordofevents: recordofevents
+    recordofevents: recordofevents,
+    getPHILPS: getPHILPS
 }
 
 /*
