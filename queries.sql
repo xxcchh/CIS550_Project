@@ -52,16 +52,20 @@ WHERE O.year = 2008 AND A.gender = var1 AND POA.medal = 'Gold' AND C.code = var2
 
 Q3
 What is the economic impact of hosting the Olympic Games?
+--
 WITH CPERFORMANCE AS(
 SELECT code, year, (num_of_gold + num_of_silver + num_of_bronze) as totalmedals 
 FROM PERFORMANCEOFCOUNTRIES
 ORDER BY code, year)
-
-
 SELECT c.NAME, e.YEAR, e.GDP, e.CPI, e.POPULATION, e.INCOME, p.TOTALMEDALS 
-FROM ECONOMICS e, COUNTRY c, CPERFORMANCE p
-WHERE e.CODE = c.CODE AND e.CODE = p.CODE AND e.YEAR = p.YEAR
+FROM ECONOMICS e, COUNTRY c, CPERFORMANCE p, Olympics o
+WHERE e.CODE = c.CODE AND e.CODE = p.CODE AND e.YEAR = p.YEAR AND o.country = c.code
 ORDER BY e.CODE, e.YEAR;
+
+--
+--SELECT c.name, o.year, e.GDP, e.CPI, e.POPULATION, e.INCOME
+--FROM economics e, olympics o, country c
+--WHERE e.code = o.country AND e.year = o.year AND c.code = o.country 
 
 
 
