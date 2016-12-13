@@ -499,6 +499,44 @@ var googleSearch = function(text, callback) {
 };
 
 
+var recordofevents = function (callback) {
+    var oracledb = require('oracledb');
+// Connection data
+    var connectData = {
+        user          : "cis550project",
+        password      : "zwdkxchcc",
+        connectString : "olympics2020.co8dwthdt6zb.us-east-1.rds.amazonaws.com:1521/OLYMPICS"
+    };
+    console.log('recordofevents');
+    oracledb.getConnection(
+        connectData,
+        function(err, connection)
+        {
+            if (err) {
+                console.error(err.message);
+                callback(err, null);
+            }else{
+                connection.execute(
+                    "   SELECT DISTINCT H.dname, H.ename, C.name, A.name, H.year, P.medal" +
+                    "   FROM ATHLETES A, REPRESENTS R, PERFORMANCEOFATHLETES P, HASEVENTS H, COUNTRY C" +
+                    "   WHERE r.aid = a.aid and a.aid= p.aid and P.eid=H.eid and H.year='2008' and R.code= C.code",
+                    function(err, result)
+                    {
+                        if (err) {
+                            console.error(err.message);
+                            callback(err, null);
+                        }else{
+                            // connection.close();
+                            console.log(result.rows);
+                            callback(null, result.rows);
+                            // connection.close();
+                        }
+                    });
+            }
+            connection.close();
+        });
+}
+
 module.exports = {
     getMenAndWomenPerform: getMenAndWomenPerform,
     getCountry: getCountry,
@@ -511,9 +549,10 @@ module.exports = {
     getMaxRecordOfEvent: getMaxRecordOfEvent,
     /*dynanodb query*/
     getAllAthlete: getAllAthlete,
-    getProfile: getProfile
+    getProfile: getProfile,
     getShowOnHomePage: getShowOnHomePage,
-    getAllCountry: getAllCountry
+    getAllCountry: getAllCountry,
+    recordofevents: recordofevents
 }
 
 /*

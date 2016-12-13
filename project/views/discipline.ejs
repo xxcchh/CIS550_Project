@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Testquery</title>
+  <title>Event Records</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href='//fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Taviraj';font-size: 14px;
+}
+</style>
+
+
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */
     .navbar {
@@ -20,6 +29,7 @@
       padding: 25px;
     }
     
+}
   .carousel-inner img {
       width: 100%; /* Set width to 100% */
       margin: auto;
@@ -32,11 +42,21 @@
       display: none;
     }
   }
-  </style>
+
+.side {
+
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background-color: #EAECEE;
+}
+
+</style>
+
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -49,9 +69,9 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li><a href="/">Home</a></li>
-        <li><a href="/country">Country</a></li>
+        <li class="active"><a href="/country">Country</a></li>
         <li><a href="/athletes">Athletes</a></li>
-        <li class="active"><a href="/discipline">Discipline</a></li>
+        <li><a href="/discipline">Discipline</a></li>
         <!-- <li><a href="#">Contact</a></li> -->
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -61,6 +81,241 @@
   </div>
 </nav>
 
-<h3>This is discipline page!</h3>
+<nav class="w3-sidenav w3-white w3-card-2" style="width:25%", position:"fixed">
+
+  <br>
+  <br>
+  <br>
+  <div class="side">
+  <center><h4>Top Results by Sport</h4></center>
+  <center><p class="text-muted">See the top 3 results of all time for the sport you choose</p></center>
+  </div>
+
+
+  <div class="container">
+  <!-- Trigger the modal with a button -->
+  <button style="height:50px; width:250px" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">100m Men track and field</button>
+</div>
+<br>
+   <div class="container">
+  <!-- Trigger the modal with a button -->
+  <button style="height:50px; width:250px" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">100m Women track and field</button>
+</div>
+<br>
+ <div class="container">
+  <!-- Trigger the modal with a button -->
+  <button style="height:50px; width:250px" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Platform Diving Men</button>
+</div>
+<br>
+ <div class="container">
+  <!-- Trigger the modal with a button -->
+  <button style="height:50px; width:250px" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Platform Diving Women</button>
+</div>
+
+</nav>
+  
+
+<div style="margin-left:25%">
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                   <h4 class="modal-title">100m Men track and field</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            <div class="container">
+  <div class="progress" style="width:40%">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="99.1" aria-valuemin="0" aria-valuemax="100" style="width:99.1%">
+      0:09.91 Walter Dix
+    </div>
+  </div>
+  <div class="progress" style="width:40%">
+    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" style="width:99%">
+      0:09.90 Ato Boldon
+    </div>
+  </div>
+  <div class="progress" style="width:40%">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="98.9" aria-valuemin="0" aria-valuemax="100" style="width:98.9%">
+      0:09.89 Richard Thompson
+    </div>
+  </div>
+</div>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+<div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+    <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">100m Women track and field</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            <div class="container">
+  <div class="progress" style="width:40%">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="10.94" aria-valuemin="0" aria-valuemax="13" style="width:10.94%">
+      0:10.94 Merlene Ottey-Page
+    </div>
+  </div>
+  <div class="progress" style="width:40%">
+    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="10.94" aria-valuemin="0" aria-valuemax="13" style="width:10.94%">
+      0:10.94 Gail Devers
+    </div>
+  </div>
+  <div class="progress" style="width:40%">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="10.93" aria-valuemin="0" aria-valuemax="13" style="width:10.93%">
+      0:10.93 Yuliya Nesterenko
+    </div>
+  </div>
+</div>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+<div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+    <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Platform Diving Men</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            <div class="container">
+  <div class="progress" style="width:40%">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="83.56" aria-valuemin="0" aria-valuemax="100" style="width:83.56%">
+      835.650 points Falk Hoffmann
+    </div>
+  </div>
+  <div class="progress" style="width:40%">
+    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="81.97" aria-valuemin="0" aria-valuemax="100" style="width:81.97%">
+      819.705 points Vladimir Aleynik
+    </div>
+  </div>
+  <div class="progress" style="width:40%">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="81.74" aria-valuemin="0" aria-valuemax="100" style="width:81.74%">
+      817.440 points David Ambartsumyan
+    </div>
+  </div>
+</div>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+<div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog">
+    <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Platform Diving Women</h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            <div class="container">
+  <div class="progress" style="width:40%">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="59.62" aria-valuemin="0" aria-valuemax="100" style="width:59.62%">
+      596.250 points Martina Jäschke
+    </div>
+  </div>
+  <div class="progress" style="width:40%">
+    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="59.03" aria-valuemin="0" aria-valuemax="100" style="width:59.03%">
+      590.31 points Chantelle Newbery
+    </div>
+  </div>
+  <div class="progress" style="width:40%">
+    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="57.64" aria-valuemin="0" aria-valuemax="100" style="width:57.64%">
+      576.465 points Sirvard Emirzyan
+    </div>
+  </div>
+</div>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+<br>
+<br>
+<br>
+
+  <div class="container">
+<h4 class="text-muted">Past year records of each event</h4>
+<div class="data-table">
+            <table class="table table-striped" border="1" cellpadding="7" cellspacing="7" align="center">
+            <colgroup>
+       <col span="1" style="width: 2%;">
+       <col span="1" style="width: 10%;">
+       <col span="1" style="width: 10%;">
+       <col span="1" style="width: 10%;">
+       <col span="1" style="width: 20%;">
+       <col span="1" style="width: 7%;">
+       <col span="1" style="width: 7%;">
+    </colgroup>
+                <tr>
+                    <th>No</th>
+                    <th>DISCIPLINE</th>
+                    <th>EVENT</th>
+                    <th>COUNTRY</th>
+                    <th>ATHLETE</th>
+                    <th>YEAR</th>
+                    <th>MEDAL</th>                    
+                </tr>                               
+                <% if(data.length){ 
+                                
+                 for(var i = 0;i < data.length;i++) { %>                 
+                <tr>
+                    <td><%=(i+1)%></td>
+                    <td><%=data[i][0]%></td>
+                    <td><%=data[i][1]%></td>
+                    <td><%=data[i][2]%></td>
+                    <td><%=data[i][3]%></td>
+                    <td><%=data[i][4]%></td>
+                    <td><%=data[i][5]%></td>
+                </tr>
+
+                <% }
+            
+                 }else{ %>
+                 <tr>
+                    <td colspan="3">No user</td>
+                 </tr>
+                <% } %>
+                                                             
+            </table>
+         </div>
+         </div>
+         </div>
+
 </body>
 </html>

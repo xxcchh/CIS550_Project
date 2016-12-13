@@ -99,7 +99,10 @@ var analysis = function(req, res){
 
 // discipline related queries
 var discipline = function(req, res){
-	res.render('discipline', {});
+	db.recordofevents(function (err, results) {
+        if(err) throw err;
+        res.render('discipline', {data: results});
+    })
 }
 
 module.exports = {
@@ -111,5 +114,6 @@ module.exports = {
 	analysis: analysis,
 	countryName: countryName,
 	Performance : Performance,
-	googleSearch: googleSearch
+    discipline: discipline
+	// googleSearch: googleSearch
 }
