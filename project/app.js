@@ -50,7 +50,8 @@ function compile(str, path) {
 //     return routes.googleSearch(text);
 // });
 app.get('/', routes.homepage);
-// app.get('/', routes.googleSearch('hello'));
+// app.post('/', routes.googleSearch);
+app.post('/googleSearch', routes.googleSearch);
 app.get('/country', routes.country);
 app.get('/athletes', athletes.getAllAthlete);
 app.get('/athletesanalysis',athletes.getPerformance, athletes.getPhelpsvscountry, athletes.athletesanalysis );

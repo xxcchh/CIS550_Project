@@ -102,9 +102,46 @@
         display: none;
       }
     }
+
+    /* SEARCH --------------------------------------------------------*/
+
+    .top-search{
+      position: relative;
+      top: 10px;
+      right: -20px;
+    }
+
+    #searchform #s{
+      color: #acacac;
+      font-size: 15px;
+      font-family: arial, sans-serif;
+      width: 200px;
+      height: 29px;
+      padding: 0px 40px 0px 10px;
+      border: 0;
+      background: #ffffff;
+      border-left: none;
+      border-right: none;
+      border-top: 1px  solid #d7d7d6;
+      border-bottom: 1px  solid #fff;
+      border-radius: 5px;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+    }
+
   </style>
 </head>
 <body>
+<div id="fb-root"></div>
+
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/zh_CN/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 <!-- Navigation Bar -->
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -122,6 +159,43 @@
         <li class="active"><a href="/country">Country</a></li>
         <li><a href="/athletes">Athletes</a></li>
         <li><a href="/discipline">Discipline</a></li>
+
+        <script type="text/javascript">
+
+            $(document).ready(function() {
+                var lolz = $('#s')
+                var kk = $('#kk');
+                kk.click(function(){
+                    alert('Will show the page about: ' + lolz.val());
+                    $.post("/googleSearch", {s: lolz.val()}, function (data) {
+                        if (data == 'success')
+                            alert('will show the web page of: ' + lolz);
+                    })
+
+                })
+
+            });
+
+        </script>
+
+
+        <li>
+          <div class="top-search">
+
+
+
+
+            <form  method="get" id="searchform" action="/">
+              <div>
+                <input type="text" value="Goolge Search..." name="enter" class = 'enter' id="s" />
+                <button type="submit" class="btn btn-default btn-sm" value="click" id='kk'>
+                  <span class="glyphicon glyphicon-search"></span> </button>
+                <!-- <input type="submit" id="searchsubmit" value=" " /> -->
+                <!--  <input type="text" name="enter" class="enter" value="" id="lolz"/>
+                 <input type="button" value="click" id="kk" /> -->
+
+              </div>
+            </form>
         <!-- <li><a href="#">Contact</a></li> -->
       </ul>
     </div>
@@ -150,6 +224,8 @@
   </div>
   <!-- /.navbar-static-side -->
 </nav>
+
+
 <!-- World Map -->
 
 <div id="page-wrapper">

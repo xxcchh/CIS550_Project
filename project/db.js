@@ -2,8 +2,6 @@
  * Created by chen on 11/20/16.
  */
 var oracledb = require('oracledb');
-var google = require('google');
-var open = require('open');
 
 // Connection data
 var connectData = {

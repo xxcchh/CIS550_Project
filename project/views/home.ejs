@@ -128,22 +128,29 @@
         <li><a href="/country">Country</a></li>
         <li><a href="/athletes">Athletes</a></li>
         <li><a href="/discipline">Discipline</a></li>
-      
-           
-            <li> 
+
+          <script type="text/javascript">
+
+              $(document).ready(function() {
+                  var lolz = $('#s')
+                  var kk = $('#kk');
+                  kk.click(function(){
+                      alert('Will show the page about: ' + lolz.val());
+                      $.post("/googleSearch", {s: lolz.val()}, function (data) {
+                          if (data == 'success')
+                              alert('will show the web page of: ' + lolz);
+                      })
+
+                  })
+
+              });
+
+          </script>
+
+
+          <li>
             <div class="top-search">
 
-              <!--<script type="text/javascript">-->
-
-                <!--$(document).ready(function() {-->
-                  <!--var lolz = $('#s');-->
-                  <!--var kk = $('#kk');-->
-                  <!--kk.click(function(){-->
-                    <!--alert('Will show the page about: ' + lolz.val());-->
-                  <!--})-->
-                <!--});-->
-
-              <!--</script>-->
 
 
 
@@ -163,6 +170,8 @@
 
 
     </ul>
+
+
 
 
     
@@ -229,7 +238,7 @@
   
 <div class="container text-center">
 
-  <h1 style="braggadocio">Higher Faster Stronger <small>Olympics Review</small></h1>
+  <h1 >Higher Faster Stronger <small>Olympics Review</small></h1>
 
   <div class="row">
 
