@@ -301,8 +301,8 @@ var getTopNAthletes = function (N, callback) {
             });
 }
 // // By clicking the name of each athlete, show athlete profile
-var showAthleteProfile = function (name, callback) {
-    console.log('showAthleteProfile' + name),
+var showAthleteProfile = function (callback) {
+    console.log('showAthleteProfile'),
         oracledb.getConnection(
             connectData,
             function(err, connection)
@@ -314,7 +314,7 @@ var showAthleteProfile = function (name, callback) {
                 connection.execute(
                     "        SELECT A.name, A.DOB, A.gender, C.name as Country" +
                     "        FROM Athletes A, Represents R, Country C" +
-                    "        WHERE A.aid = R.aid AND C.code = R.code AND A.name = '" + name + "'",
+                    "        WHERE A.aid = R.aid AND C.code = R.code",
                     function(err, result)
                     {
                         if (err) {
@@ -489,7 +489,7 @@ module.exports = {
     getMaxRecordOfEvent: getMaxRecordOfEvent,
     /*dynanodb query*/
     getAllAthlete: getAllAthlete,
-    getProfile: getProfile
+    getProfile: getProfile,
     getShowOnHomePage: getShowOnHomePage,
     getAllCountry: getAllCountry
 }

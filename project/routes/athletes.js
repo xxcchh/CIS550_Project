@@ -24,9 +24,26 @@ var getProfile = function(req,res){
     });
 };
 
+var getAthleteslist = function(req,res){
+    db.showAthleteProfile(function(err,results){
+        if (err) throw err;
+        res.render('athleteslist',{data:results});
+    });
+}
+
+var getPerformance = function (req, res){
+    var num = 10;
+    db.getTopNAthletes(num, function(err,results){
+        if (err) throw err;
+        res.render('athletesanalysis', {data:results});
+    });
+}
+
 module.exports = {
     getAllAthlete: getAllAthlete,
-    getProfile: getProfile
+    getProfile: getProfile,
+    getAthleteslist: getAthleteslist,
+    getPerformance: getPerformance
 };
 
 
